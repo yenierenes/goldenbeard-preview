@@ -1,0 +1,439 @@
+.tk[data-astro-cid-xrajvqs2] {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  gap: clamp(2rem, 1rem + 4vw, 5rem);
+  align-items: center;
+}
+
+.tk__sahne[data-astro-cid-xrajvqs2] {
+  display: grid;
+  gap: var(--a-5);
+  justify-items: center;
+}
+
+.tk__cark[data-astro-cid-xrajvqs2] {
+  position: relative;
+  width: min(100%, 40rem);
+  aspect-ratio: 1;
+  touch-action: none;
+  cursor: grab;
+  border-radius: 50%;
+  outline-offset: 6px;
+}
+
+.tk__cark[data-astro-cid-xrajvqs2][data-surukleniyor] {
+  cursor: grabbing;
+}
+
+.tk__cark[data-astro-cid-xrajvqs2] svg[data-astro-cid-xrajvqs2] {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  filter: drop-shadow(0 40px 60px oklch(8% .005 58 / .7));
+  user-select: none;
+}
+
+.tk__doner[data-astro-cid-xrajvqs2] {
+  transform-origin: 500px 500px;
+  transition: transform 1s var(--egri-cikis);
+}
+
+.tk__cark[data-astro-cid-xrajvqs2][data-surukleniyor] .tk__doner[data-astro-cid-xrajvqs2] {
+  transition: none;
+}
+
+.tk__cizgi[data-astro-cid-xrajvqs2] {
+  fill: none;
+  stroke: var(--altin);
+  stroke-width: 1px;
+  opacity: .4;
+}
+
+.tk__cizgi--ince[data-astro-cid-xrajvqs2] {
+  opacity: .25;
+}
+
+.tk__dilim[data-astro-cid-xrajvqs2] {
+  stroke: var(--tas-10);
+  stroke-width: 1px;
+  opacity: .06;
+}
+
+.tk__ay[data-astro-cid-xrajvqs2] {
+  font-family: var(--yazi-govde);
+  font-variation-settings: "wdth" 125;
+  font-weight: 640;
+  font-size: 23px;
+  letter-spacing: .12em;
+  fill: var(--tas-7);
+  transition: fill var(--sure-orta);
+}
+
+.tk__ay[data-astro-cid-xrajvqs2][data-secili] {
+  fill: var(--altin);
+}
+
+.tk__iz[data-astro-cid-xrajvqs2] {
+  fill: none;
+  stroke: var(--tas-10);
+  stroke-width: 1px;
+  opacity: .08;
+}
+
+.tk__yay[data-astro-cid-xrajvqs2] {
+  fill: none;
+  stroke: var(--altin-derin);
+  stroke-width: 13px;
+  stroke-linecap: round;
+  opacity: .55;
+  transition: stroke var(--sure-orta), opacity var(--sure-orta);
+}
+
+.tk__urun[data-astro-cid-xrajvqs2] {
+  font-family: var(--yazi-govde);
+  font-variation-settings: "wdth" 118;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: .08em;
+  fill: var(--tas-6);
+  transition: fill var(--sure-orta);
+}
+
+.tk__halka[data-astro-cid-xrajvqs2][data-aktif] .tk__yay[data-astro-cid-xrajvqs2] {
+  stroke: var(--altin-acik);
+  opacity: 1;
+  filter: url("#tk-parilti");
+}
+
+.tk__halka[data-astro-cid-xrajvqs2][data-aktif] .tk__urun[data-astro-cid-xrajvqs2] {
+  fill: var(--altin);
+}
+
+[data-astro-cid-xrajvqs2][data-orta]:not([data-ters]) .tk__ters[data-astro-cid-xrajvqs2], [data-astro-cid-xrajvqs2][data-orta][data-ters] .tk__duz[data-astro-cid-xrajvqs2] {
+  display: none;
+}
+
+.tk__centik[data-astro-cid-xrajvqs2] {
+  fill: var(--altin);
+}
+
+.tk__goz[data-astro-cid-xrajvqs2] {
+  fill: var(--tas-0);
+  stroke: var(--altin);
+  stroke-width: 1.5px;
+}
+
+.tk__orta[data-astro-cid-xrajvqs2] {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  pointer-events: none;
+  gap: .2rem;
+}
+
+.tk__orta-ay[data-astro-cid-xrajvqs2] {
+  font-family: var(--yazi-baslik);
+  font-size: clamp(1.25rem, .8rem + 1.6vw, 2rem);
+  line-height: 1;
+  color: var(--altin);
+}
+
+.tk__orta-adet[data-astro-cid-xrajvqs2] {
+  font-size: .75rem;
+  color: var(--metin-koyu-zeminde-ikincil);
+  font-variant-numeric: tabular-nums;
+}
+
+.tk__dugmeler[data-astro-cid-xrajvqs2] {
+  display: flex;
+  align-items: center;
+  gap: var(--a-2);
+  width: min(100%, 40rem);
+}
+
+.tk__ok[data-astro-cid-xrajvqs2] {
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  flex: none;
+  border-radius: 50%;
+  border: 1px solid var(--cizgi);
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  transition: border-color var(--sure-kisa), color var(--sure-kisa);
+}
+
+.tk__ok[data-astro-cid-xrajvqs2]:hover {
+  border-color: var(--altin);
+  color: var(--altin);
+}
+
+.tk__aylar[data-astro-cid-xrajvqs2] {
+  flex: 1;
+  min-width: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: .125rem;
+}
+
+.tk__ay-dugme[data-astro-cid-xrajvqs2] {
+  width: 100%;
+  min-height: 2.5rem;
+  padding: 0;
+  border-radius: var(--kose-yuvarlak);
+  border: 1px solid #0000;
+  background: none;
+  color: var(--metin-koyu-zeminde-ikincil);
+  cursor: pointer;
+  font: 600 .75rem/1 var(--yazi-govde);
+  font-variation-settings: "wdth" 118;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  transition: color var(--sure-kisa), border-color var(--sure-kisa), background-color var(--sure-kisa);
+}
+
+.tk__ay-dugme[data-astro-cid-xrajvqs2]:hover {
+  color: var(--metin-koyu-zeminde);
+  border-color: var(--cizgi);
+}
+
+.tk__ay-dugme[data-astro-cid-xrajvqs2][aria-pressed="true"] {
+  color: var(--tas-0);
+  background: var(--altin);
+  border-color: var(--altin);
+}
+
+.tk__panel[data-astro-cid-xrajvqs2] {
+  display: grid;
+  gap: var(--a-5);
+  align-content: start;
+  min-height: 24rem;
+}
+
+.tk__ay-panel[data-astro-cid-xrajvqs2] {
+  display: grid;
+  gap: var(--a-4);
+}
+
+.tk__ay-panel[data-astro-cid-xrajvqs2] h3[data-astro-cid-xrajvqs2] {
+  font-size: var(--boy-1);
+  color: var(--altin);
+}
+
+.tk__ozet[data-astro-cid-xrajvqs2] {
+  color: var(--metin-koyu-zeminde-ikincil);
+}
+
+.tk__ay-panel[data-astro-cid-xrajvqs2] ul[data-astro-cid-xrajvqs2] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  border-top: 1px solid var(--cizgi);
+}
+
+.tk__ay-panel[data-astro-cid-xrajvqs2] li[data-astro-cid-xrajvqs2] {
+  display: grid;
+  gap: var(--a-1);
+  padding-block: var(--a-3);
+  border-bottom: 1px solid var(--cizgi);
+}
+
+.tk__ad[data-astro-cid-xrajvqs2] {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--a-2);
+  font-family: var(--yazi-baslik);
+  font-size: 1.375rem;
+  line-height: 1.15;
+  text-decoration: none;
+  justify-self: start;
+}
+
+.tk__ad[data-astro-cid-xrajvqs2]:hover {
+  color: var(--altin);
+}
+
+.tk__ay-panel[data-astro-cid-xrajvqs2] li[data-astro-cid-xrajvqs2] p[data-astro-cid-xrajvqs2] {
+  font-size: var(--boy-kucuk);
+  color: var(--metin-koyu-zeminde-ikincil);
+  max-width: 52ch;
+}
+
+.tk__kaynak[data-astro-cid-xrajvqs2] {
+  color: var(--altin);
+  font-size: .8125rem;
+  white-space: nowrap;
+}
+
+.tk__bos[data-astro-cid-xrajvqs2] {
+  font-family: var(--yazi-baslik);
+  font-size: 1.375rem;
+  line-height: 1.3;
+  color: var(--metin-koyu-zeminde-ikincil);
+  max-width: 30ch;
+}
+
+.tk__dipnot[data-astro-cid-xrajvqs2] {
+  font-size: .8125rem;
+  color: var(--metin-koyu-zeminde-ikincil);
+}
+
+@media (width <= 64rem) {
+  .tk[data-astro-cid-xrajvqs2] {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .tk__panel[data-astro-cid-xrajvqs2] {
+    min-height: 0;
+  }
+}
+
+@media (width <= 40rem) {
+  .tk__aylar[data-astro-cid-xrajvqs2] {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    row-gap: .25rem;
+  }
+
+  .tk__ay[data-astro-cid-xrajvqs2] {
+    font-size: 30px;
+    letter-spacing: .06em;
+  }
+
+  .tk__urun[data-astro-cid-xrajvqs2] {
+    font-size: 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tk__doner[data-astro-cid-xrajvqs2], .tk__yay[data-astro-cid-xrajvqs2], .tk__ay[data-astro-cid-xrajvqs2], .tk__urun[data-astro-cid-xrajvqs2] {
+    transition: none;
+  }
+}
+.rb[data-astro-cid-5czbnhgb] {
+  padding-block: var(--a-7) clamp(3rem, 2rem + 4vw, 5.5rem);
+}
+
+.rb__ic[data-astro-cid-5czbnhgb] {
+  display: grid;
+  gap: var(--a-5);
+}
+
+.rb[data-astro-cid-5czbnhgb] h1[data-astro-cid-5czbnhgb] {
+  font-size: var(--boy-dev);
+  line-height: .98;
+  letter-spacing: -.025em;
+  margin-top: var(--a-4);
+}
+
+.rb__giris[data-astro-cid-5czbnhgb] {
+  font-size: 1.1875rem;
+  max-width: 52ch;
+  color: var(--metin-koyu-zeminde-ikincil);
+}
+
+.rb__takvim[data-astro-cid-5czbnhgb] {
+  display: grid;
+  gap: var(--a-4);
+  margin-top: clamp(4rem, 3rem + 4vw, 7rem);
+  padding-top: clamp(3rem, 2rem + 3vw, 5rem);
+  border-top: 1px solid var(--cizgi);
+}
+
+.rb__takvim[data-astro-cid-5czbnhgb] h2[data-astro-cid-5czbnhgb] {
+  font-size: var(--boy-1);
+  color: var(--altin);
+}
+
+.rb__takvim-giris[data-astro-cid-5czbnhgb] {
+  color: var(--metin-koyu-zeminde-ikincil);
+  max-width: 52ch;
+  margin-bottom: var(--a-5);
+}
+
+.rl__ic[data-astro-cid-5czbnhgb] {
+  max-width: 64rem;
+  border-bottom: 1px solid var(--cizgi);
+}
+
+.tk__izgara[data-astro-cid-5czbnhgb] {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: var(--a-7) var(--a-6);
+  align-items: start;
+}
+
+.tk__bas[data-astro-cid-5czbnhgb] {
+  grid-column: 1 / span 4;
+  display: grid;
+  gap: var(--a-4);
+}
+
+.tk__bas[data-astro-cid-5czbnhgb] h2[data-astro-cid-5czbnhgb] {
+  font-size: var(--boy-1);
+  color: var(--altin);
+}
+
+.tk__bas[data-astro-cid-5czbnhgb] p[data-astro-cid-5czbnhgb] {
+  color: var(--metin-koyu-zeminde-ikincil);
+  max-width: 34ch;
+}
+
+.tk__liste[data-astro-cid-5czbnhgb] {
+  grid-column: 6 / -1;
+  margin: 0;
+  display: grid;
+}
+
+.tk__liste[data-astro-cid-5czbnhgb] div[data-astro-cid-5czbnhgb] {
+  display: grid;
+  grid-template-columns: 11rem 1fr;
+  gap: var(--a-5);
+  padding-block: var(--a-4);
+  border-top: 1px solid var(--cizgi);
+}
+
+.tk__liste[data-astro-cid-5czbnhgb] div[data-astro-cid-5czbnhgb]:last-child {
+  border-bottom: 1px solid var(--cizgi);
+}
+
+.tk__liste[data-astro-cid-5czbnhgb] dt[data-astro-cid-5czbnhgb] {
+  font-family: var(--yazi-baslik);
+  font-size: 1.5rem;
+  line-height: 1.15;
+}
+
+.tk__liste[data-astro-cid-5czbnhgb] dd[data-astro-cid-5czbnhgb] {
+  margin: 0;
+  color: var(--metin-koyu-zeminde-ikincil);
+}
+
+.tk__kaynak[data-astro-cid-5czbnhgb] {
+  font-size: .8125rem;
+  color: var(--altin);
+  white-space: nowrap;
+}
+
+.tk__eylem[data-astro-cid-5czbnhgb] {
+  grid-column: 6 / -1;
+}
+
+@media (width <= 64rem) {
+  .tk__bas[data-astro-cid-5czbnhgb], .tk__liste[data-astro-cid-5czbnhgb], .tk__eylem[data-astro-cid-5czbnhgb] {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (width <= 36rem) {
+  .tk__liste[data-astro-cid-5czbnhgb] div[data-astro-cid-5czbnhgb] {
+    grid-template-columns: 1fr;
+    gap: var(--a-1);
+  }
+}
