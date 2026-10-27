@@ -1,24 +1,83 @@
 {
   "id": "/",
-  "name": "Golden Beard",
+  "name": "Golden Beard Sakallı",
   "short_name": "Golden Beard",
-  "description": "Golden Beard ve kardeş markalarının ürün kataloğu: kod, ambalaj, koli, palet ve barkod bilgileri; teklif listesi.",
+  "description": "Golden Beard Sakallı: Sakallı Grup çatısı altında zeytinyağı ve sıvı yağlar, salça, turşu, zeytin, tahin, sos ve bal; ürün markaları ve uluslararası yapı.",
   "lang": "tr",
   "dir": "ltr",
   "start_url": "/",
   "scope": "/",
   "display": "minimal-ui",
-  "background_color": "#0e0c0a",
-  "theme_color": "#0e0c0a",
-  "categories": ["food", "business", "shopping"],
+  "background_color": "#4a1418",
+  "theme_color": "#4a1418",
+  "categories": [
+    "food",
+    "business"
+  ],
   "icons": [
-    { "src": "/goldenbeard-preview/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "/goldenbeard-preview/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "/goldenbeard-preview/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
-    { "src": "/goldenbeard-preview/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+    {
+      "src": "/goldenbeard-preview/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/goldenbeard-preview/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/goldenbeard-preview/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/goldenbeard-preview/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
   ],
   "shortcuts": [
-    { "name": "Ürünler", "short_name": "Ürünler", "description": "Ürünleri ad, kod ya da barkodla arayın", "url": "/goldenbeard-preview/urunler/", "icons": [{ "src": "/goldenbeard-preview/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
-    { "name": "Teklif listesi", "short_name": "Teklif", "description": "Seçtiğiniz ürünler ve koli adetleri", "url": "/goldenbeard-preview/teklif/", "icons": [{ "src": "/goldenbeard-preview/icon-192.png", "sizes": "192x192", "type": "image/png" }] }
+    {
+      "name": "Ürünler",
+      "short_name": "Ürünler",
+      "description": "Ürün aileleri ve ürünler; ad, kod ya da barkodla arama",
+      "url": "/goldenbeard-preview/urunler/",
+      "icons": [
+        {
+          "src": "/goldenbeard-preview/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Markalarımız",
+      "short_name": "Markalar",
+      "description": "Sakallı Grup’un yedi ürün markası",
+      "url": "/goldenbeard-preview/markalar/",
+      "icons": [
+        {
+          "src": "/goldenbeard-preview/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "العربية",
+      "short_name": "العربية",
+      "description": "النسخة العربية",
+      "url": "/goldenbeard-preview/ar/",
+      "icons": [
+        {
+          "src": "/goldenbeard-preview/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
   ]
 }

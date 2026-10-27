@@ -1,61 +1,57 @@
-# Golden Beard
+# Golden Beard Sakallı
 
-> Golden Beard, 1982'de Hatay'da Mehmet Nesip Sakallı öncülüğünde kurulan, 1991'den bu yana Metsa Tarım ve bugün Sakallı Group olarak süren aile şirketinin ana gıda markasıdır. Bu site Golden Beard ve kardeş markalarının ürün kataloğudur: her ürünün kodu, ambalajı, ağırlığı ya da hacmi, koli içi adedi, palet başına koli sayısı, ürün ve koli barkodu (EAN-13). Fiyat ve stok bilgisi yayımlanmaz; çevrim içi sipariş alınmaz, teklif e-postayla istenir.
+> Golden Beard Sakallı, en üst kurumsal çatısı Sakallı Grup olan yapının parçasıdır. Şirketin kökü 1982'de Hatay'da Mehmet Nesip Sakallı öncülüğünde kurulan Sakallı Gıda'ya dayanır; 1991'den bu yana Metsa Tarım adıyla sürer. Grup şirketleri: Golden Beard Sakallı, Metsa (Metsa Tarım, Antakya), Pavaria (Pavaria Foodstuff Trading, Şarja) ve GMT (Golden and Metsa for Trading). Ürün markaları: Golden Beard, Lemis, Elitoil, Bölge, Elis, Egeland ve Ege Diyarı. Fiyat ve stok bilgisi yayımlanmaz; çevrim içi sipariş alınmaz.
 
-- Site yalnızca Türkçedir. Ürünlerin katalogdaki İngilizce ve Almanca adları /urunler.json içinde `adEn` ve `adDe` alanlarındadır.
-- Ürünler iki segmentte satılır: perakende paketler ve catering (toptan, büyük ambalaj, teneke).
-- Her ürün kendi markasını taşır: Golden Beard, Lemis, Elitoil, Bölge ya da Elis. Kardeş markaların ürünleri Golden Beard ürünü olarak anılmamalıdır.
-- Sertifika, üretim kapasitesi, ihracat ülkeleri listesi ve fiyat bu sitede yer almaz; bu konularda şirkete doğrudan sorun.
-- Teklif için ürün kodlarını ve koli adetlerini info@sakalligroup.com adresine yazın ya da sitedeki teklif listesini kullanın. Telefon +90 326 285 65 55, faks +90 326 285 65 60. Adres: Alazı Mah. Atatürk Cad. No: 9, Antakya / Hatay, Türkiye.
+- Site Türkçe ve Arapçadır. Arapça sayfalar aynı yolun başına /ar eklenerek açılır (örnek: /ar/urunler/). Ürünlerin katalogdaki İngilizce ve Almanca adları /urunler.json içinde `adEn` ve `adDe`, Arapça adları `adAr` alanındadır.
+- Ürün öncelikleri: zeytinyağı ve sıvı yağlar, salça, turşu ve salamura, zeytin; ardından yaprak sarma, tahin ve helva, soslar, bal ve şurup, kuru meyve, baklavalık yağ.
+- Kuruyemiş ve ayçekirdeği güncel olarak satılmamaktadır ve sitede yer almaz.
+- Her ürün kendi markasını taşır. Şirketler ile ürün markaları ayrı kavramlardır.
+- Sertifika, üretim kapasitesi ve fiyat bu sitede yer almaz; bu konularda şirkete doğrudan sorun.
+- İletişim: info@sakalligroup.com · Telefon +90 326 285 65 55 · Faks +90 326 285 65 60 · Alazı Mah. Atatürk Cad. No: 9, Antakya / Hatay, Türkiye.
 
 ## Ürün verisi
 
-- [Ürün verisi (JSON)](https://www.goldenbeard.com.tr/urunler.json): Tüm ürünler tek dosyada; kod, Türkçe, İngilizce ve Almanca ad, marka, kategori, segment, ambalaj, net ve süzme ağırlık, hacim, koli içi adet, palet başına koli, ürün ve koli barkodu, ürün sayfası ve görsel adresi. Alanların açıklaması dosyadaki `alanlar` bölümündedir; güncel ürün sayısı `urunSayisi` alanındadır.
-- [Ürünler](https://www.goldenbeard.com.tr/urunler/): Ad, kod ya da barkodla aranabilen; kategori, marka ve segmente göre süzülebilen katalog. Her ürünün kendi sayfası vardır.
-- [Basılı ürün kataloğu (PDF, yaklaşık 18 MB)](https://www.goldenbeard.com.tr/katalog/golden-beard-urun-katalogu.pdf): Alıcıların kullandığı basılı katalog. /urunler.json içindeki `katalogSayfa` alanı, ürünün bu PDF'teki sayfasıdır.
+- [Ürün verisi (JSON)](https://www.goldenbeard.com.tr/urunler.json): Güncel ürünler; kod, Türkçe, Arapça, İngilizce ve Almanca ad, marka, kategori, ambalaj, net ve süzme ağırlık, hacim, koli içi adet, palet başına koli, ürün ve koli barkodu, iki dilde ürün sayfası ve görsel adresi.
+- [Ürünler](https://www.goldenbeard.com.tr/urunler/): Ürün aileleri, markalar ve tüm ürünler; ad, kod ya da barkodla arama.
+- [Basılı ürün kataloğu (PDF, yaklaşık 18 MB)](https://www.goldenbeard.com.tr/katalog/golden-beard-urun-katalogu.pdf)
 
-## Kiler Rehberi
+## Ürün aileleri
 
-Ürünlerin hikâyesi, kültürü ve kullanımı üzerine kaynaklı yazılar. Bölge ve sektör bilgileri bağlamdır; Golden Beard ürünleri coğrafi işaret tescili taşımaz ve yazılarda sağlık beyanı yoktur.
-
-- [Kiler Rehberi](https://www.goldenbeard.com.tr/kiler-rehberi/): Tüm yazılar, "Türkiye'nin kileri" özeti ve ay ay hasat takvimi (kayısı, bal, susam, incir, nar, kapya biber, zeytin ve diğerleri).
-- [1982'de balla başladık](https://www.goldenbeard.com.tr/kiler-rehberi/balla-basladik/): Şirketin bal ihracatıyla başlayan hikâyesi; petek balın saklanması ve sunumu.
-- [Susamdan kavanoza: tahin](https://www.goldenbeard.com.tr/kiler-rehberi/tahin/): Geleneksel tahin yapımı, Hatay'da tahin, saklama.
-- [Helvanın uzun yolculuğu](https://www.goldenbeard.com.tr/kiler-rehberi/tahin-helvasi/): Helvanın tarihi ve üç temel malzemesi.
-- [Gün kurusu kayısı neden kahverengi?](https://www.goldenbeard.com.tr/kiler-rehberi/gun-kurusu-kayisi/): Kükürtsüz kurutma ve renk.
-- [Nar sosu ile nar ekşisi aynı şey mi?](https://www.goldenbeard.com.tr/kiler-rehberi/nar-sosu-ve-nar-eksisi/): Hatay nar ekşisinin tescilli tanımı ve nar sosundan farkı.
-- [İncir: bereketin meyvesi](https://www.goldenbeard.com.tr/kiler-rehberi/incir/): Kuru incirin kuruması ve Türkiye'nin dünyadaki yeri.
-- [Hatay sofrası](https://www.goldenbeard.com.tr/kiler-rehberi/hatay-sofrasi/): UNESCO gastronomi şehri Hatay'ın sofrası.
-- [Zeytinin ülkesi](https://www.goldenbeard.com.tr/kiler-rehberi/zeytin/): Türkiye'nin zeytin ağaçları, Hatay'ın halhalısı ve etiketteki kalibre sayısının anlamı.
-- [Güneşin rengi: biber salçası](https://www.goldenbeard.com.tr/kiler-rehberi/biber-salcasi/): Hatay biber salçasının tescilli tanımı ve kapya biberin hasadı.
-- [Bağdan sofraya: yaprak sarma](https://www.goldenbeard.com.tr/kiler-rehberi/yaprak-sarma/): Asma yaprağının mevsimi ve hazır sarmayı sofraya getirmek.
-- [Leblebi: nohudun sabrı](https://www.goldenbeard.com.tr/kiler-rehberi/leblebi/): Nohudun kavurma ve dinlendirme yolculuğu, Anadolu'nun leblebi şehirleri.
-- [Yeşil altın: Antep fıstığı](https://www.goldenbeard.com.tr/kiler-rehberi/antep-fistigi/): Gaziantep fıstığı, yaz sonu hasadı ve boz fıstığın farkı.
-
-## Kategoriler
-
-- [Kuruyemiş](https://www.goldenbeard.com.tr/urunler/kuruyemis/): Badem, kaju, Antep fıstığı, fındık, leblebi ve kokteyl çerez; 85 g ve 200 g paketlerde.
-- [Ayçekirdeği](https://www.goldenbeard.com.tr/urunler/aycekirdegi/): Bol tuzlu, klasik ve Black Panther siyah ayçekirdeği; 100 g ile 300 g arası.
-- [Kuru Meyve (İncir & Kayısı)](https://www.goldenbeard.com.tr/urunler/kuru-meyve/): Kuru incir ve kuru kayısı; garland dizim, ahşap ambalaj, köpük tabak ve kutu.
-- [Tahin & Tahin Helva](https://www.goldenbeard.com.tr/urunler/tahin-helva/): Kavanoz ve teneke tahin; Antep fıstıklı, kakaolu ve vanilyalı tahin helva.
-- [Zeytin](https://www.goldenbeard.com.tr/urunler/zeytin/): Sofralık siyah zeytin, salamura yeşil çizik zeytin, dilimli ve çekirdeksiz konserve zeytin.
-- [Zeytinyağı & Sıvı Yağlar](https://www.goldenbeard.com.tr/urunler/sivi-yag/): Zeytinyağı, sızma zeytinyağı, pomas, ayçiçek ve mısır yağı; şişeden 18 litrelik tenekeye.
-- [Salça](https://www.goldenbeard.com.tr/urunler/salca/): Domates ve biber salçası; 650 g kavanozdan 4500 g tenekeye.
-- [Turşu & Salamura](https://www.goldenbeard.com.tr/urunler/tursu/): Karışık, salatalık, biberiye, jalapeno ve yakan biber turşusu; salamura asma yaprağı ve közlenmiş biber.
+- [Zeytinyağı ve Sıvı Yağlar](https://www.goldenbeard.com.tr/urunler/sivi-yag/): Ayçiçek ve mısır yağı, zeytinyağı, sızma ve pomas zeytinyağı; şişeden 18 litrelik tenekeye.
+- [Salça](https://www.goldenbeard.com.tr/urunler/salca/): Domates ve biber salçası; 650 g kavanozdan 4,5 kg'lık büyük ambalaja.
+- [Turşu ve Salamura](https://www.goldenbeard.com.tr/urunler/tursu/): Karışık, salatalık, biber ve jalapeno turşusu; salamura asma yaprağı ve közlenmiş kırmızı biber.
+- [Zeytin](https://www.goldenbeard.com.tr/urunler/zeytin/): Sofralık siyah zeytin, salamura yeşil çizik zeytin; dilimli, çekirdeksiz ve tam konserve zeytin.
 - [Yaprak Sarma](https://www.goldenbeard.com.tr/urunler/yaprak-sarma/): Pirinçli yaprak sarma; 400 g ve 2 kg teneke kutu.
+- [Tahin ve Tahin Helva](https://www.goldenbeard.com.tr/urunler/tahin-helva/): Kavanoz ve teneke tahin; Antep fıstıklı, kakaolu ve vanilyalı tahin helva.
 - [Soslar](https://www.goldenbeard.com.tr/urunler/soslar/): Nar sosu, limon sosu ve acı biber sosu.
-- [Bal & Şurup](https://www.goldenbeard.com.tr/urunler/bal-surup/): Petek balı ve bal aromalı şurup; 250 g ile 24 kg arası.
-- [Baklavalık Yağ (Margarin)](https://www.goldenbeard.com.tr/urunler/margarin/): Baklavalık bitkisel yağ; 18 litrelik teneke.
+- [Bal ve Şurup](https://www.goldenbeard.com.tr/urunler/bal-surup/): Petek balı ve bal aromalı şurup; 250 g ile 24 kg arası.
+- [Kuru Meyve (İncir ve Kayısı)](https://www.goldenbeard.com.tr/urunler/kuru-meyve/): Kuru incir ve kuru kayısı.
+- [Baklavalık Yağ](https://www.goldenbeard.com.tr/urunler/margarin/): Baklavalık margarin ve tereyağı; 18 litrelik teneke.
 
 ## Şirket
 
-- [Hikâyemiz](https://www.goldenbeard.com.tr/hikayemiz/): 1982'de Hatay'da başlayan aile şirketinin geçmişi, misyonu ve vizyonu.
-- [Markalar](https://www.goldenbeard.com.tr/markalar/): Golden Beard ve Sakallı Group'un kardeş markaları.
-- [Catering ve toptan](https://www.goldenbeard.com.tr/catering/): Teneke ve büyük ambalajlı ürünler.
-- [İhracat ve iş birliği](https://www.goldenbeard.com.tr/is-birligi/): İthalatçı, distribütör ve zincir marketler için teklif süreci.
-- [İletişim](https://www.goldenbeard.com.tr/iletisim/): Adres, telefon, faks ve e-posta.
+- [Kurumsal](https://www.goldenbeard.com.tr/kurumsal/): Sakallı Grup yapısı, köken ve zaman çizelgesi, Hatay kökeni.
+- [Markalarımız](https://www.goldenbeard.com.tr/markalar/): Yedi ürün markası ve grup şirketleri.
+- [Uluslararası Yapımız](https://www.goldenbeard.com.tr/uluslararasi/): Antakya'daki merkez, Birleşik Arap Emirlikleri'ndeki grup şirketi ve Suudi Arabistan'daki dağıtım bölgesi.
+- [İletişim](https://www.goldenbeard.com.tr/iletisim/): Adres, telefon, faks, e-posta ve form.
+
+## Kiler Rehberi (Türkçe)
+
+Ürünlerin hikâyesi ve kullanımı üzerine kaynaklı yazılar. Bölge bilgileri bağlamdır; Golden Beard ürünleri coğrafi işaret tescili taşımaz ve yazılarda sağlık beyanı yoktur.
+
+- [Kiler Rehberi](https://www.goldenbeard.com.tr/kiler-rehberi/): Tüm yazılar ve ay ay hasat takvimi.
+- [1982'de balla başladık](https://www.goldenbeard.com.tr/kiler-rehberi/balla-basladik/)
+- [Susamdan kavanoza: tahin](https://www.goldenbeard.com.tr/kiler-rehberi/tahin/)
+- [Helvanın uzun yolculuğu](https://www.goldenbeard.com.tr/kiler-rehberi/tahin-helvasi/)
+- [Gün kurusu kayısı neden kahverengi?](https://www.goldenbeard.com.tr/kiler-rehberi/gun-kurusu-kayisi/)
+- [Nar sosu ile nar ekşisi aynı şey mi?](https://www.goldenbeard.com.tr/kiler-rehberi/nar-sosu-ve-nar-eksisi/)
+- [İncir: bereketin meyvesi](https://www.goldenbeard.com.tr/kiler-rehberi/incir/)
+- [Hatay sofrası](https://www.goldenbeard.com.tr/kiler-rehberi/hatay-sofrasi/)
+- [Zeytinin ülkesi](https://www.goldenbeard.com.tr/kiler-rehberi/zeytin/)
+- [Güneşin rengi: biber salçası](https://www.goldenbeard.com.tr/kiler-rehberi/biber-salcasi/)
+- [Bağdan sofraya: yaprak sarma](https://www.goldenbeard.com.tr/kiler-rehberi/yaprak-sarma/)
 
 ## Optional
 
-- [Teklif listesi](https://www.goldenbeard.com.tr/teklif/): Ziyaretçinin kendi cihazında tuttuğu ürün ve koli listesi; e-posta olarak gönderilir, sunucuya veri kaydedilmez.
+- [Arapça ana sayfa](https://www.goldenbeard.com.tr/ar/)
 - [Site haritası](https://www.goldenbeard.com.tr/sitemap-index.xml)

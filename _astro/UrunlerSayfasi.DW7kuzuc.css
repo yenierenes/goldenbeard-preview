@@ -1,0 +1,281 @@
+.ubas[data-astro-cid-mx7vduzf] {
+  padding-block: var(--a-5) var(--a-8);
+}
+
+.ubas__ic[data-astro-cid-mx7vduzf] {
+  display: grid;
+  gap: var(--a-6);
+}
+
+.ubas__izgara[data-astro-cid-mx7vduzf] {
+  display: grid;
+  grid-template-columns: minmax(0, 6fr) minmax(0, 5fr);
+  gap: var(--a-5) var(--a-8);
+  align-items: end;
+}
+
+.ubas__metin[data-astro-cid-mx7vduzf] {
+  display: grid;
+  gap: var(--a-3);
+}
+
+h1[data-astro-cid-mx7vduzf] {
+  font-size: var(--boy-dev);
+  line-height: .98;
+  letter-spacing: -.035em;
+  color: var(--bordo-1);
+}
+
+.ubas__metin[data-astro-cid-mx7vduzf] p[data-astro-cid-mx7vduzf] {
+  font-size: 1.125rem;
+  color: var(--ikincil);
+  max-width: 44ch;
+}
+
+.ara__alan[data-astro-cid-mx7vduzf] {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid color-mix(in oklch, var(--murekkep) 22%, transparent);
+  border-radius: var(--kose-yuvarlak);
+  background: var(--krem-0);
+  transition: border-color var(--sure-kisa), box-shadow var(--sure-kisa);
+}
+
+.ara__alan[data-astro-cid-mx7vduzf]:hover {
+  border-color: color-mix(in oklch, var(--murekkep) 40%, transparent);
+}
+
+.ara__alan[data-astro-cid-mx7vduzf]:focus-within {
+  border-color: var(--bordo-3);
+  box-shadow: 0 0 0 3px color-mix(in oklch, var(--bordo-3) 16%, transparent);
+}
+
+.ara__alan[data-astro-cid-mx7vduzf] .ara__ikon {
+  position: absolute;
+  inset-inline-start: var(--a-5);
+  color: var(--ikincil);
+  pointer-events: none;
+}
+
+.ara__girdi[data-astro-cid-mx7vduzf] {
+  flex: 1;
+  min-width: 0;
+  min-height: 3.5rem;
+  padding-inline: 3.5rem var(--a-3);
+  border: 0;
+  background: none;
+  outline: none;
+  appearance: none;
+  font-size: 1.0625rem;
+}
+
+.ara__girdi[data-astro-cid-mx7vduzf]::placeholder {
+  color: color-mix(in oklch, var(--murekkep) 50%, transparent);
+}
+
+.ara__girdi[data-astro-cid-mx7vduzf]::-webkit-search-cancel-button, .ara__girdi[data-astro-cid-mx7vduzf]::-webkit-search-decoration {
+  appearance: none;
+}
+
+.ara__temizle[data-astro-cid-mx7vduzf] {
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  margin-inline-end: var(--a-2);
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+  color: var(--ikincil);
+}
+
+.ara__temizle[data-astro-cid-mx7vduzf]:hover {
+  background: var(--krem-1);
+  color: var(--murekkep);
+}
+
+.katalog[data-astro-cid-mx7vduzf] {
+  padding-block: var(--a-8) var(--bolum);
+  display: grid;
+  gap: var(--a-9);
+}
+
+.kesif[data-astro-cid-mx7vduzf] {
+  display: grid;
+  gap: var(--a-6);
+}
+
+.kesif__baslik[data-astro-cid-mx7vduzf] {
+  font-size: var(--boy-2);
+  color: var(--bordo-1);
+}
+
+.kesif__aileler[data-astro-cid-mx7vduzf] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: var(--a-6) var(--a-5);
+}
+
+.aile[data-astro-cid-mx7vduzf] {
+  display: grid;
+  gap: var(--a-3);
+  justify-items: center;
+  text-decoration: none;
+  color: inherit;
+  padding-top: var(--a-4);
+}
+
+.aile__ad[data-astro-cid-mx7vduzf] {
+  font-weight: 700;
+  text-align: center;
+  transition: color var(--sure-kisa);
+}
+
+.aile[data-astro-cid-mx7vduzf]:hover .aile__ad[data-astro-cid-mx7vduzf] {
+  color: var(--bordo-3);
+}
+
+.kesif__markalar[data-astro-cid-mx7vduzf] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: var(--a-3);
+}
+
+.marka[data-astro-cid-mx7vduzf] {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: var(--a-2);
+  min-height: 7.5rem;
+  padding: var(--a-4) var(--a-3);
+  border: 1px solid var(--cizgi);
+  border-radius: var(--kose);
+  background: var(--krem-0);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color var(--sure-kisa), box-shadow var(--sure-orta) var(--egri-cikis);
+}
+
+.marka[data-astro-cid-mx7vduzf]:hover {
+  border-color: color-mix(in oklch, var(--bordo-3) 45%, transparent);
+  box-shadow: var(--golge-taban);
+}
+
+.marka__logo[data-astro-cid-mx7vduzf] {
+  height: 4rem;
+  display: grid;
+  place-items: center;
+}
+
+.marka__ad[data-astro-cid-mx7vduzf] {
+  font-size: .8125rem;
+  font-weight: 600;
+  color: var(--ikincil);
+}
+
+.liste[data-astro-cid-mx7vduzf] {
+  display: grid;
+  gap: var(--a-8);
+  scroll-margin-top: 7rem;
+}
+
+.liste__bas[data-astro-cid-mx7vduzf] {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--a-3);
+  padding-bottom: var(--a-4);
+  border-bottom: 1px solid var(--cizgi);
+}
+
+.liste__sayi[data-astro-cid-mx7vduzf] {
+  font-weight: 600;
+  color: var(--bordo-3);
+}
+
+.grup[data-astro-cid-mx7vduzf] {
+  display: grid;
+  gap: var(--a-5);
+  scroll-margin-top: 7rem;
+}
+
+.grup__bas[data-astro-cid-mx7vduzf] {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--a-2) var(--a-5);
+}
+
+.grup__baslik[data-astro-cid-mx7vduzf] {
+  font-size: var(--boy-3);
+}
+
+.grup__bas[data-astro-cid-mx7vduzf] .ok-bag[data-astro-cid-mx7vduzf] {
+  color: var(--bordo-3);
+  font-size: var(--boy-kucuk);
+}
+
+.grup__izgara[data-astro-cid-mx7vduzf] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(12rem, 100%), 1fr));
+  gap: var(--a-7) var(--a-5);
+}
+
+.bos[data-astro-cid-mx7vduzf] {
+  display: grid;
+  gap: var(--a-4);
+  justify-items: start;
+  max-width: 40rem;
+}
+
+.bos__baslik[data-astro-cid-mx7vduzf] {
+  font-size: var(--boy-2);
+}
+
+.bos[data-astro-cid-mx7vduzf] p[data-astro-cid-mx7vduzf] {
+  color: var(--ikincil);
+}
+
+@media (width <= 72rem) {
+  .kesif__aileler[data-astro-cid-mx7vduzf] {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .kesif__markalar[data-astro-cid-mx7vduzf] {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (width <= 48rem) {
+  .ubas__izgara[data-astro-cid-mx7vduzf] {
+    grid-template-columns: 1fr;
+  }
+
+  .kesif__aileler[data-astro-cid-mx7vduzf] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .kesif__markalar[data-astro-cid-mx7vduzf] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (width <= 30rem) {
+  .grup__izgara[data-astro-cid-mx7vduzf] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: var(--a-4);
+  }
+}
