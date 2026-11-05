@@ -1,22 +1,19 @@
 {
  "ad": "Golden Beard ürün verisi",
- "aciklama": "Golden Beard ve Sakallı Grup ürün markalarının güncel ürünleri: ürün kodu, ambalaj, ağırlık/hacim, koli içi adet, palet başına koli, ürün ve koli barkodu (EAN-13). Fiyat ve stok bilgisi içermez; çevrim içi sipariş alınmaz. Bilgi için iletişim sayfasını kullanın.",
+ "aciklama": "Golden Beard ve Sakallı Group kardeş markalarının ürün kataloğu: ürün kodu, ambalaj, ağırlık/hacim, koli içi adet, palet başına koli, ürün ve koli barkodu (EAN-13). Fiyat ve stok bilgisi içermez. Teklif için ürün kodlarını ve koli adetlerini e-postayla gönderin.",
  "dil": "tr",
- "diller": [
-  "tr",
-  "ar"
- ],
  "kaynak": "https://www.goldenbeard.com.tr/urunler.json",
  "site": "https://www.goldenbeard.com.tr/",
  "katalogPdf": "https://www.goldenbeard.com.tr/katalog/golden-beard-urun-katalogu.pdf",
- "iletisim": {
-  "sayfa": "https://www.goldenbeard.com.tr/iletisim/",
-  "eposta": "info@sakalligroup.com"
+ "teklif": {
+  "sayfa": "https://www.goldenbeard.com.tr/teklif/",
+  "eposta": "info@sakalligroup.com",
+  "aciklama": "Sitede teklif listesine eklediğiniz ürünler e-posta olarak hazırlanır; çevrim içi sipariş alınmaz."
  },
- "olusturulma": "2026-10-27T10:01:34.177Z",
+ "olusturulma": "2026-11-05T08:08:06.075Z",
  "yayinci": {
-  "ad": "Golden Beard Sakallı",
-  "grup": "Sakallı Grup",
+  "ad": "Golden Beard",
+  "grup": "Sakallı Group",
   "unvan": "Metsa Tarım Ürünleri Gıda San. Taş. İth. İhr. ve Tic. Ltd. Şti.",
   "kurulus": 1982,
   "adres": "Alazı Mah. Atatürk Cad. No: 9, Antakya / Hatay",
@@ -26,16 +23,16 @@
   "eposta": "info@sakalligroup.com",
   "web": "https://www.goldenbeard.com.tr/"
  },
- "urunSayisi": 103,
+ "urunSayisi": 131,
  "alanlar": {
   "kod": "Ürün kodu (basılı katalogdaki kod)",
   "ad": "Türkçe ürün adı",
-  "adAr": "Arapça ürün adı",
   "adEn": "İngilizce ürün adı (katalogdaki)",
   "adDe": "Almanca ürün adı (katalogdaki)",
   "marka": "Ürünün kendi markası",
   "seri": "Marka içindeki seri (varsa)",
   "kategori": "Kategori kimliği; kategoriler listesindeki id ile eşleşir",
+  "segment": "'perakende' ya da 'catering' (toptan / büyük ambalaj)",
   "ambalaj": "Ambalaj boyu, katalogda yazıldığı biçimde",
   "net": "Net ağırlık",
   "suzme": "Süzme ağırlık (salamura ürünlerde)",
@@ -46,17 +43,50 @@
   "ean": "Ürün barkodu (EAN-13)",
   "koliEan": "Koli barkodu (EAN-13); null ise katalogda yok",
   "katalogSayfa": "Basılı katalogda (PDF) ürünün bulunduğu sayfa",
-  "url": "Ürün sayfası (Türkçe)",
-  "urlAr": "Ürün sayfası (Arapça)",
+  "url": "Ürün sayfası",
   "gorsel": "Ambalaj görseli ve özgün piksel boyutu",
   "sunumGorseli": "Ürünün servis/sunum fotoğrafı (varsa)",
   "digerBoylar": "Aynı ürünün diğer ambalaj boylarının kodları, küçükten büyüğe"
  },
  "kategoriler": [
   {
+   "id": "kuruyemis",
+   "ad": "Kuruyemiş",
+   "adEn": "Nuts",
+   "urunSayisi": 21,
+   "url": "https://www.goldenbeard.com.tr/urunler/kuruyemis/"
+  },
+  {
+   "id": "aycekirdegi",
+   "ad": "Ayçekirdeği",
+   "adEn": "Sunflower Seeds",
+   "urunSayisi": 7,
+   "url": "https://www.goldenbeard.com.tr/urunler/aycekirdegi/"
+  },
+  {
+   "id": "kuru-meyve",
+   "ad": "Kuru Meyve (İncir & Kayısı)",
+   "adEn": "Dried Fruits (Figs & Apricots)",
+   "urunSayisi": 18,
+   "url": "https://www.goldenbeard.com.tr/urunler/kuru-meyve/"
+  },
+  {
+   "id": "tahin-helva",
+   "ad": "Tahin & Tahin Helva",
+   "adEn": "Tahini & Halva",
+   "urunSayisi": 6,
+   "url": "https://www.goldenbeard.com.tr/urunler/tahin-helva/"
+  },
+  {
+   "id": "zeytin",
+   "ad": "Zeytin",
+   "adEn": "Olives",
+   "urunSayisi": 15,
+   "url": "https://www.goldenbeard.com.tr/urunler/zeytin/"
+  },
+  {
    "id": "sivi-yag",
-   "ad": "Zeytinyağı ve Sıvı Yağlar",
-   "adAr": "زيت الزيتون والزيوت النباتية",
+   "ad": "Zeytinyağı & Sıvı Yağlar",
    "adEn": "Olive Oil & Vegetable Oils",
    "urunSayisi": 20,
    "url": "https://www.goldenbeard.com.tr/urunler/sivi-yag/"
@@ -64,71 +94,41 @@
   {
    "id": "salca",
    "ad": "Salça",
-   "adAr": "معجون الطماطم والفلفل",
    "adEn": "Tomato & Pepper Paste",
    "urunSayisi": 6,
    "url": "https://www.goldenbeard.com.tr/urunler/salca/"
   },
   {
    "id": "tursu",
-   "ad": "Turşu ve Salamura",
-   "adAr": "المخللات وورق العنب",
+   "ad": "Turşu & Salamura",
    "adEn": "Pickles & Brined Vegetables",
    "urunSayisi": 21,
    "url": "https://www.goldenbeard.com.tr/urunler/tursu/"
   },
   {
-   "id": "zeytin",
-   "ad": "Zeytin",
-   "adAr": "الزيتون",
-   "adEn": "Olives",
-   "urunSayisi": 15,
-   "url": "https://www.goldenbeard.com.tr/urunler/zeytin/"
-  },
-  {
    "id": "yaprak-sarma",
    "ad": "Yaprak Sarma",
-   "adAr": "ورق العنب المحشي",
    "adEn": "Stuffed Vine Leaves",
    "urunSayisi": 2,
    "url": "https://www.goldenbeard.com.tr/urunler/yaprak-sarma/"
   },
   {
-   "id": "tahin-helva",
-   "ad": "Tahin ve Tahin Helva",
-   "adAr": "الطحينة والحلاوة الطحينية",
-   "adEn": "Tahini & Halva",
-   "urunSayisi": 6,
-   "url": "https://www.goldenbeard.com.tr/urunler/tahin-helva/"
-  },
-  {
    "id": "soslar",
    "ad": "Soslar",
-   "adAr": "الصلصات",
    "adEn": "Sauces",
    "urunSayisi": 5,
    "url": "https://www.goldenbeard.com.tr/urunler/soslar/"
   },
   {
    "id": "bal-surup",
-   "ad": "Bal ve Şurup",
-   "adAr": "العسل والشراب",
+   "ad": "Bal & Şurup",
    "adEn": "Honey & Syrup",
    "urunSayisi": 8,
    "url": "https://www.goldenbeard.com.tr/urunler/bal-surup/"
   },
   {
-   "id": "kuru-meyve",
-   "ad": "Kuru Meyve (İncir ve Kayısı)",
-   "adAr": "الفواكه المجففة (التين والمشمش)",
-   "adEn": "Dried Fruits (Figs & Apricots)",
-   "urunSayisi": 18,
-   "url": "https://www.goldenbeard.com.tr/urunler/kuru-meyve/"
-  },
-  {
    "id": "margarin",
-   "ad": "Baklavalık Yağ",
-   "adAr": "سمن البقلاوة",
+   "ad": "Baklavalık Yağ (Margarin)",
    "adEn": "Vegetable Ghee",
    "urunSayisi": 2,
    "url": "https://www.goldenbeard.com.tr/urunler/margarin/"
@@ -138,7 +138,7 @@
   {
    "slug": "golden-beard",
    "ad": "Golden Beard",
-   "urunSayisi": 79,
+   "urunSayisi": 107,
    "url": "https://www.goldenbeard.com.tr/markalar/golden-beard/"
   },
   {
@@ -168,18 +168,943 @@
  ],
  "urunler": [
   {
+   "kod": "2519",
+   "ad": "Badem İçi",
+   "adEn": "Roasted and Salted Almonds",
+   "adDe": "Mandeln - geröstet und gesalzen",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": null,
+   "kategori": "kuruyemis",
+   "kategoriAd": "Kuruyemiş",
+   "kategoriAdEn": "Nuts",
+   "segment": "perakende",
+   "ambalaj": "85 g",
+   "net": "85 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 12,
+   "paletKoli": 216,
+   "ean": "8697435525196",
+   "koliEan": "8697435526124",
+   "katalogSayfa": 4,
+   "url": "https://www.goldenbeard.com.tr/urun/2519-badem-ici-85g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2519.Be47Ux7w_mGsAa.png",
+    "genislik": 131,
+    "yukseklik": 201
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2648"
+   ]
+  },
+  {
+   "kod": "2520",
+   "ad": "İşlenmiş Kaju Fıstığı",
+   "adEn": "Roasted and Salted Cashew Nuts",
+   "adDe": "Cashewkerne - geröstet und gesalzen",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": null,
+   "kategori": "kuruyemis",
+   "kategoriAd": "Kuruyemiş",
+   "kategoriAdEn": "Nuts",
+   "segment": "perakende",
+   "ambalaj": "85 g",
+   "net": "85 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 12,
+   "paletKoli": 216,
+   "ean": "8697435525202",
+   "koliEan": "8697435526131",
+   "katalogSayfa": 4,
+   "url": "https://www.goldenbeard.com.tr/urun/2520-islenmis-kaju-fistigi-85g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2520.BmrIbBxB_IuRlL.png",
+    "genislik": 129,
+    "yukseklik": 205
+   },
+   "sunumGorseli": null,
+   "digerBoylar": []
+  },
+  {
+   "kod": "2516",
+   "ad": "Antep Fıstığı",
+   "adEn": "Roasted and Salted Pistachios",
+   "adDe": "Pistazien - geröstet und gesalzen",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": null,
+   "kategori": "kuruyemis",
+   "kategoriAd": "Kuruyemiş",
+   "kategoriAdEn": "Nuts",
+   "segment": "perakende",
+   "ambalaj": "85 g",
+   "net": "85 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 12,
+   "paletKoli": 216,
+   "ean": "8697435525165",
+   "koliEan": "8697435526094",
+   "katalogSayfa": 4,
+   "url": "https://www.goldenbeard.com.tr/urun/2516-antep-fistigi-85g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2516.D2zdtBnj_2tz4I4.png",
+    "genislik": 134,
+    "yukseklik": 208
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2532"
+   ]
+  },
+  {
+   "kod": "2510",
+   "ad": "Kabak Çekirdeği",
+   "adEn": "Roasted and Salted Pumpkin Seeds",
+   "adDe": "Kürbiskerne - geröstet und gesalzen",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": null,
+   "kategori": "kuruyemis",
+   "kategoriAd": "Kuruyemiş",
+   "kategoriAdEn": "Nuts",
+   "segment": "perakende",
+   "ambalaj": "85 g",
+   "net": "85 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 12,
+   "paletKoli": 216,
+   "ean": "8697435525103",
+   "koliEan": "8697435526032",
+   "katalogSayfa": 4,
+   "url": "https://www.goldenbeard.com.tr/urun/2510-kabak-cekirdegi-85g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2510.BAXzlOYv_10U0wq.png",
+    "genislik": 132,
+    "yukseklik": 210
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2531"
+   ]
+  },
+  {
+   "kod": "2515",
+   "ad": "Fındık İçi",
+   "adEn": "Roasted Hazelnut Kernels",
+   "adDe": "Geröstete Haselnusskerne",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": null,
+   "kategori": "kuruyemis",
+   "kategoriAd": "Kuruyemiş",
+   "kategoriAdEn": "Nuts",
+   "segment": "perakende",
+   "ambalaj": "85 g",
+   "net": "85 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 12,
+   "paletKoli": 216,
+   "ean": "8697435525158",
+   "koliEan": "8697435526087",
+   "katalogSayfa": 4,
+   "url": "https://www.goldenbeard.com.tr/urun/2515-findik-ici-85g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2515.CgcQI8i1_2ePxG.png",
+    "genislik": 129,
+    "yukseklik": 206
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2533"
+   ]
+  },
+  {
+   "kod": "2513",
+   "ad": "Kokteyl Çerez",
+   "adEn": "Roasted and Salted Mixed Nuts",
+   "adDe": "Gemischte Nüsse - geröstet und gesalzen",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": null,
+   "kategori": "kuruyemis",
+   "kategoriAd": "Kuruyemiş",
+   "kategoriAdEn": "Nuts",
+   "segment": "perakende",
+   "ambalaj": "85 g",
+   "net": "85 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 12,
+   "paletKoli": 216,
+   "ean": "8697435525134",
+   "koliEan": "8697435526063",
+   "katalogSayfa": 4,
+   "url": "https://www.goldenbeard.com.tr/urun/2513-kokteyl-cerez-85g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2513.DBa9A7GI_Z1GkC08.png",
+    "genislik": 127,
+    "yukseklik": 202
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2535"
+   ]
+  },
+  {
+   "kod": "2518",
+   "ad": "Yer Fıstığı - Tuzlu",
+   "adEn": "Roasted and Salted Peanuts",
+   "adDe": "Erdnüsse - geröstet und gesalzen",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": null,
+   "kategori": "kuruyemis",
+   "kategoriAd": "Kuruyemiş",
+   "kategoriAdEn": "Nuts",
+   "segment": "perakende",
+   "ambalaj": "85 g",
+   "net": "85 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 12,
+   "paletKoli": 216,
+   "ean": "8697435525189",
+   "koliEan": "8697435526117",
+   "katalogSayfa": 5,
+   "url": "https://www.goldenbeard.com.tr/urun/2518-yer-fistigi-tuzlu-85g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2518.X27b321y_UdRM2.png",
+    "genislik": 130,
+    "yukseklik": 207
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2534"
+   ]
+  },
+  {
+   "kod": "2521",
+   "ad": "Çifte Kavrulmuş Sarı Leblebi",
+   "adEn": "Double Roasted Yellow Chickpeas",
+   "adDe": "Kichererbsen - doppelt geröstet",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": null,
+   "kategori": "kuruyemis",
+   "kategoriAd": "Kuruyemiş",
+   "kategoriAdEn": "Nuts",
+   "segment": "perakende",
+   "ambalaj": "85 g",
+   "net": "85 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 12,
+   "paletKoli": 216,
+   "ean": "8697435525219",
+   "koliEan": "8697435526148",
+   "katalogSayfa": 5,
+   "url": "https://www.goldenbeard.com.tr/urun/2521-cifte-kavrulmus-sari-leblebi-85g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2521.BF84LpsW_15i2ua.png",
+    "genislik": 130,
+    "yukseklik": 204
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2578"
+   ]
+  },
+  {
+   "kod": "2530",
+   "ad": "Soslu Mısır",
+   "adEn": "Roasted and Spiced Corn",
+   "adDe": "Mais - geröstet und gewürzt",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": null,
+   "kategori": "kuruyemis",
+   "kategoriAd": "Kuruyemiş",
+   "kategoriAdEn": "Nuts",
+   "segment": "perakende",
+   "ambalaj": "75 g",
+   "net": "75 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 12,
+   "paletKoli": 216,
+   "ean": "8697435525301",
+   "koliEan": "8697435526209",
+   "katalogSayfa": 5,
+   "url": "https://www.goldenbeard.com.tr/urun/2530-soslu-misir-75g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2530.BbqXtCRv_1nu2yo.png",
+    "genislik": 134,
+    "yukseklik": 213
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2650"
+   ]
+  },
+  {
+   "kod": "2512",
+   "ad": "Beyaz Leblebi",
+   "adEn": "Coated Chickpeas",
+   "adDe": "Kichererbsen - überzogene",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": null,
+   "kategori": "kuruyemis",
+   "kategoriAd": "Kuruyemiş",
+   "kategoriAdEn": "Nuts",
+   "segment": "perakende",
+   "ambalaj": "85 g",
+   "net": "85 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 12,
+   "paletKoli": 216,
+   "ean": "8697435525127",
+   "koliEan": "8697435526056",
+   "katalogSayfa": 5,
+   "url": "https://www.goldenbeard.com.tr/urun/2512-beyaz-leblebi-85g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2512.Cr5a3V02_Z1p6rNw.png",
+    "genislik": 125,
+    "yukseklik": 200
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2588"
+   ]
+  },
+  {
+   "kod": "2525",
+   "ad": "Tuzlu Leblebi",
+   "adEn": "Roasted and Salted Chickpeas",
+   "adDe": "Kichererbsen - geröstet und gesalzen",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": null,
+   "kategori": "kuruyemis",
+   "kategoriAd": "Kuruyemiş",
+   "kategoriAdEn": "Nuts",
+   "segment": "perakende",
+   "ambalaj": "85 g",
+   "net": "85 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 12,
+   "paletKoli": 216,
+   "ean": "8697435525257",
+   "koliEan": "8697435526155",
+   "katalogSayfa": 5,
+   "url": "https://www.goldenbeard.com.tr/urun/2525-tuzlu-leblebi-85g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2525.DddxjQ7P_2vuE9g.png",
+    "genislik": 130,
+    "yukseklik": 207
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2583"
+   ]
+  },
+  {
+   "kod": "2648",
+   "ad": "Badem İçi",
+   "adEn": "Roasted and Salted Almonds",
+   "adDe": "Mandeln - geröstet und gesalzen",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": null,
+   "kategori": "kuruyemis",
+   "kategoriAd": "Kuruyemiş",
+   "kategoriAdEn": "Nuts",
+   "segment": "perakende",
+   "ambalaj": "200 g",
+   "net": "200 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 16,
+   "paletKoli": 90,
+   "ean": "8697435526483",
+   "koliEan": "8697435526490",
+   "katalogSayfa": 6,
+   "url": "https://www.goldenbeard.com.tr/urun/2648-badem-ici-200g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2648.CVNdm9kM_1SOV7o.png",
+    "genislik": 131,
+    "yukseklik": 209
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2519"
+   ]
+  },
+  {
+   "kod": "2531",
+   "ad": "Kavrulmuş Kabak Çekirdeği",
+   "adEn": "Roasted and Salted Pumpkin Seeds",
+   "adDe": "Kürbiskerne - geröstet und gesalzen",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": null,
+   "kategori": "kuruyemis",
+   "kategoriAd": "Kuruyemiş",
+   "kategoriAdEn": "Nuts",
+   "segment": "perakende",
+   "ambalaj": "200 g",
+   "net": "200 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 16,
+   "paletKoli": 90,
+   "ean": "8697435525318",
+   "koliEan": "8697435526216",
+   "katalogSayfa": 6,
+   "url": "https://www.goldenbeard.com.tr/urun/2531-kavrulmus-kabak-cekirdegi-200g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2531.PzFHv-H3_2e3z9A.png",
+    "genislik": 130,
+    "yukseklik": 206
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2510"
+   ]
+  },
+  {
+   "kod": "2532",
+   "ad": "Antep Fıstık",
+   "adEn": "Roasted and Salted Pistachios",
+   "adDe": "Pistazien - geröstet und gesalzen",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": null,
+   "kategori": "kuruyemis",
+   "kategoriAd": "Kuruyemiş",
+   "kategoriAdEn": "Nuts",
+   "segment": "perakende",
+   "ambalaj": "200 g",
+   "net": "200 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 16,
+   "paletKoli": 90,
+   "ean": "8697435525325",
+   "koliEan": "8697435526223",
+   "katalogSayfa": 6,
+   "url": "https://www.goldenbeard.com.tr/urun/2532-antep-fistik-200g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2532.3Wy9qXMw_RsurX.png",
+    "genislik": 129,
+    "yukseklik": 206
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2516"
+   ]
+  },
+  {
+   "kod": "2534",
+   "ad": "Tuzlu Yer Fıstığı",
+   "adEn": "Roasted and Salted Peanuts",
+   "adDe": "Erdnüsse - geröstet und gesalzen",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": null,
+   "kategori": "kuruyemis",
+   "kategoriAd": "Kuruyemiş",
+   "kategoriAdEn": "Nuts",
+   "segment": "perakende",
+   "ambalaj": "200 g",
+   "net": "200 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 16,
+   "paletKoli": 90,
+   "ean": "8697435525349",
+   "koliEan": "8697435526247",
+   "katalogSayfa": 6,
+   "url": "https://www.goldenbeard.com.tr/urun/2534-tuzlu-yer-fistigi-200g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2534.InWCuEZa_2fwauf.png",
+    "genislik": 130,
+    "yukseklik": 208
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2518"
+   ]
+  },
+  {
+   "kod": "2533",
+   "ad": "Kavrulmuş Fındık İçi",
+   "adEn": "Roasted Hazelnut Kernels",
+   "adDe": "Geröstete Haselnusskerne",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": null,
+   "kategori": "kuruyemis",
+   "kategoriAd": "Kuruyemiş",
+   "kategoriAdEn": "Nuts",
+   "segment": "perakende",
+   "ambalaj": "200 g",
+   "net": "200 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 16,
+   "paletKoli": 90,
+   "ean": "8697435525332",
+   "koliEan": "8697435526230",
+   "katalogSayfa": 6,
+   "url": "https://www.goldenbeard.com.tr/urun/2533-kavrulmus-findik-ici-200g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2533.DzfF0eAc_Z1ww1SA.png",
+    "genislik": 132,
+    "yukseklik": 209
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2515"
+   ]
+  },
+  {
+   "kod": "2650",
+   "ad": "Kavrulmuş Soslu Mısır",
+   "adEn": "Roasted and Spiced Corn",
+   "adDe": "Mais - geröstet und gewürzt",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": null,
+   "kategori": "kuruyemis",
+   "kategoriAd": "Kuruyemiş",
+   "kategoriAdEn": "Nuts",
+   "segment": "perakende",
+   "ambalaj": "200 g",
+   "net": "200 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 16,
+   "paletKoli": 90,
+   "ean": "8697435526506",
+   "koliEan": "8697435526513",
+   "katalogSayfa": 6,
+   "url": "https://www.goldenbeard.com.tr/urun/2650-kavrulmus-soslu-misir-200g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2650.3COCgbJW_jxC18.png",
+    "genislik": 131,
+    "yukseklik": 209
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2530"
+   ]
+  },
+  {
+   "kod": "2535",
+   "ad": "Kokteyl Çerez",
+   "adEn": "Roasted and Salted Mixed Nuts",
+   "adDe": "Gemischte Nüsse - geröstet und gesalzen",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": null,
+   "kategori": "kuruyemis",
+   "kategoriAd": "Kuruyemiş",
+   "kategoriAdEn": "Nuts",
+   "segment": "perakende",
+   "ambalaj": "200 g",
+   "net": "200 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 16,
+   "paletKoli": 90,
+   "ean": "8697435525356",
+   "koliEan": "8697435526254",
+   "katalogSayfa": 6,
+   "url": "https://www.goldenbeard.com.tr/urun/2535-kokteyl-cerez-200g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2535.DPmPde2z_Z2ejinp.png",
+    "genislik": 128,
+    "yukseklik": 204
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2513"
+   ]
+  },
+  {
+   "kod": "2578",
+   "ad": "Çifte Kavrulmuş Leblebi",
+   "adEn": "Double Roasted Yellow Chickpeas",
+   "adDe": "Kichererbsen - doppelt geröstet",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": null,
+   "kategori": "kuruyemis",
+   "kategoriAd": "Kuruyemiş",
+   "kategoriAdEn": "Nuts",
+   "segment": "perakende",
+   "ambalaj": "200 g",
+   "net": "200 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 16,
+   "paletKoli": 90,
+   "ean": "8697435525783",
+   "koliEan": "8697435526315",
+   "katalogSayfa": 6,
+   "url": "https://www.goldenbeard.com.tr/urun/2578-cifte-kavrulmus-leblebi-200g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2578.Dj49iguY_ZH5I8j.png",
+    "genislik": 133,
+    "yukseklik": 206
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2521"
+   ]
+  },
+  {
+   "kod": "2583",
+   "ad": "Tuzlu Leblebi",
+   "adEn": "Roasted and Salted Chickpeas",
+   "adDe": "Kichererbsen - geröstet und gesalzen",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": null,
+   "kategori": "kuruyemis",
+   "kategoriAd": "Kuruyemiş",
+   "kategoriAdEn": "Nuts",
+   "segment": "perakende",
+   "ambalaj": "200 g",
+   "net": "200 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 16,
+   "paletKoli": 90,
+   "ean": "8697435525837",
+   "koliEan": "8697435526278",
+   "katalogSayfa": 7,
+   "url": "https://www.goldenbeard.com.tr/urun/2583-tuzlu-leblebi-200g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2583.BUjOqdRJ_Z1w6DAX.png",
+    "genislik": 131,
+    "yukseklik": 207
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2525"
+   ]
+  },
+  {
+   "kod": "2588",
+   "ad": "Beyaz Leblebi",
+   "adEn": "Coated Chickpeas",
+   "adDe": "Kichererbsen - überzogene",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": null,
+   "kategori": "kuruyemis",
+   "kategoriAd": "Kuruyemiş",
+   "kategoriAdEn": "Nuts",
+   "segment": "perakende",
+   "ambalaj": "200 g",
+   "net": "200 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 16,
+   "paletKoli": 90,
+   "ean": "8697435525882",
+   "koliEan": "8697435526360",
+   "katalogSayfa": 7,
+   "url": "https://www.goldenbeard.com.tr/urun/2588-beyaz-leblebi-200g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2588.DL4VNo0a_1gk7m5.png",
+    "genislik": 129,
+    "yukseklik": 206
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2512"
+   ]
+  },
+  {
+   "kod": "2514",
+   "ad": "Ayçekirdeği - Bol Tuzlu",
+   "adEn": "Roasted and Salted Sunflower Seeds - Extra Salted",
+   "adDe": "Sonnenblumenkerne - geröstet und gesalzen (Reichlich Gesalzene)",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": "Reichlich Gesalzene",
+   "kategori": "aycekirdegi",
+   "kategoriAd": "Ayçekirdeği",
+   "kategoriAdEn": "Sunflower Seeds",
+   "segment": "perakende",
+   "ambalaj": "300 g",
+   "net": "300 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 12,
+   "paletKoli": 72,
+   "ean": "8697435525141",
+   "koliEan": "8697435526438",
+   "katalogSayfa": 11,
+   "url": "https://www.goldenbeard.com.tr/urun/2514-aycekirdegi-bol-tuzlu-300g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2514.CnsTzp3Y_1nieP9.png",
+    "genislik": 129,
+    "yukseklik": 229
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2528",
+    "2526"
+   ]
+  },
+  {
+   "kod": "2526",
+   "ad": "Ayçekirdeği - Bol Tuzlu",
+   "adEn": "Roasted and Salted Sunflower Seeds - Extra Salted",
+   "adDe": "Sonnenblumenkerne - geröstet und gesalzen (Reichlich Gesalzene)",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": "Reichlich Gesalzene",
+   "kategori": "aycekirdegi",
+   "kategoriAd": "Ayçekirdeği",
+   "kategoriAdEn": "Sunflower Seeds",
+   "segment": "perakende",
+   "ambalaj": "150 g",
+   "net": "150 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 24,
+   "paletKoli": 77,
+   "ean": "8697435525264",
+   "koliEan": "8697435526445",
+   "katalogSayfa": 11,
+   "url": "https://www.goldenbeard.com.tr/urun/2526-aycekirdegi-bol-tuzlu-150g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2526.PVmkIgSx_139SGX.png",
+    "genislik": 123,
+    "yukseklik": 217
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2528",
+    "2514"
+   ]
+  },
+  {
+   "kod": "2528",
+   "ad": "Ayçekirdeği - Bol Tuzlu",
+   "adEn": "Roasted and Salted Sunflower Seeds - Extra Salted",
+   "adDe": "Sonnenblumenkerne - geröstet und gesalzen (Reichlich Gesalzene)",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": "Reichlich Gesalzene",
+   "kategori": "aycekirdegi",
+   "kategoriAd": "Ayçekirdeği",
+   "kategoriAdEn": "Sunflower Seeds",
+   "segment": "perakende",
+   "ambalaj": "100 g",
+   "net": "100 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 18,
+   "paletKoli": 121,
+   "ean": "8697435525288",
+   "koliEan": "8697435526186",
+   "katalogSayfa": 11,
+   "url": "https://www.goldenbeard.com.tr/urun/2528-aycekirdegi-bol-tuzlu-100g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2528.Cnow4SaM_3Tjo6.png",
+    "genislik": 113,
+    "yukseklik": 199
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2526",
+    "2514"
+   ]
+  },
+  {
+   "kod": "2511",
+   "ad": "Ayçekirdeği - Klasik",
+   "adEn": "Roasted and Salted Sunflower Seeds - Classic",
+   "adDe": "Sonnenblumenkerne - geröstet und gesalzen (Klassisch)",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": "Klassisch / Classic",
+   "kategori": "aycekirdegi",
+   "kategoriAd": "Ayçekirdeği",
+   "kategoriAdEn": "Sunflower Seeds",
+   "segment": "perakende",
+   "ambalaj": "300 g",
+   "net": "300 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 12,
+   "paletKoli": 72,
+   "ean": "8697435525110",
+   "koliEan": "8697435526049",
+   "katalogSayfa": 11,
+   "url": "https://www.goldenbeard.com.tr/urun/2511-aycekirdegi-klasik-300g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2511.DGNtblqr_ZCTS6U.png",
+    "genislik": 126,
+    "yukseklik": 223
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2529",
+    "2527"
+   ]
+  },
+  {
+   "kod": "2527",
+   "ad": "Ayçekirdeği - Klasik",
+   "adEn": "Roasted and Salted Sunflower Seeds - Classic",
+   "adDe": "Sonnenblumenkerne - geröstet und gesalzen (Klassisch)",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": "Klassisch / Classic",
+   "kategori": "aycekirdegi",
+   "kategoriAd": "Ayçekirdeği",
+   "kategoriAdEn": "Sunflower Seeds",
+   "segment": "perakende",
+   "ambalaj": "150 g",
+   "net": "150 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 24,
+   "paletKoli": 77,
+   "ean": "8697435525271",
+   "koliEan": "8697435526452",
+   "katalogSayfa": 11,
+   "url": "https://www.goldenbeard.com.tr/urun/2527-aycekirdegi-klasik-150g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2527.9RGliG-7_296JpN.png",
+    "genislik": 114,
+    "yukseklik": 201
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2529",
+    "2511"
+   ]
+  },
+  {
+   "kod": "2529",
+   "ad": "Ayçekirdeği - Klasik",
+   "adEn": "Roasted and Salted Sunflower Seeds - Classic",
+   "adDe": "Sonnenblumenkerne - geröstet und gesalzen (Klassisch)",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": "Klassisch / Classic",
+   "kategori": "aycekirdegi",
+   "kategoriAd": "Ayçekirdeği",
+   "kategoriAdEn": "Sunflower Seeds",
+   "segment": "perakende",
+   "ambalaj": "100 g",
+   "net": "100 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 18,
+   "paletKoli": 121,
+   "ean": "8697435525295",
+   "koliEan": "8697435526193",
+   "katalogSayfa": 11,
+   "url": "https://www.goldenbeard.com.tr/urun/2529-aycekirdegi-klasik-100g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2529.MhVmfAFD_2gtWNb.png",
+    "genislik": 108,
+    "yukseklik": 190
+   },
+   "sunumGorseli": null,
+   "digerBoylar": [
+    "2527",
+    "2511"
+   ]
+  },
+  {
+   "kod": "2517",
+   "ad": "Siyah Ayçekirdeği",
+   "adEn": "Roasted and Salted Black Sunflower Seeds",
+   "adDe": "Schwarze Sonnenblumenkerne - geröstet und gesalzen",
+   "marka": "Golden Beard",
+   "markaSlug": "golden-beard",
+   "seri": "Black Panther",
+   "kategori": "aycekirdegi",
+   "kategoriAd": "Ayçekirdeği",
+   "kategoriAdEn": "Sunflower Seeds",
+   "segment": "perakende",
+   "ambalaj": "200 g",
+   "net": "200 g",
+   "suzme": null,
+   "hacim": null,
+   "kalibre": null,
+   "koliIci": 12,
+   "paletKoli": 72,
+   "ean": "8697435525172",
+   "koliEan": "8697435526100",
+   "katalogSayfa": 11,
+   "url": "https://www.goldenbeard.com.tr/urun/2517-siyah-aycekirdegi-200g/",
+   "gorsel": {
+    "url": "https://www.goldenbeard.com.tr/_astro/2517.3qCkptg3_ZvA7ja.png",
+    "genislik": 110,
+    "yukseklik": 197
+   },
+   "sunumGorseli": null,
+   "digerBoylar": []
+  },
+  {
    "kod": "7084",
    "ad": "Kuru İncir",
-   "adAr": "تين مجفف",
    "adEn": "Dried Figs",
    "adDe": "Getrocknete Feigen",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "kuru-meyve",
-   "kategoriAd": "Kuru Meyve (İncir ve Kayısı)",
-   "kategoriAdAr": "الفواكه المجففة (التين والمشمش)",
+   "kategoriAd": "Kuru Meyve (İncir & Kayısı)",
    "kategoriAdEn": "Dried Fruits (Figs & Apricots)",
+   "segment": "perakende",
    "ambalaj": "2500 g",
    "net": "2500 g",
    "suzme": null,
@@ -191,11 +1116,10 @@
    "koliEan": null,
    "katalogSayfa": 13,
    "url": "https://www.goldenbeard.com.tr/urun/7084-kuru-incir-2500g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/7084-kuru-incir-2500g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/7084.BpFzGW1-_2viixd.png",
-    "genislik": 266,
-    "yukseklik": 224
+    "url": "https://www.goldenbeard.com.tr/_astro/7084.Jhg9PzY2_Z18t9N8.png",
+    "genislik": 268,
+    "yukseklik": 227
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -206,16 +1130,15 @@
   {
    "kod": "7083",
    "ad": "Kuru İncir",
-   "adAr": "تين مجفف",
    "adEn": "Dried Figs",
    "adDe": "Getrocknete Feigen",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "kuru-meyve",
-   "kategoriAd": "Kuru Meyve (İncir ve Kayısı)",
-   "kategoriAdAr": "الفواكه المجففة (التين والمشمش)",
+   "kategoriAd": "Kuru Meyve (İncir & Kayısı)",
    "kategoriAdEn": "Dried Fruits (Figs & Apricots)",
+   "segment": "perakende",
    "ambalaj": "700 g",
    "net": "700 g",
    "suzme": null,
@@ -227,11 +1150,10 @@
    "koliEan": null,
    "katalogSayfa": 13,
    "url": "https://www.goldenbeard.com.tr/urun/7083-kuru-incir-700g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/7083-kuru-incir-700g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/7083.B9TOrK0D_1d6UFU.png",
-    "genislik": 263,
-    "yukseklik": 227
+    "url": "https://www.goldenbeard.com.tr/_astro/7083.DILwvgIn_1WxotJ.png",
+    "genislik": 264,
+    "yukseklik": 239
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -242,16 +1164,15 @@
   {
    "kod": "7082",
    "ad": "Kuru İncir",
-   "adAr": "تين مجفف",
    "adEn": "Dried Figs",
    "adDe": "Getrocknete Feigen",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "kuru-meyve",
-   "kategoriAd": "Kuru Meyve (İncir ve Kayısı)",
-   "kategoriAdAr": "الفواكه المجففة (التين والمشمش)",
+   "kategoriAd": "Kuru Meyve (İncir & Kayısı)",
    "kategoriAdEn": "Dried Fruits (Figs & Apricots)",
+   "segment": "perakende",
    "ambalaj": "350 g",
    "net": "350 g",
    "suzme": null,
@@ -263,11 +1184,10 @@
    "koliEan": null,
    "katalogSayfa": 13,
    "url": "https://www.goldenbeard.com.tr/urun/7082-kuru-incir-350g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/7082-kuru-incir-350g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/7082.BWCl72Z1_Z1jru1p.png",
-    "genislik": 233,
-    "yukseklik": 210
+    "url": "https://www.goldenbeard.com.tr/_astro/7082.CpxIFWDZ_Z1arOK8.png",
+    "genislik": 236,
+    "yukseklik": 216
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -278,16 +1198,15 @@
   {
    "kod": "7087",
    "ad": "Kuru Kayısı",
-   "adAr": "مشمش مجفف",
    "adEn": "Dried Apricots",
    "adDe": "Getrocknete Aprikosen",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "kuru-meyve",
-   "kategoriAd": "Kuru Meyve (İncir ve Kayısı)",
-   "kategoriAdAr": "الفواكه المجففة (التين والمشمش)",
+   "kategoriAd": "Kuru Meyve (İncir & Kayısı)",
    "kategoriAdEn": "Dried Fruits (Figs & Apricots)",
+   "segment": "perakende",
    "ambalaj": "2500 g",
    "net": "2500 g",
    "suzme": null,
@@ -299,11 +1218,10 @@
    "koliEan": null,
    "katalogSayfa": 13,
    "url": "https://www.goldenbeard.com.tr/urun/7087-kuru-kayisi-2500g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/7087-kuru-kayisi-2500g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/7087.CnJ9whLq_1Gt7ja.png",
-    "genislik": 269,
-    "yukseklik": 225
+    "url": "https://www.goldenbeard.com.tr/_astro/7087.DV9G_UZN_ZsFK7Y.png",
+    "genislik": 271,
+    "yukseklik": 228
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -314,16 +1232,15 @@
   {
    "kod": "7086",
    "ad": "Kuru Kayısı",
-   "adAr": "مشمش مجفف",
    "adEn": "Dried Apricots",
    "adDe": "Getrocknete Aprikosen",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "kuru-meyve",
-   "kategoriAd": "Kuru Meyve (İncir ve Kayısı)",
-   "kategoriAdAr": "الفواكه المجففة (التين والمشمش)",
+   "kategoriAd": "Kuru Meyve (İncir & Kayısı)",
    "kategoriAdEn": "Dried Fruits (Figs & Apricots)",
+   "segment": "perakende",
    "ambalaj": "700 g",
    "net": "700 g",
    "suzme": null,
@@ -335,11 +1252,10 @@
    "koliEan": null,
    "katalogSayfa": 13,
    "url": "https://www.goldenbeard.com.tr/urun/7086-kuru-kayisi-700g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/7086-kuru-kayisi-700g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/7086.wiH1LzR8_Z2aOCy2.png",
-    "genislik": 269,
-    "yukseklik": 210
+    "url": "https://www.goldenbeard.com.tr/_astro/7086.NMZuwO0F_Z1XHHvw.png",
+    "genislik": 272,
+    "yukseklik": 212
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -350,16 +1266,15 @@
   {
    "kod": "7085",
    "ad": "Kuru Kayısı",
-   "adAr": "مشمش مجفف",
    "adEn": "Dried Apricots",
    "adDe": "Getrocknete Aprikosen",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "kuru-meyve",
-   "kategoriAd": "Kuru Meyve (İncir ve Kayısı)",
-   "kategoriAdAr": "الفواكه المجففة (التين والمشمش)",
+   "kategoriAd": "Kuru Meyve (İncir & Kayısı)",
    "kategoriAdEn": "Dried Fruits (Figs & Apricots)",
+   "segment": "perakende",
    "ambalaj": "350 g",
    "net": "350 g",
    "suzme": null,
@@ -371,11 +1286,10 @@
    "koliEan": null,
    "katalogSayfa": 13,
    "url": "https://www.goldenbeard.com.tr/urun/7085-kuru-kayisi-350g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/7085-kuru-kayisi-350g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/7085.B_kXu03v_29taz9.png",
+    "url": "https://www.goldenbeard.com.tr/_astro/7085.ChYRvIKz_egdih.png",
     "genislik": 229,
-    "yukseklik": 199
+    "yukseklik": 203
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -386,16 +1300,15 @@
   {
    "kod": "2771",
    "ad": "Garland Dizim İncir",
-   "adAr": "تين مجفف في عقد",
    "adEn": "Dried Figs - Garland",
    "adDe": "Getrocknete Feigen",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "kuru-meyve",
-   "kategoriAd": "Kuru Meyve (İncir ve Kayısı)",
-   "kategoriAdAr": "الفواكه المجففة (التين والمشمش)",
+   "kategoriAd": "Kuru Meyve (İncir & Kayısı)",
    "kategoriAdEn": "Dried Fruits (Figs & Apricots)",
+   "segment": "perakende",
    "ambalaj": "250 g",
    "net": "250 g",
    "suzme": null,
@@ -407,11 +1320,10 @@
    "koliEan": null,
    "katalogSayfa": 15,
    "url": "https://www.goldenbeard.com.tr/urun/2771-garland-dizim-incir-250g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2771-garland-dizim-incir-250g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2771.DFBEbulM_Z292LSo.png",
-    "genislik": 198,
-    "yukseklik": 167
+    "url": "https://www.goldenbeard.com.tr/_astro/2771.dl50GjTZ_Z1k4FTE.jpg",
+    "genislik": 678,
+    "yukseklik": 496
    },
    "sunumGorseli": null,
    "digerBoylar": []
@@ -419,16 +1331,15 @@
   {
    "kod": "2770",
    "ad": "Ahşap Ambalaj İncir",
-   "adAr": "تين مجفف في عبوة خشبية",
    "adEn": "Dried Figs - Wooden Pack",
    "adDe": "Getrocknete Feigen",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "kuru-meyve",
-   "kategoriAd": "Kuru Meyve (İncir ve Kayısı)",
-   "kategoriAdAr": "الفواكه المجففة (التين والمشمش)",
+   "kategoriAd": "Kuru Meyve (İncir & Kayısı)",
    "kategoriAdEn": "Dried Fruits (Figs & Apricots)",
+   "segment": "perakende",
    "ambalaj": "250 g",
    "net": "250 g",
    "suzme": null,
@@ -440,11 +1351,10 @@
    "koliEan": null,
    "katalogSayfa": 15,
    "url": "https://www.goldenbeard.com.tr/urun/2770-ahsap-ambalaj-incir-250g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2770-ahsap-ambalaj-incir-250g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2770.B5K9ilPB_GoNVc.png",
-    "genislik": 285,
-    "yukseklik": 140
+    "url": "https://www.goldenbeard.com.tr/_astro/2770.CEsU6Ii9_2vVDzp.jpg",
+    "genislik": 524,
+    "yukseklik": 383
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -455,16 +1365,15 @@
   {
    "kod": "2780",
    "ad": "Ahşap Ambalaj İncir",
-   "adAr": "تين مجفف في عبوة خشبية",
    "adEn": "Dried Figs - Wooden Pack",
    "adDe": "Getrocknete Feigen",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "kuru-meyve",
-   "kategoriAd": "Kuru Meyve (İncir ve Kayısı)",
-   "kategoriAdAr": "الفواكه المجففة (التين والمشمش)",
+   "kategoriAd": "Kuru Meyve (İncir & Kayısı)",
    "kategoriAdEn": "Dried Fruits (Figs & Apricots)",
+   "segment": "perakende",
    "ambalaj": "400 g",
    "net": "400 g",
    "suzme": null,
@@ -476,11 +1385,10 @@
    "koliEan": null,
    "katalogSayfa": 15,
    "url": "https://www.goldenbeard.com.tr/urun/2780-ahsap-ambalaj-incir-400g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2780-ahsap-ambalaj-incir-400g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2780.Ch6bI7eu_Z1UyREE.png",
-    "genislik": 289,
-    "yukseklik": 170
+    "url": "https://www.goldenbeard.com.tr/_astro/2780.XmErhoGV_29vo83.jpg",
+    "genislik": 493,
+    "yukseklik": 361
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -491,16 +1399,15 @@
   {
    "kod": "2772",
    "ad": "Ahşap Ambalaj İncir",
-   "adAr": "تين مجفف في عبوة خشبية",
    "adEn": "Dried Figs - Wooden Pack",
    "adDe": "Getrocknete Feigen",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "kuru-meyve",
-   "kategoriAd": "Kuru Meyve (İncir ve Kayısı)",
-   "kategoriAdAr": "الفواكه المجففة (التين والمشمش)",
+   "kategoriAd": "Kuru Meyve (İncir & Kayısı)",
    "kategoriAdEn": "Dried Fruits (Figs & Apricots)",
+   "segment": "perakende",
    "ambalaj": "500 g",
    "net": "500 g",
    "suzme": null,
@@ -512,11 +1419,10 @@
    "koliEan": null,
    "katalogSayfa": 15,
    "url": "https://www.goldenbeard.com.tr/urun/2772-ahsap-ambalaj-incir-500g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2772-ahsap-ambalaj-incir-500g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2772.BzzUgKpk_2vHFji.png",
-    "genislik": 286,
-    "yukseklik": 187
+    "url": "https://www.goldenbeard.com.tr/_astro/2772.3i5A2e17_1lBB5E.jpg",
+    "genislik": 493,
+    "yukseklik": 361
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -527,16 +1433,15 @@
   {
    "kod": "2768",
    "ad": "Ahşap Kutu Kuru Kayısı",
-   "adAr": "مشمش مجفف في علبة خشبية",
    "adEn": "Dried Apricots - Wooden Box",
    "adDe": "Getrocknete Aprikosen",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "kuru-meyve",
-   "kategoriAd": "Kuru Meyve (İncir ve Kayısı)",
-   "kategoriAdAr": "الفواكه المجففة (التين والمشمش)",
+   "kategoriAd": "Kuru Meyve (İncir & Kayısı)",
    "kategoriAdEn": "Dried Fruits (Figs & Apricots)",
+   "segment": "perakende",
    "ambalaj": "300 g",
    "net": "300 g",
    "suzme": null,
@@ -548,11 +1453,10 @@
    "koliEan": null,
    "katalogSayfa": 16,
    "url": "https://www.goldenbeard.com.tr/urun/2768-ahsap-kutu-kuru-kayisi-300g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2768-ahsap-kutu-kuru-kayisi-300g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2768.CpIXnWOY_ZFMUvg.png",
-    "genislik": 252,
-    "yukseklik": 195
+    "url": "https://www.goldenbeard.com.tr/_astro/2768.BOisW3h__uYEJW.jpg",
+    "genislik": 431,
+    "yukseklik": 316
    },
    "sunumGorseli": null,
    "digerBoylar": []
@@ -560,16 +1464,15 @@
   {
    "kod": "2779",
    "ad": "Gün Kurusu Kayısı",
-   "adAr": "مشمش مجفف بالشمس",
    "adEn": "Sun-Dried Apricots",
    "adDe": "Getrocknete Aprikosen",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "kuru-meyve",
-   "kategoriAd": "Kuru Meyve (İncir ve Kayısı)",
-   "kategoriAdAr": "الفواكه المجففة (التين والمشمش)",
+   "kategoriAd": "Kuru Meyve (İncir & Kayısı)",
    "kategoriAdEn": "Dried Fruits (Figs & Apricots)",
+   "segment": "perakende",
    "ambalaj": "300 g",
    "net": "300 g",
    "suzme": null,
@@ -581,11 +1484,10 @@
    "koliEan": null,
    "katalogSayfa": 16,
    "url": "https://www.goldenbeard.com.tr/urun/2779-gun-kurusu-kayisi-300g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2779-gun-kurusu-kayisi-300g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2779.Nll0f_Ob_1Xzaga.png",
-    "genislik": 250,
-    "yukseklik": 204
+    "url": "https://www.goldenbeard.com.tr/_astro/2779.G1-olDS__Z1H7Hm3.jpg",
+    "genislik": 453,
+    "yukseklik": 331
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -597,16 +1499,15 @@
   {
    "kod": "2767",
    "ad": "Köpük Tabak Kuru Kayısı",
-   "adAr": "مشمش مجفف في طبق",
    "adEn": "Dried Apricots - Foam Tray",
    "adDe": "Getrocknete Aprikosen",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "kuru-meyve",
-   "kategoriAd": "Kuru Meyve (İncir ve Kayısı)",
-   "kategoriAdAr": "الفواكه المجففة (التين والمشمش)",
+   "kategoriAd": "Kuru Meyve (İncir & Kayısı)",
    "kategoriAdEn": "Dried Fruits (Figs & Apricots)",
+   "segment": "perakende",
    "ambalaj": "200 g",
    "net": "200 g",
    "suzme": null,
@@ -618,11 +1519,10 @@
    "koliEan": null,
    "katalogSayfa": 17,
    "url": "https://www.goldenbeard.com.tr/urun/2767-kopuk-tabak-kuru-kayisi-200g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2767-kopuk-tabak-kuru-kayisi-200g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2767.SQddi5_u_Z1QzndI.png",
-    "genislik": 251,
-    "yukseklik": 120
+    "url": "https://www.goldenbeard.com.tr/_astro/2767.BbnfQvMT_Zwpz9V.jpg",
+    "genislik": 431,
+    "yukseklik": 316
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -633,16 +1533,15 @@
   {
    "kod": "2776",
    "ad": "Köpük Tabak Kuru Kayısı",
-   "adAr": "مشمش مجفف في طبق",
    "adEn": "Dried Apricots - Foam Tray",
    "adDe": "Getrocknete Aprikosen",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "kuru-meyve",
-   "kategoriAd": "Kuru Meyve (İncir ve Kayısı)",
-   "kategoriAdAr": "الفواكه المجففة (التين والمشمش)",
+   "kategoriAd": "Kuru Meyve (İncir & Kayısı)",
    "kategoriAdEn": "Dried Fruits (Figs & Apricots)",
+   "segment": "perakende",
    "ambalaj": "300 g",
    "net": "300 g",
    "suzme": null,
@@ -654,11 +1553,10 @@
    "koliEan": null,
    "katalogSayfa": 17,
    "url": "https://www.goldenbeard.com.tr/urun/2776-kopuk-tabak-kuru-kayisi-300g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2776-kopuk-tabak-kuru-kayisi-300g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2776.Ub47PBnF_Z1CV3tm.png",
-    "genislik": 238,
-    "yukseklik": 155
+    "url": "https://www.goldenbeard.com.tr/_astro/2776.D0fOAb7J_1wLyyv.jpg",
+    "genislik": 431,
+    "yukseklik": 316
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -669,16 +1567,15 @@
   {
    "kod": "2769",
    "ad": "Köpük Tabak Kuru Kayısı",
-   "adAr": "مشمش مجفف في طبق",
    "adEn": "Dried Apricots - Foam Tray",
    "adDe": "Getrocknete Aprikosen",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "kuru-meyve",
-   "kategoriAd": "Kuru Meyve (İncir ve Kayısı)",
-   "kategoriAdAr": "الفواكه المجففة (التين والمشمش)",
+   "kategoriAd": "Kuru Meyve (İncir & Kayısı)",
    "kategoriAdEn": "Dried Fruits (Figs & Apricots)",
+   "segment": "perakende",
    "ambalaj": "600 g",
    "net": "600 g",
    "suzme": null,
@@ -690,11 +1587,10 @@
    "koliEan": null,
    "katalogSayfa": 17,
    "url": "https://www.goldenbeard.com.tr/urun/2769-kopuk-tabak-kuru-kayisi-600g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2769-kopuk-tabak-kuru-kayisi-600g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2769.DBdu5PQp_1HejC4.png",
-    "genislik": 271,
-    "yukseklik": 161
+    "url": "https://www.goldenbeard.com.tr/_astro/2769.CAaiJ1gA_2cUBea.jpg",
+    "genislik": 337,
+    "yukseklik": 246
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -705,16 +1601,15 @@
   {
    "kod": "2774",
    "ad": "Gün Kurusu Kayısı",
-   "adAr": "مشمش مجفف بالشمس",
    "adEn": "Sun-Dried Apricots - Foam Tray",
    "adDe": "Getrocknete Aprikosen",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "kuru-meyve",
-   "kategoriAd": "Kuru Meyve (İncir ve Kayısı)",
-   "kategoriAdAr": "الفواكه المجففة (التين والمشمش)",
+   "kategoriAd": "Kuru Meyve (İncir & Kayısı)",
    "kategoriAdEn": "Dried Fruits (Figs & Apricots)",
+   "segment": "perakende",
    "ambalaj": "200 g",
    "net": "200 g",
    "suzme": null,
@@ -726,32 +1621,30 @@
    "koliEan": null,
    "katalogSayfa": 17,
    "url": "https://www.goldenbeard.com.tr/urun/2774-gun-kurusu-kayisi-200g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2774-gun-kurusu-kayisi-200g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2774.DcDAqYRL_1rpFoy.png",
-    "genislik": 249,
-    "yukseklik": 108
+    "url": "https://www.goldenbeard.com.tr/_astro/2774.C1qzFJX5_ZwHGsh.jpg",
+    "genislik": 431,
+    "yukseklik": 316
    },
    "sunumGorseli": null,
    "digerBoylar": [
-    "2775",
     "2779",
+    "2775",
     "2778"
    ]
   },
   {
    "kod": "2775",
    "ad": "Gün Kurusu Kayısı",
-   "adAr": "مشمش مجفف بالشمس",
    "adEn": "Sun-Dried Apricots - Foam Tray",
    "adDe": "Getrocknete Aprikosen",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "kuru-meyve",
-   "kategoriAd": "Kuru Meyve (İncir ve Kayısı)",
-   "kategoriAdAr": "الفواكه المجففة (التين والمشمش)",
+   "kategoriAd": "Kuru Meyve (İncir & Kayısı)",
    "kategoriAdEn": "Dried Fruits (Figs & Apricots)",
+   "segment": "perakende",
    "ambalaj": "300 g",
    "net": "300 g",
    "suzme": null,
@@ -763,11 +1656,10 @@
    "koliEan": null,
    "katalogSayfa": 17,
    "url": "https://www.goldenbeard.com.tr/urun/2775-gun-kurusu-kayisi-300g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2775-gun-kurusu-kayisi-300g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2775.ONWhO72r_1CokXH.png",
-    "genislik": 239,
-    "yukseklik": 155
+    "url": "https://www.goldenbeard.com.tr/_astro/2775.c75n8ikZ_ZhBVit.jpg",
+    "genislik": 432,
+    "yukseklik": 315
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -779,16 +1671,15 @@
   {
    "kod": "2778",
    "ad": "Gün Kurusu Kayısı",
-   "adAr": "مشمش مجفف بالشمس",
    "adEn": "Sun-Dried Apricots - Foam Tray",
    "adDe": "Getrocknete Aprikosen",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "kuru-meyve",
-   "kategoriAd": "Kuru Meyve (İncir ve Kayısı)",
-   "kategoriAdAr": "الفواكه المجففة (التين والمشمش)",
+   "kategoriAd": "Kuru Meyve (İncir & Kayısı)",
    "kategoriAdEn": "Dried Fruits (Figs & Apricots)",
+   "segment": "perakende",
    "ambalaj": "600 g",
    "net": "600 g",
    "suzme": null,
@@ -800,32 +1691,30 @@
    "koliEan": null,
    "katalogSayfa": 17,
    "url": "https://www.goldenbeard.com.tr/urun/2778-gun-kurusu-kayisi-600g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2778-gun-kurusu-kayisi-600g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2778.Bon8Ud-x_126uzx.png",
-    "genislik": 268,
-    "yukseklik": 162
+    "url": "https://www.goldenbeard.com.tr/_astro/2778.DnOyxb91_2no8vu.jpg",
+    "genislik": 339,
+    "yukseklik": 248
    },
    "sunumGorseli": null,
    "digerBoylar": [
     "2774",
-    "2775",
-    "2779"
+    "2779",
+    "2775"
    ]
   },
   {
    "kod": "2554",
    "ad": "Tahin",
-   "adAr": "طحينة",
    "adEn": "Tahini",
    "adDe": "Sesampaste",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tahin-helva",
-   "kategoriAd": "Tahin ve Tahin Helva",
-   "kategoriAdAr": "الطحينة والحلاوة الطحينية",
+   "kategoriAd": "Tahin & Tahin Helva",
    "kategoriAdEn": "Tahini & Halva",
+   "segment": "perakende",
    "ambalaj": "600 g",
    "net": "600 g",
    "suzme": null,
@@ -837,11 +1726,10 @@
    "koliEan": "8697435526551",
    "katalogSayfa": 19,
    "url": "https://www.goldenbeard.com.tr/urun/2554-tahin-600g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2554-tahin-600g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2554.rM6gww67_ZJnzEs.png",
-    "genislik": 223,
-    "yukseklik": 409
+    "url": "https://www.goldenbeard.com.tr/_astro/2554.C1hbCf-W_Z2tc2g6.jpg",
+    "genislik": 314,
+    "yukseklik": 477
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -852,16 +1740,15 @@
   {
    "kod": "2577",
    "ad": "Tahin",
-   "adAr": "طحينة",
    "adEn": "Tahini",
    "adDe": "Sesampaste",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tahin-helva",
-   "kategoriAd": "Tahin ve Tahin Helva",
-   "kategoriAdAr": "الطحينة والحلاوة الطحينية",
+   "kategoriAd": "Tahin & Tahin Helva",
    "kategoriAdEn": "Tahini & Halva",
+   "segment": "perakende",
    "ambalaj": "300 g",
    "net": "300 g",
    "suzme": null,
@@ -873,11 +1760,10 @@
    "koliEan": "8697435526544",
    "katalogSayfa": 19,
    "url": "https://www.goldenbeard.com.tr/urun/2577-tahin-300g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2577-tahin-300g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2577.DxwqQpr__2cp13Y.png",
-    "genislik": 187,
-    "yukseklik": 382
+    "url": "https://www.goldenbeard.com.tr/_astro/2577.BXpS_qjb_1Av0jX.jpg",
+    "genislik": 282,
+    "yukseklik": 496
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -888,16 +1774,15 @@
   {
    "kod": "2551",
    "ad": "Antep Fıstıklı Tahin Helva",
-   "adAr": "حلاوة طحينية بالفستق الحلبي",
    "adEn": "Halva with Pistachios",
    "adDe": "Helva mit Pistazien",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tahin-helva",
-   "kategoriAd": "Tahin ve Tahin Helva",
-   "kategoriAdAr": "الطحينة والحلاوة الطحينية",
+   "kategoriAd": "Tahin & Tahin Helva",
    "kategoriAdEn": "Tahini & Halva",
+   "segment": "perakende",
    "ambalaj": "350 g",
    "net": "350 g",
    "suzme": null,
@@ -909,11 +1794,10 @@
    "koliEan": "8697435526636",
    "katalogSayfa": 21,
    "url": "https://www.goldenbeard.com.tr/urun/2551-antep-fistikli-tahin-helva-350g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2551-antep-fistikli-tahin-helva-350g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2551.Bgul4hjw_YECVP.png",
-    "genislik": 287,
-    "yukseklik": 188
+    "url": "https://www.goldenbeard.com.tr/_astro/2551.C1OtS1il_ZFxJJB.jpg",
+    "genislik": 473,
+    "yukseklik": 316
    },
    "sunumGorseli": null,
    "digerBoylar": []
@@ -921,16 +1805,15 @@
   {
    "kod": "2553",
    "ad": "Kakaolu Tahin Helva",
-   "adAr": "حلاوة طحينية بالكاكاو",
    "adEn": "Halva with Cacao",
    "adDe": "Helva mit Kakao",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tahin-helva",
-   "kategoriAd": "Tahin ve Tahin Helva",
-   "kategoriAdAr": "الطحينة والحلاوة الطحينية",
+   "kategoriAd": "Tahin & Tahin Helva",
    "kategoriAdEn": "Tahini & Halva",
+   "segment": "perakende",
    "ambalaj": "350 g",
    "net": "350 g",
    "suzme": null,
@@ -942,11 +1825,10 @@
    "koliEan": "8697435526650",
    "katalogSayfa": 21,
    "url": "https://www.goldenbeard.com.tr/urun/2553-kakaolu-tahin-helva-350g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2553-kakaolu-tahin-helva-350g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2553.x74gOvfb_Z2l6vQ0.png",
-    "genislik": 285,
-    "yukseklik": 188
+    "url": "https://www.goldenbeard.com.tr/_astro/2553.DO_shV6Z_S03Bu.jpg",
+    "genislik": 464,
+    "yukseklik": 309
    },
    "sunumGorseli": null,
    "digerBoylar": []
@@ -954,16 +1836,15 @@
   {
    "kod": "2552",
    "ad": "Vanilyalı Tahin Helva",
-   "adAr": "حلاوة طحينية بنكهة الفانيليا",
    "adEn": "Halva with Vanilla Flavour",
    "adDe": "Helva mit Vanillegeschmack",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tahin-helva",
-   "kategoriAd": "Tahin ve Tahin Helva",
-   "kategoriAdAr": "الطحينة والحلاوة الطحينية",
+   "kategoriAd": "Tahin & Tahin Helva",
    "kategoriAdEn": "Tahini & Halva",
+   "segment": "perakende",
    "ambalaj": "350 g",
    "net": "350 g",
    "suzme": null,
@@ -975,11 +1856,10 @@
    "koliEan": "8697435526643",
    "katalogSayfa": 21,
    "url": "https://www.goldenbeard.com.tr/urun/2552-vanilyali-tahin-helva-350g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2552-vanilyali-tahin-helva-350g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2552.C6VdrWBR_1RPLkQ.png",
-    "genislik": 283,
-    "yukseklik": 190
+    "url": "https://www.goldenbeard.com.tr/_astro/2552.C5zyAy6Z_ZDt3yw.jpg",
+    "genislik": 464,
+    "yukseklik": 309
    },
    "sunumGorseli": null,
    "digerBoylar": []
@@ -987,16 +1867,15 @@
   {
    "kod": "2474",
    "ad": "Tahin",
-   "adAr": "طحينة",
    "adEn": "Tahini",
    "adDe": null,
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tahin-helva",
-   "kategoriAd": "Tahin ve Tahin Helva",
-   "kategoriAdAr": "الطحينة والحلاوة الطحينية",
+   "kategoriAd": "Tahin & Tahin Helva",
    "kategoriAdEn": "Tahini & Halva",
+   "segment": "catering",
    "ambalaj": "10 Kg",
    "net": "10 Kg",
    "suzme": null,
@@ -1008,11 +1887,10 @@
    "koliEan": null,
    "katalogSayfa": 47,
    "url": "https://www.goldenbeard.com.tr/urun/2474-tahin-10kg/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2474-tahin-10kg/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2474.Dq8tJfdy_1gn5o6.png",
-    "genislik": 197,
-    "yukseklik": 273
+    "url": "https://www.goldenbeard.com.tr/_astro/2474.B6WHz9T4_Z2pjqPe.jpg",
+    "genislik": 227,
+    "yukseklik": 320
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -1023,7 +1901,6 @@
   {
    "kod": "2591",
    "ad": "Natural Sofralık Siyah Zeytin",
-   "adAr": "زيتون أسود طبيعي للمائدة",
    "adEn": "Natural Black Olives",
    "adDe": "Schwarze Oliven",
    "marka": "Golden Beard",
@@ -1031,8 +1908,8 @@
    "seri": null,
    "kategori": "zeytin",
    "kategoriAd": "Zeytin",
-   "kategoriAdAr": "الزيتون",
    "kategoriAdEn": "Olives",
+   "segment": "perakende",
    "ambalaj": "1000 g",
    "net": "1000 g",
    "suzme": null,
@@ -1044,21 +1921,20 @@
    "koliEan": null,
    "katalogSayfa": 23,
    "url": "https://www.goldenbeard.com.tr/urun/2591-natural-sofralik-siyah-zeytin-1000g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2591-natural-sofralik-siyah-zeytin-1000g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2591.MyDd2B3A_Z1blPsV.png",
-    "genislik": 150,
-    "yukseklik": 184
+    "url": "https://www.goldenbeard.com.tr/_astro/2591.DVBtTHnX_Z7Eu8G.jpg",
+    "genislik": 228,
+    "yukseklik": 376
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2591-sunum.BNbZufX3_Zk5xRn.jpg",
    "digerBoylar": [
-    "2592"
+    "2592",
+    "2443"
    ]
   },
   {
    "kod": "2559",
    "ad": "Doğal Salamura Yeşil Çizik Zeytin",
-   "adAr": "زيتون أخضر مشرّح بالمحلول الملحي",
    "adEn": "Green Scratched Olives",
    "adDe": "Geritzte Grüne Oliven",
    "marka": "Golden Beard",
@@ -1066,8 +1942,8 @@
    "seri": null,
    "kategori": "zeytin",
    "kategoriAd": "Zeytin",
-   "kategoriAdAr": "الزيتون",
    "kategoriAdEn": "Olives",
+   "segment": "perakende",
    "ambalaj": "1000 g",
    "net": "1650 g",
    "suzme": "1000 g",
@@ -1079,11 +1955,10 @@
    "koliEan": null,
    "katalogSayfa": 23,
    "url": "https://www.goldenbeard.com.tr/urun/2559-dogal-salamura-yesil-cizik-zeytin-1000g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2559-dogal-salamura-yesil-cizik-zeytin-1000g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2559.D6e6s9St_CMURG.png",
-    "genislik": 148,
-    "yukseklik": 182
+    "url": "https://www.goldenbeard.com.tr/_astro/2559.CfCr6ik7_ZTjDBK.jpg",
+    "genislik": 224,
+    "yukseklik": 368
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2559-sunum.-PvNyA2j_Z6N30D.jpg",
    "digerBoylar": []
@@ -1091,7 +1966,6 @@
   {
    "kod": "2592",
    "ad": "Natural Sofralık Siyah Zeytin",
-   "adAr": "زيتون أسود طبيعي للمائدة",
    "adEn": "Natural Black Olives",
    "adDe": "Schwarze Oliven",
    "marka": "Golden Beard",
@@ -1099,8 +1973,8 @@
    "seri": null,
    "kategori": "zeytin",
    "kategoriAd": "Zeytin",
-   "kategoriAdAr": "الزيتون",
    "kategoriAdEn": "Olives",
+   "segment": "perakende",
    "ambalaj": "1000 g",
    "net": "1000 g",
    "suzme": null,
@@ -1112,21 +1986,20 @@
    "koliEan": null,
    "katalogSayfa": 23,
    "url": "https://www.goldenbeard.com.tr/urun/2592-natural-sofralik-siyah-zeytin-1000g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2592-natural-sofralik-siyah-zeytin-1000g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2592.BwoA1Cax_Z1dJjCC.png",
-    "genislik": 149,
-    "yukseklik": 188
+    "url": "https://www.goldenbeard.com.tr/_astro/2592.BHdlZic7_ZOXhOh.jpg",
+    "genislik": 228,
+    "yukseklik": 376
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2592-sunum.FoVPK80q_1LcV1c.jpg",
    "digerBoylar": [
-    "2591"
+    "2591",
+    "2443"
    ]
   },
   {
    "kod": "0017",
    "ad": "Sofralık Siyah Zeytin",
-   "adAr": "زيتون أسود للمائدة",
    "adEn": "Black Olives",
    "adDe": null,
    "marka": "Bölge",
@@ -1134,8 +2007,8 @@
    "seri": null,
    "kategori": "zeytin",
    "kategoriAd": "Zeytin",
-   "kategoriAdAr": "الزيتون",
    "kategoriAdEn": "Olives",
+   "segment": "catering",
    "ambalaj": "10 Kg",
    "net": "10 Kg",
    "suzme": null,
@@ -1147,11 +2020,10 @@
    "koliEan": null,
    "katalogSayfa": 46,
    "url": "https://www.goldenbeard.com.tr/urun/0017-sofralik-siyah-zeytin-10kg/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/0017-sofralik-siyah-zeytin-10kg/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/0017.X1Qr_znT_1WfMWp.png",
-    "genislik": 211,
-    "yukseklik": 221
+    "url": "https://www.goldenbeard.com.tr/_astro/0017.Djm2lDXb_ZDM62y.jpg",
+    "genislik": 241,
+    "yukseklik": 251
    },
    "sunumGorseli": null,
    "digerBoylar": []
@@ -1159,7 +2031,6 @@
   {
    "kod": "2443",
    "ad": "Sofralık Siyah Zeytin",
-   "adAr": "زيتون أسود للمائدة",
    "adEn": "Black Olives",
    "adDe": null,
    "marka": "Golden Beard",
@@ -1167,8 +2038,8 @@
    "seri": null,
    "kategori": "zeytin",
    "kategoriAd": "Zeytin",
-   "kategoriAdAr": "الزيتون",
    "kategoriAdEn": "Olives",
+   "segment": "catering",
    "ambalaj": "10 Kg",
    "net": "10 Kg",
    "suzme": null,
@@ -1180,19 +2051,20 @@
    "koliEan": null,
    "katalogSayfa": 46,
    "url": "https://www.goldenbeard.com.tr/urun/2443-sofralik-siyah-zeytin-10kg/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2443-sofralik-siyah-zeytin-10kg/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2443.Cx-7HFsg_1EYLgo.png",
-    "genislik": 210,
-    "yukseklik": 221
+    "url": "https://www.goldenbeard.com.tr/_astro/2443.oKjwJKbq_2rMO6h.jpg",
+    "genislik": 241,
+    "yukseklik": 251
    },
    "sunumGorseli": null,
-   "digerBoylar": []
+   "digerBoylar": [
+    "2591",
+    "2592"
+   ]
   },
   {
    "kod": "2574",
    "ad": "Çekirdeksiz Yeşil Zeytin",
-   "adAr": "زيتون أخضر منزوع النوى",
    "adEn": "Green Pitted Olives",
    "adDe": null,
    "marka": "Lemis",
@@ -1200,8 +2072,8 @@
    "seri": null,
    "kategori": "zeytin",
    "kategoriAd": "Zeytin",
-   "kategoriAdAr": "الزيتون",
    "kategoriAdEn": "Olives",
+   "segment": "catering",
    "ambalaj": "4150 g",
    "net": "4150 g",
    "suzme": "2000 g",
@@ -1213,11 +2085,10 @@
    "koliEan": null,
    "katalogSayfa": 48,
    "url": "https://www.goldenbeard.com.tr/urun/2574-cekirdeksiz-yesil-zeytin-4150g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2574-cekirdeksiz-yesil-zeytin-4150g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2574.DmsEtvHm_Z1eKAc1.png",
-    "genislik": 163,
-    "yukseklik": 279
+    "url": "https://www.goldenbeard.com.tr/_astro/2574.C6ihC1W4_SY8rE.jpg",
+    "genislik": 236,
+    "yukseklik": 352
    },
    "sunumGorseli": null,
    "digerBoylar": []
@@ -1225,7 +2096,6 @@
   {
    "kod": "2572",
    "ad": "Dilimli Yeşil Zeytin",
-   "adAr": "زيتون أخضر مقطّع",
    "adEn": "Green Sliced Olives",
    "adDe": null,
    "marka": "Lemis",
@@ -1233,8 +2103,8 @@
    "seri": null,
    "kategori": "zeytin",
    "kategoriAd": "Zeytin",
-   "kategoriAdAr": "الزيتون",
    "kategoriAdEn": "Olives",
+   "segment": "catering",
    "ambalaj": "4100 g",
    "net": "4100 g",
    "suzme": "2000 g",
@@ -1246,11 +2116,10 @@
    "koliEan": null,
    "katalogSayfa": 48,
    "url": "https://www.goldenbeard.com.tr/urun/2572-dilimli-yesil-zeytin-4100g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2572-dilimli-yesil-zeytin-4100g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2572.03wAJF6L_Z2i5z2F.png",
-    "genislik": 161,
-    "yukseklik": 269
+    "url": "https://www.goldenbeard.com.tr/_astro/2572.1Q2Jaua__Z2fj1RO.jpg",
+    "genislik": 247,
+    "yukseklik": 360
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -1260,7 +2129,6 @@
   {
    "kod": "2576",
    "ad": "Tam Yeşil Zeytin",
-   "adAr": "زيتون أخضر كامل",
    "adEn": "Green Whole Olives",
    "adDe": null,
    "marka": "Lemis",
@@ -1268,8 +2136,8 @@
    "seri": null,
    "kategori": "zeytin",
    "kategoriAd": "Zeytin",
-   "kategoriAdAr": "الزيتون",
    "kategoriAdEn": "Olives",
+   "segment": "catering",
    "ambalaj": "4150 g",
    "net": "4150 g",
    "suzme": "2500 g",
@@ -1281,11 +2149,10 @@
    "koliEan": null,
    "katalogSayfa": 48,
    "url": "https://www.goldenbeard.com.tr/urun/2576-tam-yesil-zeytin-4150g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2576-tam-yesil-zeytin-4150g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2576.x97M-N-W_Z1libbC.png",
-    "genislik": 157,
-    "yukseklik": 269
+    "url": "https://www.goldenbeard.com.tr/_astro/2576.D9jUI1W4_Z2mwm5w.jpg",
+    "genislik": 224,
+    "yukseklik": 330
    },
    "sunumGorseli": null,
    "digerBoylar": []
@@ -1293,7 +2160,6 @@
   {
    "kod": "2584",
    "ad": "Dilimli Siyah Zeytin",
-   "adAr": "زيتون أسود مقطّع",
    "adEn": "Sliced Black Olives",
    "adDe": null,
    "marka": "Lemis",
@@ -1301,8 +2167,8 @@
    "seri": null,
    "kategori": "zeytin",
    "kategoriAd": "Zeytin",
-   "kategoriAdAr": "الزيتون",
    "kategoriAdEn": "Olives",
+   "segment": "catering",
    "ambalaj": "2800 g",
    "net": "2800 g",
    "suzme": "1400 g",
@@ -1314,11 +2180,10 @@
    "koliEan": null,
    "katalogSayfa": 49,
    "url": "https://www.goldenbeard.com.tr/urun/2584-dilimli-siyah-zeytin-2800g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2584-dilimli-siyah-zeytin-2800g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2584.fucLY00c_ZWlnfC.png",
-    "genislik": 163,
-    "yukseklik": 220
+    "url": "https://www.goldenbeard.com.tr/_astro/2584.Dwhme-K4_1H4YQa.jpg",
+    "genislik": 233,
+    "yukseklik": 282
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -1328,7 +2193,6 @@
   {
    "kod": "2585",
    "ad": "Dilimli Yeşil Zeytin",
-   "adAr": "زيتون أخضر مقطّع",
    "adEn": "Green Sliced Olives",
    "adDe": null,
    "marka": "Lemis",
@@ -1336,8 +2200,8 @@
    "seri": null,
    "kategori": "zeytin",
    "kategoriAd": "Zeytin",
-   "kategoriAdAr": "الزيتون",
    "kategoriAdEn": "Olives",
+   "segment": "catering",
    "ambalaj": "2800 g",
    "net": "2800 g",
    "suzme": "1400 g",
@@ -1349,11 +2213,10 @@
    "koliEan": null,
    "katalogSayfa": 49,
    "url": "https://www.goldenbeard.com.tr/urun/2585-dilimli-yesil-zeytin-2800g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2585-dilimli-yesil-zeytin-2800g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2585.D-Gslw-L_Z2b0bNu.png",
-    "genislik": 164,
-    "yukseklik": 221
+    "url": "https://www.goldenbeard.com.tr/_astro/2585.BryhyZQr_Z1zqtJj.jpg",
+    "genislik": 218,
+    "yukseklik": 257
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -1363,7 +2226,6 @@
   {
    "kod": "2760",
    "ad": "Dilimli Siyah Zeytin",
-   "adAr": "زيتون أسود مقطّع",
    "adEn": "Black Sliced Olives",
    "adDe": null,
    "marka": "Golden Beard",
@@ -1371,8 +2233,8 @@
    "seri": null,
    "kategori": "zeytin",
    "kategoriAd": "Zeytin",
-   "kategoriAdAr": "الزيتون",
    "kategoriAdEn": "Olives",
+   "segment": "catering",
    "ambalaj": "2800 g",
    "net": "2800 g",
    "suzme": "1400 g",
@@ -1384,11 +2246,10 @@
    "koliEan": null,
    "katalogSayfa": 49,
    "url": "https://www.goldenbeard.com.tr/urun/2760-dilimli-siyah-zeytin-2800g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2760-dilimli-siyah-zeytin-2800g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2760.CS4sMMrj_Z20YNGX.png",
-    "genislik": 158,
-    "yukseklik": 213
+    "url": "https://www.goldenbeard.com.tr/_astro/2760.LVhc9Mb2_Z1rJLke.jpg",
+    "genislik": 211,
+    "yukseklik": 264
    },
    "sunumGorseli": null,
    "digerBoylar": []
@@ -1396,7 +2257,6 @@
   {
    "kod": "2761",
    "ad": "Dilimli Yeşil Zeytin",
-   "adAr": "زيتون أخضر مقطّع",
    "adEn": "Green Sliced Olives",
    "adDe": null,
    "marka": "Golden Beard",
@@ -1404,8 +2264,8 @@
    "seri": null,
    "kategori": "zeytin",
    "kategoriAd": "Zeytin",
-   "kategoriAdAr": "الزيتون",
    "kategoriAdEn": "Olives",
+   "segment": "catering",
    "ambalaj": "2800 g",
    "net": "2800 g",
    "suzme": "1400 g",
@@ -1417,11 +2277,10 @@
    "koliEan": null,
    "katalogSayfa": 49,
    "url": "https://www.goldenbeard.com.tr/urun/2761-dilimli-yesil-zeytin-2800g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2761-dilimli-yesil-zeytin-2800g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2761.Db4j9fDy_FJEIE.png",
-    "genislik": 164,
-    "yukseklik": 221
+    "url": "https://www.goldenbeard.com.tr/_astro/2761.Cj2yRXzr_Z7FnEz.jpg",
+    "genislik": 216,
+    "yukseklik": 259
    },
    "sunumGorseli": null,
    "digerBoylar": []
@@ -1429,7 +2288,6 @@
   {
    "kod": "2573",
    "ad": "Çekirdeksiz Siyah Zeytin",
-   "adAr": "زيتون أسود منزوع النوى",
    "adEn": "Black Pitted Olives",
    "adDe": null,
    "marka": "Lemis",
@@ -1437,8 +2295,8 @@
    "seri": null,
    "kategori": "zeytin",
    "kategoriAd": "Zeytin",
-   "kategoriAdAr": "الزيتون",
    "kategoriAdEn": "Olives",
+   "segment": "catering",
    "ambalaj": "4100 g",
    "net": "4100 g",
    "suzme": "2000 g",
@@ -1450,11 +2308,10 @@
    "koliEan": null,
    "katalogSayfa": 49,
    "url": "https://www.goldenbeard.com.tr/urun/2573-cekirdeksiz-siyah-zeytin-4100g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2573-cekirdeksiz-siyah-zeytin-4100g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2573.DwahF4xn_ZoTU28.png",
-    "genislik": 162,
-    "yukseklik": 277
+    "url": "https://www.goldenbeard.com.tr/_astro/2573._6q1NQ5K_2dkNIP.jpg",
+    "genislik": 239,
+    "yukseklik": 349
    },
    "sunumGorseli": null,
    "digerBoylar": []
@@ -1462,7 +2319,6 @@
   {
    "kod": "2571",
    "ad": "Dilimli Siyah Zeytin",
-   "adAr": "زيتون أسود مقطّع",
    "adEn": "Black Sliced Olives",
    "adDe": null,
    "marka": "Lemis",
@@ -1470,8 +2326,8 @@
    "seri": null,
    "kategori": "zeytin",
    "kategoriAd": "Zeytin",
-   "kategoriAdAr": "الزيتون",
    "kategoriAdEn": "Olives",
+   "segment": "catering",
    "ambalaj": "4100 g",
    "net": "4100 g",
    "suzme": "2000 g",
@@ -1483,11 +2339,10 @@
    "koliEan": null,
    "katalogSayfa": 49,
    "url": "https://www.goldenbeard.com.tr/urun/2571-dilimli-siyah-zeytin-4100g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2571-dilimli-siyah-zeytin-4100g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2571.ueDVEBJu_JJeEh.png",
-    "genislik": 164,
-    "yukseklik": 279
+    "url": "https://www.goldenbeard.com.tr/_astro/2571.CYkEFWNG_ZPePJi.jpg",
+    "genislik": 233,
+    "yukseklik": 344
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -1497,7 +2352,6 @@
   {
    "kod": "2575",
    "ad": "Tam Siyah Zeytin",
-   "adAr": "زيتون أسود كامل",
    "adEn": "Black Whole Olives",
    "adDe": null,
    "marka": "Lemis",
@@ -1505,8 +2359,8 @@
    "seri": null,
    "kategori": "zeytin",
    "kategoriAd": "Zeytin",
-   "kategoriAdAr": "الزيتون",
    "kategoriAdEn": "Olives",
+   "segment": "catering",
    "ambalaj": "4150 g",
    "net": "4150 g",
    "suzme": "2500 g",
@@ -1518,11 +2372,10 @@
    "koliEan": null,
    "katalogSayfa": 49,
    "url": "https://www.goldenbeard.com.tr/urun/2575-tam-siyah-zeytin-4150g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2575-tam-siyah-zeytin-4150g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2575.DkS79n95_17zTaV.png",
-    "genislik": 164,
-    "yukseklik": 274
+    "url": "https://www.goldenbeard.com.tr/_astro/2575.B_gXxsjv_19lvKE.jpg",
+    "genislik": 232,
+    "yukseklik": 342
    },
    "sunumGorseli": null,
    "digerBoylar": []
@@ -1530,16 +2383,15 @@
   {
    "kod": "2751",
    "ad": "Zeytin Yağı",
-   "adAr": "زيت الزيتون",
    "adEn": "Natural Olive Oil",
    "adDe": "Natürliches Natives Olivenöl",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "sivi-yag",
-   "kategoriAd": "Zeytinyağı ve Sıvı Yağlar",
-   "kategoriAdAr": "زيت الزيتون والزيوت النباتية",
+   "kategoriAd": "Zeytinyağı & Sıvı Yağlar",
    "kategoriAdEn": "Olive Oil & Vegetable Oils",
+   "segment": "perakende",
    "ambalaj": "250 ml",
    "net": null,
    "suzme": null,
@@ -1551,31 +2403,32 @@
    "koliEan": null,
    "katalogSayfa": 25,
    "url": "https://www.goldenbeard.com.tr/urun/2751-zeytin-yagi-250ml/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2751-zeytin-yagi-250ml/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2751.BWOzTW22_Z18kOKL.png",
-    "genislik": 69,
-    "yukseklik": 243
+    "url": "https://www.goldenbeard.com.tr/_astro/2751.CXMOOXS4_Zg3TN7.jpg",
+    "genislik": 354,
+    "yukseklik": 531
    },
    "sunumGorseli": null,
    "digerBoylar": [
     "2752",
-    "2753"
+    "2753",
+    "2476",
+    "2477",
+    "2427"
    ]
   },
   {
    "kod": "2752",
    "ad": "Zeytin Yağı",
-   "adAr": "زيت الزيتون",
    "adEn": "Natural Olive Oil",
    "adDe": "Natürliches Natives Olivenöl",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "sivi-yag",
-   "kategoriAd": "Zeytinyağı ve Sıvı Yağlar",
-   "kategoriAdAr": "زيت الزيتون والزيوت النباتية",
+   "kategoriAd": "Zeytinyağı & Sıvı Yağlar",
    "kategoriAdEn": "Olive Oil & Vegetable Oils",
+   "segment": "perakende",
    "ambalaj": "500 ml",
    "net": null,
    "suzme": null,
@@ -1587,31 +2440,32 @@
    "koliEan": null,
    "katalogSayfa": 25,
    "url": "https://www.goldenbeard.com.tr/urun/2752-zeytin-yagi-500ml/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2752-zeytin-yagi-500ml/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2752.SPWgMYi7_1PHvf0.png",
-    "genislik": 70,
-    "yukseklik": 270
+    "url": "https://www.goldenbeard.com.tr/_astro/2752.CUbsS4fM_Zm1yG2.jpg",
+    "genislik": 265,
+    "yukseklik": 397
    },
    "sunumGorseli": null,
    "digerBoylar": [
     "2751",
-    "2753"
+    "2753",
+    "2476",
+    "2477",
+    "2427"
    ]
   },
   {
    "kod": "2753",
    "ad": "Zeytin Yağı",
-   "adAr": "زيت الزيتون",
    "adEn": "Natural Olive Oil",
    "adDe": "Natürliches Natives Olivenöl",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "sivi-yag",
-   "kategoriAd": "Zeytinyağı ve Sıvı Yağlar",
-   "kategoriAdAr": "زيت الزيتون والزيوت النباتية",
+   "kategoriAd": "Zeytinyağı & Sıvı Yağlar",
    "kategoriAdEn": "Olive Oil & Vegetable Oils",
+   "segment": "perakende",
    "ambalaj": "1 Lt",
    "net": null,
    "suzme": null,
@@ -1623,31 +2477,32 @@
    "koliEan": null,
    "katalogSayfa": 25,
    "url": "https://www.goldenbeard.com.tr/urun/2753-zeytin-yagi-1lt/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2753-zeytin-yagi-1lt/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2753.Df2HO2iG_1SVmEw.png",
-    "genislik": 74,
-    "yukseklik": 288
+    "url": "https://www.goldenbeard.com.tr/_astro/2753.daf4bzjw_cdhbI.jpg",
+    "genislik": 284,
+    "yukseklik": 425
    },
    "sunumGorseli": null,
    "digerBoylar": [
     "2751",
-    "2752"
+    "2752",
+    "2476",
+    "2477",
+    "2427"
    ]
   },
   {
    "kod": "2754",
    "ad": "Sızma Zeytin Yağı",
-   "adAr": "زيت زيتون بكر ممتاز",
    "adEn": "Extra Virgin Olive Oil",
    "adDe": "Extra Natives Olivenöl",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "sivi-yag",
-   "kategoriAd": "Zeytinyağı ve Sıvı Yağlar",
-   "kategoriAdAr": "زيت الزيتون والزيوت النباتية",
+   "kategoriAd": "Zeytinyağı & Sıvı Yağlar",
    "kategoriAdEn": "Olive Oil & Vegetable Oils",
+   "segment": "perakende",
    "ambalaj": "1 Lt",
    "net": null,
    "suzme": null,
@@ -1659,11 +2514,10 @@
    "koliEan": null,
    "katalogSayfa": 25,
    "url": "https://www.goldenbeard.com.tr/urun/2754-sizma-zeytin-yagi-1lt/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2754-sizma-zeytin-yagi-1lt/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2754.Cy3X6Vks_2vUkBN.png",
-    "genislik": 82,
-    "yukseklik": 292
+    "url": "https://www.goldenbeard.com.tr/_astro/2754.o0mp3NBX_1HK9c2.jpg",
+    "genislik": 254,
+    "yukseklik": 381
    },
    "sunumGorseli": null,
    "digerBoylar": []
@@ -1671,16 +2525,15 @@
   {
    "kod": "2086",
    "ad": "Ayçiçek Yağı",
-   "adAr": "زيت دوار الشمس",
    "adEn": "Sunflower Oil",
    "adDe": "Sonnenblumenöl",
    "marka": "Elitoil",
    "markaSlug": "elitoil",
    "seri": null,
    "kategori": "sivi-yag",
-   "kategoriAd": "Zeytinyağı ve Sıvı Yağlar",
-   "kategoriAdAr": "زيت الزيتون والزيوت النباتية",
+   "kategoriAd": "Zeytinyağı & Sıvı Yağlar",
    "kategoriAdEn": "Olive Oil & Vegetable Oils",
+   "segment": "perakende",
    "ambalaj": "1,8 Lt",
    "net": null,
    "suzme": null,
@@ -1692,11 +2545,10 @@
    "koliEan": null,
    "katalogSayfa": 27,
    "url": "https://www.goldenbeard.com.tr/urun/2086-aycicek-yagi-18lt/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2086-aycicek-yagi-18lt/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2086.gQ-Agj1x_Z11mUNr.png",
-    "genislik": 90,
-    "yukseklik": 264
+    "url": "https://www.goldenbeard.com.tr/_astro/2086.Bi1kYZ30_Zn937j.jpg",
+    "genislik": 218,
+    "yukseklik": 327
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -1707,16 +2559,15 @@
   {
    "kod": "2755",
    "ad": "Ayçiçek Yağı",
-   "adAr": "زيت دوار الشمس",
    "adEn": "Sunflower Oil",
    "adDe": "Sonnenblumenöl",
    "marka": "Elitoil",
    "markaSlug": "elitoil",
    "seri": null,
    "kategori": "sivi-yag",
-   "kategoriAd": "Zeytinyağı ve Sıvı Yağlar",
-   "kategoriAdAr": "زيت الزيتون والزيوت النباتية",
+   "kategoriAd": "Zeytinyağı & Sıvı Yağlar",
    "kategoriAdEn": "Olive Oil & Vegetable Oils",
+   "segment": "perakende",
    "ambalaj": "1 Lt",
    "net": null,
    "suzme": null,
@@ -1728,11 +2579,10 @@
    "koliEan": null,
    "katalogSayfa": 27,
    "url": "https://www.goldenbeard.com.tr/urun/2755-aycicek-yagi-1lt/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2755-aycicek-yagi-1lt/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2755.CmjVjjAM_Z11il91.png",
-    "genislik": 79,
-    "yukseklik": 265
+    "url": "https://www.goldenbeard.com.tr/_astro/2755.6Dl07usu_2eLOYg.jpg",
+    "genislik": 231,
+    "yukseklik": 346
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -1743,16 +2593,15 @@
   {
    "kod": "2088",
    "ad": "Mısır Yağı",
-   "adAr": "زيت الذرة",
    "adEn": "Corn Oil",
    "adDe": "Maisöl",
    "marka": "Elitoil",
    "markaSlug": "elitoil",
    "seri": null,
    "kategori": "sivi-yag",
-   "kategoriAd": "Zeytinyağı ve Sıvı Yağlar",
-   "kategoriAdAr": "زيت الزيتون والزيوت النباتية",
+   "kategoriAd": "Zeytinyağı & Sıvı Yağlar",
    "kategoriAdEn": "Olive Oil & Vegetable Oils",
+   "segment": "perakende",
    "ambalaj": "1,8 Lt",
    "net": null,
    "suzme": null,
@@ -1764,11 +2613,10 @@
    "koliEan": null,
    "katalogSayfa": 27,
    "url": "https://www.goldenbeard.com.tr/urun/2088-misir-yagi-18lt/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2088-misir-yagi-18lt/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2088.DfOj0w6j_enjRt.png",
-    "genislik": 89,
-    "yukseklik": 266
+    "url": "https://www.goldenbeard.com.tr/_astro/2088.Cp9djC1S_Z17bRp0.jpg",
+    "genislik": 211,
+    "yukseklik": 316
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -1779,16 +2627,15 @@
   {
    "kod": "2756",
    "ad": "Mısır Yağı",
-   "adAr": "زيت الذرة",
    "adEn": "Corn Oil",
    "adDe": "Maisöl",
    "marka": "Elitoil",
    "markaSlug": "elitoil",
    "seri": null,
    "kategori": "sivi-yag",
-   "kategoriAd": "Zeytinyağı ve Sıvı Yağlar",
-   "kategoriAdAr": "زيت الزيتون والزيوت النباتية",
+   "kategoriAd": "Zeytinyağı & Sıvı Yağlar",
    "kategoriAdEn": "Olive Oil & Vegetable Oils",
+   "segment": "perakende",
    "ambalaj": "1 Lt",
    "net": null,
    "suzme": null,
@@ -1800,11 +2647,10 @@
    "koliEan": null,
    "katalogSayfa": 27,
    "url": "https://www.goldenbeard.com.tr/urun/2756-misir-yagi-1lt/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2756-misir-yagi-1lt/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2756.5pgo6b_Z_Z1AXNlm.png",
-    "genislik": 75,
-    "yukseklik": 251
+    "url": "https://www.goldenbeard.com.tr/_astro/2756.CzDAmcBn_Z1FLIyl.jpg",
+    "genislik": 228,
+    "yukseklik": 341
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -1815,16 +2661,15 @@
   {
    "kod": "2155",
    "ad": "Zeytin Yağı (Natural Virgin)",
-   "adAr": "زيت زيتون بكر طبيعي",
    "adEn": "Natural Virgin Olive Oil",
    "adDe": null,
    "marka": "Bölge",
    "markaSlug": "bolge",
    "seri": null,
    "kategori": "sivi-yag",
-   "kategoriAd": "Zeytinyağı ve Sıvı Yağlar",
-   "kategoriAdAr": "زيت الزيتون والزيوت النباتية",
+   "kategoriAd": "Zeytinyağı & Sıvı Yağlar",
    "kategoriAdEn": "Olive Oil & Vegetable Oils",
+   "segment": "catering",
    "ambalaj": "10 Lt",
    "net": "9100 g",
    "suzme": null,
@@ -1836,11 +2681,10 @@
    "koliEan": null,
    "katalogSayfa": 44,
    "url": "https://www.goldenbeard.com.tr/urun/2155-zeytin-yagi-natural-virgin-10lt/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2155-zeytin-yagi-natural-virgin-10lt/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2155.sb7zpQuB_ZgrSeW.png",
-    "genislik": 202,
-    "yukseklik": 228
+    "url": "https://www.goldenbeard.com.tr/_astro/2155.wjijlzYc_24YaP8.jpg",
+    "genislik": 224,
+    "yukseklik": 266
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -1851,16 +2695,15 @@
   {
    "kod": "2015",
    "ad": "Zeytin Yağı (Natural Virgin)",
-   "adAr": "زيت زيتون بكر طبيعي",
    "adEn": "Natural Virgin Olive Oil",
    "adDe": null,
    "marka": "Bölge",
    "markaSlug": "bolge",
    "seri": null,
    "kategori": "sivi-yag",
-   "kategoriAd": "Zeytinyağı ve Sıvı Yağlar",
-   "kategoriAdAr": "زيت الزيتون والزيوت النباتية",
+   "kategoriAd": "Zeytinyağı & Sıvı Yağlar",
    "kategoriAdEn": "Olive Oil & Vegetable Oils",
+   "segment": "catering",
    "ambalaj": "3500 ml",
    "net": "3185 g",
    "suzme": null,
@@ -1872,11 +2715,10 @@
    "koliEan": null,
    "katalogSayfa": 44,
    "url": "https://www.goldenbeard.com.tr/urun/2015-zeytin-yagi-natural-virgin-3500ml/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2015-zeytin-yagi-natural-virgin-3500ml/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2015.PDrtGfjG_2skUEi.png",
-    "genislik": 143,
-    "yukseklik": 264
+    "url": "https://www.goldenbeard.com.tr/_astro/2015.Cz_R6_q3_8F0II.jpg",
+    "genislik": 189,
+    "yukseklik": 293
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -1887,16 +2729,15 @@
   {
    "kod": "2042",
    "ad": "Zeytin Yağı (Natural Virgin)",
-   "adAr": "زيت زيتون بكر طبيعي",
    "adEn": "Natural Virgin Olive Oil",
    "adDe": null,
    "marka": "Bölge",
    "markaSlug": "bolge",
    "seri": null,
    "kategori": "sivi-yag",
-   "kategoriAd": "Zeytinyağı ve Sıvı Yağlar",
-   "kategoriAdAr": "زيت الزيتون والزيوت النباتية",
+   "kategoriAd": "Zeytinyağı & Sıvı Yağlar",
    "kategoriAdEn": "Olive Oil & Vegetable Oils",
+   "segment": "catering",
    "ambalaj": "1750 ml",
    "net": "1592 g",
    "suzme": null,
@@ -1908,11 +2749,10 @@
    "koliEan": null,
    "katalogSayfa": 44,
    "url": "https://www.goldenbeard.com.tr/urun/2042-zeytin-yagi-natural-virgin-1750ml/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2042-zeytin-yagi-natural-virgin-1750ml/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2042.ESqLyoc4_wmWOw.png",
-    "genislik": 163,
-    "yukseklik": 197
+    "url": "https://www.goldenbeard.com.tr/_astro/2042.CvXnn7QB_1XVutl.jpg",
+    "genislik": 189,
+    "yukseklik": 217
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -1923,16 +2763,15 @@
   {
    "kod": "2427",
    "ad": "Zeytin Yağı (Natural Virgin)",
-   "adAr": "زيت زيتون بكر طبيعي",
    "adEn": "Natural Virgin Olive Oil",
    "adDe": null,
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "sivi-yag",
-   "kategoriAd": "Zeytinyağı ve Sıvı Yağlar",
-   "kategoriAdAr": "زيت الزيتون والزيوت النباتية",
+   "kategoriAd": "Zeytinyağı & Sıvı Yağlar",
    "kategoriAdEn": "Olive Oil & Vegetable Oils",
+   "segment": "catering",
    "ambalaj": "10 Lt",
    "net": "9100 g",
    "suzme": null,
@@ -1944,14 +2783,16 @@
    "koliEan": null,
    "katalogSayfa": 44,
    "url": "https://www.goldenbeard.com.tr/urun/2427-zeytin-yagi-natural-virgin-10lt/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2427-zeytin-yagi-natural-virgin-10lt/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2427.DSYON-8__29ojC8.png",
-    "genislik": 200,
-    "yukseklik": 228
+    "url": "https://www.goldenbeard.com.tr/_astro/2427.C5Ha7W3c_ZRsYJe.jpg",
+    "genislik": 224,
+    "yukseklik": 266
    },
    "sunumGorseli": null,
    "digerBoylar": [
+    "2751",
+    "2752",
+    "2753",
     "2476",
     "2477"
    ]
@@ -1959,16 +2800,15 @@
   {
    "kod": "2477",
    "ad": "Zeytin Yağı (Natural Virgin)",
-   "adAr": "زيت زيتون بكر طبيعي",
    "adEn": "Natural Virgin Olive Oil",
    "adDe": null,
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "sivi-yag",
-   "kategoriAd": "Zeytinyağı ve Sıvı Yağlar",
-   "kategoriAdAr": "زيت الزيتون والزيوت النباتية",
+   "kategoriAd": "Zeytinyağı & Sıvı Yağlar",
    "kategoriAdEn": "Olive Oil & Vegetable Oils",
+   "segment": "catering",
    "ambalaj": "3500 ml",
    "net": "3185 g",
    "suzme": null,
@@ -1980,7 +2820,6 @@
    "koliEan": null,
    "katalogSayfa": 44,
    "url": "https://www.goldenbeard.com.tr/urun/2477-zeytin-yagi-natural-virgin-3500ml/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2477-zeytin-yagi-natural-virgin-3500ml/",
    "gorsel": {
     "url": "https://www.goldenbeard.com.tr/_astro/2477.CKlY22EN_72Yf.jpg",
     "genislik": 181,
@@ -1988,6 +2827,9 @@
    },
    "sunumGorseli": null,
    "digerBoylar": [
+    "2751",
+    "2752",
+    "2753",
     "2476",
     "2427"
    ]
@@ -1995,16 +2837,15 @@
   {
    "kod": "2476",
    "ad": "Zeytin Yağı (Natural Virgin)",
-   "adAr": "زيت زيتون بكر طبيعي",
    "adEn": "Natural Virgin Olive Oil",
    "adDe": null,
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "sivi-yag",
-   "kategoriAd": "Zeytinyağı ve Sıvı Yağlar",
-   "kategoriAdAr": "زيت الزيتون والزيوت النباتية",
+   "kategoriAd": "Zeytinyağı & Sıvı Yağlar",
    "kategoriAdEn": "Olive Oil & Vegetable Oils",
+   "segment": "catering",
    "ambalaj": "1750 ml",
    "net": "1592 g",
    "suzme": null,
@@ -2016,14 +2857,16 @@
    "koliEan": null,
    "katalogSayfa": 44,
    "url": "https://www.goldenbeard.com.tr/urun/2476-zeytin-yagi-natural-virgin-1750ml/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2476-zeytin-yagi-natural-virgin-1750ml/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2476.d2tZhXLf_ZcfDtW.png",
-    "genislik": 188,
-    "yukseklik": 223
+    "url": "https://www.goldenbeard.com.tr/_astro/2476.D6_-dN6Q_1Ne9Hu.jpg",
+    "genislik": 210,
+    "yukseklik": 239
    },
    "sunumGorseli": null,
    "digerBoylar": [
+    "2751",
+    "2752",
+    "2753",
     "2477",
     "2427"
    ]
@@ -2031,16 +2874,15 @@
   {
    "kod": "2487",
    "ad": "Pomas Yağı",
-   "adAr": "زيت ثفل الزيتون",
    "adEn": "Olive Pomace Oil",
    "adDe": null,
    "marka": "Elis",
    "markaSlug": "elis",
    "seri": null,
    "kategori": "sivi-yag",
-   "kategoriAd": "Zeytinyağı ve Sıvı Yağlar",
-   "kategoriAdAr": "زيت الزيتون والزيوت النباتية",
+   "kategoriAd": "Zeytinyağı & Sıvı Yağlar",
    "kategoriAdEn": "Olive Oil & Vegetable Oils",
+   "segment": "catering",
    "ambalaj": "10 Lt",
    "net": "9100 g",
    "suzme": null,
@@ -2052,11 +2894,10 @@
    "koliEan": null,
    "katalogSayfa": 45,
    "url": "https://www.goldenbeard.com.tr/urun/2487-pomas-yagi-10lt/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2487-pomas-yagi-10lt/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2487.2ae1A1LR_Z1Dxy5k.png",
-    "genislik": 201,
-    "yukseklik": 227
+    "url": "https://www.goldenbeard.com.tr/_astro/2487.VDz7L1JG_1yVn2v.jpg",
+    "genislik": 224,
+    "yukseklik": 266
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -2067,16 +2908,15 @@
   {
    "kod": "2486",
    "ad": "Pomas Yağı",
-   "adAr": "زيت ثفل الزيتون",
    "adEn": "Olive Pomace Oil",
    "adDe": null,
    "marka": "Elis",
    "markaSlug": "elis",
    "seri": null,
    "kategori": "sivi-yag",
-   "kategoriAd": "Zeytinyağı ve Sıvı Yağlar",
-   "kategoriAdAr": "زيت الزيتون والزيوت النباتية",
+   "kategoriAd": "Zeytinyağı & Sıvı Yağlar",
    "kategoriAdEn": "Olive Oil & Vegetable Oils",
+   "segment": "catering",
    "ambalaj": "3500 ml",
    "net": "3185 g",
    "suzme": null,
@@ -2088,11 +2928,10 @@
    "koliEan": null,
    "katalogSayfa": 45,
    "url": "https://www.goldenbeard.com.tr/urun/2486-pomas-yagi-3500ml/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2486-pomas-yagi-3500ml/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2486.BlxDSNQb_DbUkU.png",
-    "genislik": 159,
-    "yukseklik": 285
+    "url": "https://www.goldenbeard.com.tr/_astro/2486.DEgBlSZ6_ZX4c8W.jpg",
+    "genislik": 190,
+    "yukseklik": 304
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -2103,16 +2942,15 @@
   {
    "kod": "2485",
    "ad": "Pomas Yağı",
-   "adAr": "زيت ثفل الزيتون",
    "adEn": "Olive Pomace Oil",
    "adDe": null,
    "marka": "Elis",
    "markaSlug": "elis",
    "seri": null,
    "kategori": "sivi-yag",
-   "kategoriAd": "Zeytinyağı ve Sıvı Yağlar",
-   "kategoriAdAr": "زيت الزيتون والزيوت النباتية",
+   "kategoriAd": "Zeytinyağı & Sıvı Yağlar",
    "kategoriAdEn": "Olive Oil & Vegetable Oils",
+   "segment": "catering",
    "ambalaj": "1750 ml",
    "net": "1592 g",
    "suzme": null,
@@ -2124,11 +2962,10 @@
    "koliEan": null,
    "katalogSayfa": 45,
    "url": "https://www.goldenbeard.com.tr/urun/2485-pomas-yagi-1750ml/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2485-pomas-yagi-1750ml/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2485.xQKKma8J_2m2tuP.png",
-    "genislik": 179,
-    "yukseklik": 209
+    "url": "https://www.goldenbeard.com.tr/_astro/2485.Df44vYix_Zbgdf2.jpg",
+    "genislik": 201,
+    "yukseklik": 223
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -2139,16 +2976,15 @@
   {
    "kod": "2666",
    "ad": "Sızma Zeytinyağı",
-   "adAr": "زيت زيتون بكر ممتاز",
    "adEn": "Extra Virgin Olive Oil",
    "adDe": null,
    "marka": "Elitoil",
    "markaSlug": "elitoil",
    "seri": null,
    "kategori": "sivi-yag",
-   "kategoriAd": "Zeytinyağı ve Sıvı Yağlar",
-   "kategoriAdAr": "زيت الزيتون والزيوت النباتية",
+   "kategoriAd": "Zeytinyağı & Sıvı Yağlar",
    "kategoriAdEn": "Olive Oil & Vegetable Oils",
+   "segment": "catering",
    "ambalaj": "18 Lt",
    "net": "16,38 kg",
    "suzme": null,
@@ -2160,11 +2996,10 @@
    "koliEan": null,
    "katalogSayfa": 45,
    "url": "https://www.goldenbeard.com.tr/urun/2666-sizma-zeytinyagi-18lt/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2666-sizma-zeytinyagi-18lt/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2666.lqEu243C_j5Ws9.png",
-    "genislik": 202,
-    "yukseklik": 261
+    "url": "https://www.goldenbeard.com.tr/_astro/2666.atvpo57r_Z1EqKal.jpg",
+    "genislik": 214,
+    "yukseklik": 275
    },
    "sunumGorseli": null,
    "digerBoylar": []
@@ -2172,16 +3007,15 @@
   {
    "kod": "2089",
    "ad": "Mısır Yağı",
-   "adAr": "زيت الذرة",
    "adEn": "Pure Corn Oil",
    "adDe": null,
    "marka": "Elitoil",
    "markaSlug": "elitoil",
    "seri": null,
    "kategori": "sivi-yag",
-   "kategoriAd": "Zeytinyağı ve Sıvı Yağlar",
-   "kategoriAdAr": "زيت الزيتون والزيوت النباتية",
+   "kategoriAd": "Zeytinyağı & Sıvı Yağlar",
    "kategoriAdEn": "Olive Oil & Vegetable Oils",
+   "segment": "catering",
    "ambalaj": "18 Lt",
    "net": "16,38 kg",
    "suzme": null,
@@ -2193,11 +3027,10 @@
    "koliEan": null,
    "katalogSayfa": 45,
    "url": "https://www.goldenbeard.com.tr/urun/2089-misir-yagi-18lt/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2089-misir-yagi-18lt/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2089.CWUBSrw0_Z1OGaiT.png",
-    "genislik": 202,
-    "yukseklik": 258
+    "url": "https://www.goldenbeard.com.tr/_astro/2089.nUZhpTLn_Z1icVTD.jpg",
+    "genislik": 214,
+    "yukseklik": 275
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -2208,16 +3041,15 @@
   {
    "kod": "2087",
    "ad": "Ayçiçek Yağı",
-   "adAr": "زيت دوار الشمس",
    "adEn": "Pure Sunflower Oil",
    "adDe": null,
    "marka": "Elitoil",
    "markaSlug": "elitoil",
    "seri": null,
    "kategori": "sivi-yag",
-   "kategoriAd": "Zeytinyağı ve Sıvı Yağlar",
-   "kategoriAdAr": "زيت الزيتون والزيوت النباتية",
+   "kategoriAd": "Zeytinyağı & Sıvı Yağlar",
    "kategoriAdEn": "Olive Oil & Vegetable Oils",
+   "segment": "catering",
    "ambalaj": "18 Lt",
    "net": "16,38 kg",
    "suzme": null,
@@ -2229,11 +3061,10 @@
    "koliEan": null,
    "katalogSayfa": 45,
    "url": "https://www.goldenbeard.com.tr/urun/2087-aycicek-yagi-18lt/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2087-aycicek-yagi-18lt/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2087.DGEGctMZ_2ekGe0.png",
-    "genislik": 195,
-    "yukseklik": 259
+    "url": "https://www.goldenbeard.com.tr/_astro/2087.DGPmvXGI_Z2sxbGD.jpg",
+    "genislik": 219,
+    "yukseklik": 271
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -2244,7 +3075,6 @@
   {
    "kod": "2564",
    "ad": "Biber Salçası",
-   "adAr": "معجون الفلفل",
    "adEn": "Pepper Paste",
    "adDe": "Paprikapaste",
    "marka": "Golden Beard",
@@ -2252,8 +3082,8 @@
    "seri": null,
    "kategori": "salca",
    "kategoriAd": "Salça",
-   "kategoriAdAr": "معجون الطماطم والفلفل",
    "kategoriAdEn": "Tomato & Pepper Paste",
+   "segment": "perakende",
    "ambalaj": "650 g",
    "net": "650 g",
    "suzme": null,
@@ -2265,11 +3095,10 @@
    "koliEan": null,
    "katalogSayfa": 29,
    "url": "https://www.goldenbeard.com.tr/urun/2564-biber-salcasi-650g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2564-biber-salcasi-650g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2564.CFS8Ja6j_Z28N3D7.png",
-    "genislik": 123,
-    "yukseklik": 227
+    "url": "https://www.goldenbeard.com.tr/_astro/2564.BmkTUQiT_1o73uL.jpg",
+    "genislik": 321,
+    "yukseklik": 481
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -2280,7 +3109,6 @@
   {
    "kod": "2522",
    "ad": "Biber Salçası",
-   "adAr": "معجون الفلفل",
    "adEn": "Pepper Paste",
    "adDe": "Paprikapaste",
    "marka": "Golden Beard",
@@ -2288,8 +3116,8 @@
    "seri": null,
    "kategori": "salca",
    "kategoriAd": "Salça",
-   "kategoriAdAr": "معجون الطماطم والفلفل",
    "kategoriAdEn": "Tomato & Pepper Paste",
+   "segment": "perakende",
    "ambalaj": "1600 g",
    "net": "1600 g",
    "suzme": null,
@@ -2301,11 +3129,10 @@
    "koliEan": null,
    "katalogSayfa": 29,
    "url": "https://www.goldenbeard.com.tr/urun/2522-biber-salcasi-1600g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2522-biber-salcasi-1600g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2522.DpKe1hK4_Hjbdd.png",
-    "genislik": 160,
-    "yukseklik": 208
+    "url": "https://www.goldenbeard.com.tr/_astro/2522.DCMjOi8B_ZqjAOQ.jpg",
+    "genislik": 302,
+    "yukseklik": 453
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -2316,7 +3143,6 @@
   {
    "kod": "2523",
    "ad": "Biber Salçası",
-   "adAr": "معجون الفلفل",
    "adEn": "Pepper Paste",
    "adDe": "Paprikapaste",
    "marka": "Golden Beard",
@@ -2324,8 +3150,8 @@
    "seri": null,
    "kategori": "salca",
    "kategoriAd": "Salça",
-   "kategoriAdAr": "معجون الطماطم والفلفل",
    "kategoriAdEn": "Tomato & Pepper Paste",
+   "segment": "perakende",
    "ambalaj": "4200 g",
    "net": "4200 g",
    "suzme": null,
@@ -2337,11 +3163,10 @@
    "koliEan": null,
    "katalogSayfa": 29,
    "url": "https://www.goldenbeard.com.tr/urun/2523-biber-salcasi-4200g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2523-biber-salcasi-4200g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2523.VSDfnwnk_1zMmDW.png",
-    "genislik": 145,
-    "yukseklik": 251
+    "url": "https://www.goldenbeard.com.tr/_astro/2523.DaKwjdro_1eVL5C.jpg",
+    "genislik": 321,
+    "yukseklik": 481
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -2352,7 +3177,6 @@
   {
    "kod": "2758",
    "ad": "Domates Salçası",
-   "adAr": "معجون الطماطم",
    "adEn": "Tomato Paste",
    "adDe": "Tomatenmark",
    "marka": "Golden Beard",
@@ -2360,8 +3184,8 @@
    "seri": null,
    "kategori": "salca",
    "kategoriAd": "Salça",
-   "kategoriAdAr": "معجون الطماطم والفلفل",
    "kategoriAdEn": "Tomato & Pepper Paste",
+   "segment": "perakende",
    "ambalaj": "650 g",
    "net": "650 g",
    "suzme": null,
@@ -2373,11 +3197,10 @@
    "koliEan": null,
    "katalogSayfa": 29,
    "url": "https://www.goldenbeard.com.tr/urun/2758-domates-salcasi-650g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2758-domates-salcasi-650g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2758.B-Sa8cho_XjGXU.png",
-    "genislik": 123,
-    "yukseklik": 227
+    "url": "https://www.goldenbeard.com.tr/_astro/2758.BgWb5out_Zeyfnp.jpg",
+    "genislik": 320,
+    "yukseklik": 480
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -2388,7 +3211,6 @@
   {
    "kod": "2524",
    "ad": "Domates Salçası",
-   "adAr": "معجون الطماطم",
    "adEn": "Tomato Paste",
    "adDe": "Tomatenmark",
    "marka": "Golden Beard",
@@ -2396,8 +3218,8 @@
    "seri": null,
    "kategori": "salca",
    "kategoriAd": "Salça",
-   "kategoriAdAr": "معجون الطماطم والفلفل",
    "kategoriAdEn": "Tomato & Pepper Paste",
+   "segment": "perakende",
    "ambalaj": "830 g",
    "net": "830 g",
    "suzme": null,
@@ -2409,11 +3231,10 @@
    "koliEan": null,
    "katalogSayfa": 29,
    "url": "https://www.goldenbeard.com.tr/urun/2524-domates-salcasi-830g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2524-domates-salcasi-830g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2524.rKkjzGtj_14Jl9q.png",
-    "genislik": 139,
-    "yukseklik": 195
+    "url": "https://www.goldenbeard.com.tr/_astro/2524.BD3HqQkm_18Jmrt.jpg",
+    "genislik": 314,
+    "yukseklik": 471
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -2424,7 +3245,6 @@
   {
    "kod": "2599",
    "ad": "Domates Salçası",
-   "adAr": "معجون الطماطم",
    "adEn": "Tomato Paste",
    "adDe": "Tomatenmark",
    "marka": "Golden Beard",
@@ -2432,8 +3252,8 @@
    "seri": null,
    "kategori": "salca",
    "kategoriAd": "Salça",
-   "kategoriAdAr": "معجون الطماطم والفلفل",
    "kategoriAdEn": "Tomato & Pepper Paste",
+   "segment": "perakende",
    "ambalaj": "4500 g",
    "net": "4500 g",
    "suzme": null,
@@ -2445,11 +3265,10 @@
    "koliEan": null,
    "katalogSayfa": 29,
    "url": "https://www.goldenbeard.com.tr/urun/2599-domates-salcasi-4500g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2599-domates-salcasi-4500g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2599.CFLh8vMl_Z2uu8H6.png",
-    "genislik": 143,
-    "yukseklik": 243
+    "url": "https://www.goldenbeard.com.tr/_astro/2599.CfWJsCzA_KFwL4.jpg",
+    "genislik": 314,
+    "yukseklik": 471
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -2460,16 +3279,15 @@
   {
    "kod": "2594",
    "ad": "Karışık Turşu",
-   "adAr": "مخلل مشكّل",
    "adEn": "Mixed Pickle",
    "adDe": "Eingelegtes Mischgemüse",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tursu",
-   "kategoriAd": "Turşu ve Salamura",
-   "kategoriAdAr": "المخللات وورق العنب",
+   "kategoriAd": "Turşu & Salamura",
    "kategoriAdEn": "Pickles & Brined Vegetables",
+   "segment": "perakende",
    "ambalaj": "660 cc",
    "net": "650 g",
    "suzme": "360 g",
@@ -2481,11 +3299,10 @@
    "koliEan": null,
    "katalogSayfa": 36,
    "url": "https://www.goldenbeard.com.tr/urun/2594-karisik-tursu-660cc/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2594-karisik-tursu-660cc/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2594.BlGSpOwJ_Z9SKY1.png",
-    "genislik": 98,
-    "yukseklik": 194
+    "url": "https://www.goldenbeard.com.tr/_astro/2594.i7vGRCqy_ayKAQ.jpg",
+    "genislik": 218,
+    "yukseklik": 359
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2594-sunum.Btek6mEB_Z2p9iPY.jpg",
    "digerBoylar": [
@@ -2497,16 +3314,15 @@
   {
    "kod": "2537",
    "ad": "Salatalık Turşusu",
-   "adAr": "مخلل الخيار",
    "adEn": "Cucumber Pickle",
    "adDe": "Eingelegte Gurken",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tursu",
-   "kategoriAd": "Turşu ve Salamura",
-   "kategoriAdAr": "المخللات وورق العنب",
+   "kategoriAd": "Turşu & Salamura",
    "kategoriAdEn": "Pickles & Brined Vegetables",
+   "segment": "perakende",
    "ambalaj": "660 cc",
    "net": "650 g",
    "suzme": "350 g",
@@ -2518,28 +3334,28 @@
    "koliEan": null,
    "katalogSayfa": 36,
    "url": "https://www.goldenbeard.com.tr/urun/2537-salatalik-tursusu-660cc/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2537-salatalik-tursusu-660cc/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2537.D2HJfyol_ZpUfEB.png",
-    "genislik": 98,
-    "yukseklik": 189
+    "url": "https://www.goldenbeard.com.tr/_astro/2537.Dy2XRPX9_2mNKGc.jpg",
+    "genislik": 201,
+    "yukseklik": 324
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2537-sunum.DDIexaUE_Z1mq9oX.jpg",
-   "digerBoylar": []
+   "digerBoylar": [
+    "8063"
+   ]
   },
   {
    "kod": "2538",
    "ad": "Yakan Biber Turşusu",
-   "adAr": "مخلل الفلفل الحار",
    "adEn": "Hot Pepper Pickle",
    "adDe": "Scharfe Peperoni",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tursu",
-   "kategoriAd": "Turşu ve Salamura",
-   "kategoriAdAr": "المخللات وورق العنب",
+   "kategoriAd": "Turşu & Salamura",
    "kategoriAdEn": "Pickles & Brined Vegetables",
+   "segment": "perakende",
    "ambalaj": "660 cc",
    "net": "650 g",
    "suzme": "310 g",
@@ -2551,11 +3367,10 @@
    "koliEan": null,
    "katalogSayfa": 37,
    "url": "https://www.goldenbeard.com.tr/urun/2538-yakan-biber-tursusu-660cc/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2538-yakan-biber-tursusu-660cc/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2538.407oGJ_8_26ztiO.png",
-    "genislik": 99,
-    "yukseklik": 194
+    "url": "https://www.goldenbeard.com.tr/_astro/2538.sORDup2v_Z1e8W7n.jpg",
+    "genislik": 185,
+    "yukseklik": 300
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2538-sunum.BNTBP8XJ_Z2lgsTd.jpg",
    "digerBoylar": [
@@ -2565,16 +3380,15 @@
   {
    "kod": "2536",
    "ad": "Biberiye Turşusu",
-   "adAr": "مخلل الفلفل الصغير الحار",
    "adEn": "Hot Baby Pepper Pickle",
    "adDe": "Baby Peperoni",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tursu",
-   "kategoriAd": "Turşu ve Salamura",
-   "kategoriAdAr": "المخللات وورق العنب",
+   "kategoriAd": "Turşu & Salamura",
    "kategoriAdEn": "Pickles & Brined Vegetables",
+   "segment": "perakende",
    "ambalaj": "660 cc",
    "net": "650 g",
    "suzme": "320 g",
@@ -2586,11 +3400,10 @@
    "koliEan": null,
    "katalogSayfa": 37,
    "url": "https://www.goldenbeard.com.tr/urun/2536-biberiye-tursusu-660cc/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2536-biberiye-tursusu-660cc/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2536.iaHvdCOH_Z23oIv8.png",
-    "genislik": 101,
-    "yukseklik": 196
+    "url": "https://www.goldenbeard.com.tr/_astro/2536.D3T0I-Sp_Z21gBXT.jpg",
+    "genislik": 211,
+    "yukseklik": 341
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2536-sunum.Bugakryo_ZiVyxT.jpg",
    "digerBoylar": [
@@ -2601,16 +3414,15 @@
   {
    "kod": "2593",
    "ad": "Makedon Turşu",
-   "adAr": "مخلل الفلفل المقدوني",
    "adEn": "Macedonian Pepper Pickle",
    "adDe": "Mazedonische Peperoni",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tursu",
-   "kategoriAd": "Turşu ve Salamura",
-   "kategoriAdAr": "المخللات وورق العنب",
+   "kategoriAd": "Turşu & Salamura",
    "kategoriAdEn": "Pickles & Brined Vegetables",
+   "segment": "perakende",
    "ambalaj": "660 cc",
    "net": "650 g",
    "suzme": "320 g",
@@ -2622,11 +3434,10 @@
    "koliEan": null,
    "katalogSayfa": 37,
    "url": "https://www.goldenbeard.com.tr/urun/2593-makedon-tursu-660cc/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2593-makedon-tursu-660cc/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2593.xSlIMbpC_1fandj.png",
-    "genislik": 100,
-    "yukseklik": 197
+    "url": "https://www.goldenbeard.com.tr/_astro/2593.BlWTWSvU_Z29HBOC.jpg",
+    "genislik": 267,
+    "yukseklik": 431
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2593-sunum.hRR-sXFT_1xejeF.jpg",
    "digerBoylar": []
@@ -2634,16 +3445,15 @@
   {
    "kod": "2539",
    "ad": "Lombardi Turşu",
-   "adAr": "مخلل فلفل لومباردي",
    "adEn": "Lombardi Pepper Pickle",
    "adDe": "Eingelegte Peperoni",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tursu",
-   "kategoriAd": "Turşu ve Salamura",
-   "kategoriAdAr": "المخللات وورق العنب",
+   "kategoriAd": "Turşu & Salamura",
    "kategoriAdEn": "Pickles & Brined Vegetables",
+   "segment": "perakende",
    "ambalaj": "660 cc",
    "net": "650 g",
    "suzme": "300 g",
@@ -2655,11 +3465,10 @@
    "koliEan": null,
    "katalogSayfa": 37,
    "url": "https://www.goldenbeard.com.tr/urun/2539-lombardi-tursu-660cc/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2539-lombardi-tursu-660cc/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2539.CrolOWLX_Z1KAr9U.png",
-    "genislik": 101,
-    "yukseklik": 194
+    "url": "https://www.goldenbeard.com.tr/_astro/2539.-LXlpaQj_1WLGiU.jpg",
+    "genislik": 277,
+    "yukseklik": 434
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2539-sunum.Du3lKVFR_Z1DLvXG.jpg",
    "digerBoylar": []
@@ -2667,16 +3476,15 @@
   {
    "kod": "2540",
    "ad": "Frenk Biberi Turşusu",
-   "adAr": "مخلل الفلفل الأخضر الحار",
    "adEn": "Hot Pepper Pickle",
    "adDe": "Scharfe Eingelegte Grüne Peperoni",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tursu",
-   "kategoriAd": "Turşu ve Salamura",
-   "kategoriAdAr": "المخللات وورق العنب",
+   "kategoriAd": "Turşu & Salamura",
    "kategoriAdEn": "Pickles & Brined Vegetables",
+   "segment": "perakende",
    "ambalaj": "660 cc",
    "net": "650 g",
    "suzme": "310 g",
@@ -2688,11 +3496,10 @@
    "koliEan": null,
    "katalogSayfa": 37,
    "url": "https://www.goldenbeard.com.tr/urun/2540-frenk-biberi-tursusu-660cc/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2540-frenk-biberi-tursusu-660cc/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2540.CRovug1l_BnwKO.png",
-    "genislik": 96,
-    "yukseklik": 192
+    "url": "https://www.goldenbeard.com.tr/_astro/2540.DIgOKkxS_Z1QQnve.jpg",
+    "genislik": 264,
+    "yukseklik": 426
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2540-sunum.DJAPxyPR_ZllUjf.jpg",
    "digerBoylar": []
@@ -2700,16 +3507,15 @@
   {
    "kod": "2542",
    "ad": "Jalapeno Biber Turşusu",
-   "adAr": "مخلل فلفل هالبينو حار",
    "adEn": "Hot Jalapeno Pepper Pickle",
    "adDe": "Scharf Jalapeno",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tursu",
-   "kategoriAd": "Turşu ve Salamura",
-   "kategoriAdAr": "المخللات وورق العنب",
+   "kategoriAd": "Turşu & Salamura",
    "kategoriAdEn": "Pickles & Brined Vegetables",
+   "segment": "perakende",
    "ambalaj": "660 cc",
    "net": "650 g",
    "suzme": "310 g",
@@ -2721,28 +3527,28 @@
    "koliEan": null,
    "katalogSayfa": 37,
    "url": "https://www.goldenbeard.com.tr/urun/2542-jalapeno-biber-tursusu-660cc/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2542-jalapeno-biber-tursusu-660cc/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2542.CUm6GSe7_NqtyW.png",
-    "genislik": 98,
-    "yukseklik": 192
+    "url": "https://www.goldenbeard.com.tr/_astro/2542.31Bhc5Kl_Z2lqkWD.jpg",
+    "genislik": 269,
+    "yukseklik": 434
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2542-sunum.BjAp_YN4_ZtcHCN.jpg",
-   "digerBoylar": []
+   "digerBoylar": [
+    "2562"
+   ]
   },
   {
    "kod": "2596",
    "ad": "Biberiye Turşusu",
-   "adAr": "مخلل الفلفل الصغير الحار",
    "adEn": "Hot Baby Pepper Pickle",
    "adDe": "Baby Peperoni",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tursu",
-   "kategoriAd": "Turşu ve Salamura",
-   "kategoriAdAr": "المخللات وورق العنب",
+   "kategoriAd": "Turşu & Salamura",
    "kategoriAdEn": "Pickles & Brined Vegetables",
+   "segment": "perakende",
    "ambalaj": "5000 cc",
    "net": "5000 g",
    "suzme": "2500 g",
@@ -2754,11 +3560,10 @@
    "koliEan": null,
    "katalogSayfa": 38,
    "url": "https://www.goldenbeard.com.tr/urun/2596-biberiye-tursusu-5000cc/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2596-biberiye-tursusu-5000cc/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2596.Bgb-iO8g_Z1Poors.png",
-    "genislik": 99,
-    "yukseklik": 195
+    "url": "https://www.goldenbeard.com.tr/_astro/2596.CB-C2ZKp_kc1yb.jpg",
+    "genislik": 217,
+    "yukseklik": 350
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2596-sunum.1VO3JH1G_Z1xY2I8.jpg",
    "digerBoylar": [
@@ -2769,16 +3574,15 @@
   {
    "kod": "2597",
    "ad": "Acı Biber Turşusu",
-   "adAr": "مخلل الفلفل الحار",
    "adEn": "Hot Pepper Pickle",
    "adDe": "Scharfe Peperoni",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tursu",
-   "kategoriAd": "Turşu ve Salamura",
-   "kategoriAdAr": "المخللات وورق العنب",
+   "kategoriAd": "Turşu & Salamura",
    "kategoriAdEn": "Pickles & Brined Vegetables",
+   "segment": "perakende",
    "ambalaj": "5000 cc",
    "net": "5000 g",
    "suzme": "2500 g",
@@ -2790,11 +3594,10 @@
    "koliEan": null,
    "katalogSayfa": 39,
    "url": "https://www.goldenbeard.com.tr/urun/2597-aci-biber-tursusu-5000cc/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2597-aci-biber-tursusu-5000cc/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2597.DhaU0BoN_ZfE9fN.png",
-    "genislik": 103,
-    "yukseklik": 202
+    "url": "https://www.goldenbeard.com.tr/_astro/2597.CZDgkgYs_Z1HfsDv.jpg",
+    "genislik": 177,
+    "yukseklik": 286
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2597-sunum.Bc1CW1l1_Z19W8P5.jpg",
    "digerBoylar": []
@@ -2802,16 +3605,15 @@
   {
    "kod": "2598",
    "ad": "Karışık Turşu",
-   "adAr": "مخلل مشكّل",
    "adEn": "Mixed Pickle",
    "adDe": "Eingelegtes Mischgemüse",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tursu",
-   "kategoriAd": "Turşu ve Salamura",
-   "kategoriAdAr": "المخللات وورق العنب",
+   "kategoriAd": "Turşu & Salamura",
    "kategoriAdEn": "Pickles & Brined Vegetables",
+   "segment": "perakende",
    "ambalaj": "5000 cc",
    "net": "5000 g",
    "suzme": "2500 g",
@@ -2823,11 +3625,10 @@
    "koliEan": null,
    "katalogSayfa": 39,
    "url": "https://www.goldenbeard.com.tr/urun/2598-karisik-tursu-5000cc/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2598-karisik-tursu-5000cc/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2598.CNPjzR0n_SllcB.png",
-    "genislik": 103,
-    "yukseklik": 207
+    "url": "https://www.goldenbeard.com.tr/_astro/2598.BbnPp7M__1kxy8L.jpg",
+    "genislik": 228,
+    "yukseklik": 376
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2598-sunum.MGHhcdUS_15EPI5.jpg",
    "digerBoylar": [
@@ -2839,16 +3640,15 @@
   {
    "kod": "2560",
    "ad": "Karışık Turşu",
-   "adAr": "مخلل مشكّل",
    "adEn": "Mixed Pickle",
    "adDe": "Eingelegtes Mischgemüse",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tursu",
-   "kategoriAd": "Turşu ve Salamura",
-   "kategoriAdAr": "المخللات وورق العنب",
+   "kategoriAd": "Turşu & Salamura",
    "kategoriAdEn": "Pickles & Brined Vegetables",
+   "segment": "perakende",
    "ambalaj": "3000 cc",
    "net": "3000 g",
    "suzme": "1400 g",
@@ -2860,11 +3660,10 @@
    "koliEan": null,
    "katalogSayfa": 39,
    "url": "https://www.goldenbeard.com.tr/urun/2560-karisik-tursu-3000cc/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2560-karisik-tursu-3000cc/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2560.DncRJgXK_Z1HonPE.png",
-    "genislik": 103,
-    "yukseklik": 203
+    "url": "https://www.goldenbeard.com.tr/_astro/2560.DL_z7xoC_HSeFt.jpg",
+    "genislik": 234,
+    "yukseklik": 379
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2560-sunum.D2SQf28W_Z1s8MIs.jpg",
    "digerBoylar": [
@@ -2876,16 +3675,15 @@
   {
    "kod": "2563",
    "ad": "Yakan Biber Turşusu",
-   "adAr": "مخلل الفلفل الحار",
    "adEn": "Hot Pepper Pickle",
    "adDe": "Scharfe Peperoni",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tursu",
-   "kategoriAd": "Turşu ve Salamura",
-   "kategoriAdAr": "المخللات وورق العنب",
+   "kategoriAd": "Turşu & Salamura",
    "kategoriAdEn": "Pickles & Brined Vegetables",
+   "segment": "perakende",
    "ambalaj": "3000 cc",
    "net": "2900 g",
    "suzme": "1300 g",
@@ -2897,11 +3695,10 @@
    "koliEan": null,
    "katalogSayfa": 39,
    "url": "https://www.goldenbeard.com.tr/urun/2563-yakan-biber-tursusu-3000cc/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2563-yakan-biber-tursusu-3000cc/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2563.DSijyc_Y_Z4x1Hx.png",
-    "genislik": 101,
-    "yukseklik": 199
+    "url": "https://www.goldenbeard.com.tr/_astro/2563.DyWBWCu7_ZKI7mz.jpg",
+    "genislik": 234,
+    "yukseklik": 379
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2563-sunum.CmQZDtF-_Z1w8eRN.jpg",
    "digerBoylar": [
@@ -2911,16 +3708,15 @@
   {
    "kod": "2561",
    "ad": "Biberiye Turşusu",
-   "adAr": "مخلل الفلفل الصغير الحار",
    "adEn": "Hot Baby Pepper Pickle",
    "adDe": "Baby Peperoni",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tursu",
-   "kategoriAd": "Turşu ve Salamura",
-   "kategoriAdAr": "المخللات وورق العنب",
+   "kategoriAd": "Turşu & Salamura",
    "kategoriAdEn": "Pickles & Brined Vegetables",
+   "segment": "perakende",
    "ambalaj": "3000 cc",
    "net": "3000 g",
    "suzme": "1500 g",
@@ -2932,11 +3728,10 @@
    "koliEan": null,
    "katalogSayfa": 39,
    "url": "https://www.goldenbeard.com.tr/urun/2561-biberiye-tursusu-3000cc/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2561-biberiye-tursusu-3000cc/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2561.2EL0jy3t_EdV4D.png",
-    "genislik": 99,
-    "yukseklik": 205
+    "url": "https://www.goldenbeard.com.tr/_astro/2561.MwGkISc4_3I1XU.jpg",
+    "genislik": 227,
+    "yukseklik": 367
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2561-sunum.H1LrqIb5_Z1ci42s.jpg",
    "digerBoylar": [
@@ -2947,16 +3742,15 @@
   {
    "kod": "2562",
    "ad": "Jalapeno Turşusu",
-   "adAr": "مخلل فلفل هالبينو حار",
    "adEn": "Hot Jalapeno Pepper Pickle",
    "adDe": "Scharf Jalapeno",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tursu",
-   "kategoriAd": "Turşu ve Salamura",
-   "kategoriAdAr": "المخللات وورق العنب",
+   "kategoriAd": "Turşu & Salamura",
    "kategoriAdEn": "Pickles & Brined Vegetables",
+   "segment": "perakende",
    "ambalaj": "3000 cc",
    "net": "3000 g",
    "suzme": "1600 g",
@@ -2968,28 +3762,28 @@
    "koliEan": null,
    "katalogSayfa": 39,
    "url": "https://www.goldenbeard.com.tr/urun/2562-jalapeno-tursusu-3000cc/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2562-jalapeno-tursusu-3000cc/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2562.Z4zqVwE5_Z2qeKkD.png",
-    "genislik": 95,
-    "yukseklik": 198
+    "url": "https://www.goldenbeard.com.tr/_astro/2562.B1KdXfX3_Z1u0uo1.jpg",
+    "genislik": 200,
+    "yukseklik": 323
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2562-sunum.DSSSuoLf_1Vs9gK.jpg",
-   "digerBoylar": []
+   "digerBoylar": [
+    "2542"
+   ]
   },
   {
    "kod": "2757",
    "ad": "Salamura Asma Yaprağı",
-   "adAr": "ورق عنب بالمحلول الملحي",
    "adEn": "Vine Leaves in Brine",
    "adDe": "Weinblätter",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tursu",
-   "kategoriAd": "Turşu ve Salamura",
-   "kategoriAdAr": "المخللات وورق العنب",
+   "kategoriAd": "Turşu & Salamura",
    "kategoriAdEn": "Pickles & Brined Vegetables",
+   "segment": "perakende",
    "ambalaj": "720 cc",
    "net": "650 g",
    "suzme": "380 g",
@@ -3001,11 +3795,10 @@
    "koliEan": null,
    "katalogSayfa": 41,
    "url": "https://www.goldenbeard.com.tr/urun/2757-salamura-asma-yapragi-720cc/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2757-salamura-asma-yapragi-720cc/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2757.DhUu0jZH_27uzxw.png",
-    "genislik": 96,
-    "yukseklik": 189
+    "url": "https://www.goldenbeard.com.tr/_astro/2757.LoN5vwhP_1XW25f.jpg",
+    "genislik": 198,
+    "yukseklik": 321
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2757-sunum.Dd-s-8I0_1WM7i.jpg",
    "digerBoylar": [
@@ -3015,16 +3808,15 @@
   {
    "kod": "8052",
    "ad": "Salamura Asma Yaprağı",
-   "adAr": "ورق عنب بالمحلول الملحي",
    "adEn": "Vine Leaves in Brine",
    "adDe": "Weinblätter",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tursu",
-   "kategoriAd": "Turşu ve Salamura",
-   "kategoriAdAr": "المخللات وورق العنب",
+   "kategoriAd": "Turşu & Salamura",
    "kategoriAdEn": "Pickles & Brined Vegetables",
+   "segment": "perakende",
    "ambalaj": "5000 cc",
    "net": "5000 g",
    "suzme": "2500 g",
@@ -3036,11 +3828,10 @@
    "koliEan": null,
    "katalogSayfa": 41,
    "url": "https://www.goldenbeard.com.tr/urun/8052-salamura-asma-yapragi-5000cc/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/8052-salamura-asma-yapragi-5000cc/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/8052.Ctorkn40_CcgMe.png",
-    "genislik": 105,
-    "yukseklik": 201
+    "url": "https://www.goldenbeard.com.tr/_astro/8052.CpQUjBGZ_Z1VohEE.jpg",
+    "genislik": 243,
+    "yukseklik": 393
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/8052-sunum.DD19XcSn_CaB2b.jpg",
    "digerBoylar": [
@@ -3050,16 +3841,15 @@
   {
    "kod": "2556",
    "ad": "Közlenmiş Kırmızı Biber",
-   "adAr": "فلفل أحمر مشوي",
    "adEn": "Roasted Red Pepper",
    "adDe": "Gegrillte Rote Paprika",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tursu",
-   "kategoriAd": "Turşu ve Salamura",
-   "kategoriAdAr": "المخللات وورق العنب",
+   "kategoriAd": "Turşu & Salamura",
    "kategoriAdEn": "Pickles & Brined Vegetables",
+   "segment": "perakende",
    "ambalaj": "720 cc",
    "net": "400 g",
    "suzme": "680 g",
@@ -3071,11 +3861,10 @@
    "koliEan": null,
    "katalogSayfa": 41,
    "url": "https://www.goldenbeard.com.tr/urun/2556-kozlenmis-kirmizi-biber-720cc/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2556-kozlenmis-kirmizi-biber-720cc/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2556.BOfsr4Jp_11Lztf.png",
-    "genislik": 96,
-    "yukseklik": 162
+    "url": "https://www.goldenbeard.com.tr/_astro/2556.1ionXqki_Z1vvuDM.jpg",
+    "genislik": 206,
+    "yukseklik": 333
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2556-sunum.C_AEuEa8_WNe7c.jpg",
    "digerBoylar": []
@@ -3083,16 +3872,15 @@
   {
    "kod": "8029",
    "ad": "Karışık Turşu",
-   "adAr": "مخلل مشكّل",
    "adEn": "Mixed Pickles",
    "adDe": null,
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tursu",
-   "kategoriAd": "Turşu ve Salamura",
-   "kategoriAdAr": "المخللات وورق العنب",
+   "kategoriAd": "Turşu & Salamura",
    "kategoriAdEn": "Pickles & Brined Vegetables",
+   "segment": "catering",
    "ambalaj": "17 Kg",
    "net": "17 Kg",
    "suzme": "10 Kg",
@@ -3104,11 +3892,10 @@
    "koliEan": null,
    "katalogSayfa": 47,
    "url": "https://www.goldenbeard.com.tr/urun/8029-karisik-tursu-17kg/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/8029-karisik-tursu-17kg/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/8029.e1wOuJJG_1uS0dl.png",
-    "genislik": 193,
-    "yukseklik": 259
+    "url": "https://www.goldenbeard.com.tr/_astro/8029.2_BDzLqs_1b9N6u.jpg",
+    "genislik": 217,
+    "yukseklik": 272
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -3120,16 +3907,15 @@
   {
    "kod": "8063",
    "ad": "Salatalık Turşu",
-   "adAr": "مخلل الخيار",
    "adEn": "Cucumber Pickles",
    "adDe": null,
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "tursu",
-   "kategoriAd": "Turşu ve Salamura",
-   "kategoriAdAr": "المخللات وورق العنب",
+   "kategoriAd": "Turşu & Salamura",
    "kategoriAdEn": "Pickles & Brined Vegetables",
+   "segment": "catering",
    "ambalaj": "17 Kg",
    "net": "17 Kg",
    "suzme": "10 Kg",
@@ -3141,28 +3927,28 @@
    "koliEan": null,
    "katalogSayfa": 47,
    "url": "https://www.goldenbeard.com.tr/urun/8063-salatalik-tursu-17kg/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/8063-salatalik-tursu-17kg/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/8063.Bw2Uha1a_1AiNqw.png",
-    "genislik": 199,
-    "yukseklik": 266
+    "url": "https://www.goldenbeard.com.tr/_astro/8063.DQgGhVV2_7Up7P.jpg",
+    "genislik": 223,
+    "yukseklik": 281
    },
    "sunumGorseli": null,
-   "digerBoylar": []
+   "digerBoylar": [
+    "2537"
+   ]
   },
   {
    "kod": "2091",
    "ad": "Karışık Turşu",
-   "adAr": "مخلل مشكّل",
    "adEn": "Mixed Pickles",
    "adDe": null,
    "marka": "Lemis",
    "markaSlug": "lemis",
    "seri": null,
    "kategori": "tursu",
-   "kategoriAd": "Turşu ve Salamura",
-   "kategoriAdAr": "المخللات وورق العنب",
+   "kategoriAd": "Turşu & Salamura",
    "kategoriAdEn": "Pickles & Brined Vegetables",
+   "segment": "catering",
    "ambalaj": "17 Kg",
    "net": "17 Kg",
    "suzme": "10 Kg",
@@ -3174,11 +3960,10 @@
    "koliEan": null,
    "katalogSayfa": 47,
    "url": "https://www.goldenbeard.com.tr/urun/2091-karisik-tursu-17kg/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2091-karisik-tursu-17kg/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2091.B2oZKD0a_1imlGH.png",
-    "genislik": 200,
-    "yukseklik": 267
+    "url": "https://www.goldenbeard.com.tr/_astro/2091.BQibNZjB_Z1UXl2z.jpg",
+    "genislik": 223,
+    "yukseklik": 281
    },
    "sunumGorseli": null,
    "digerBoylar": []
@@ -3186,7 +3971,6 @@
   {
    "kod": "2668",
    "ad": "Yaprak Sarma",
-   "adAr": "ورق عنب محشي بالأرز",
    "adEn": "Stuffed Vine Leaves with Rice",
    "adDe": "Gefüllte Weinblätter mit Reis",
    "marka": "Golden Beard",
@@ -3194,8 +3978,8 @@
    "seri": null,
    "kategori": "yaprak-sarma",
    "kategoriAd": "Yaprak Sarma",
-   "kategoriAdAr": "ورق العنب المحشي",
    "kategoriAdEn": "Stuffed Vine Leaves",
+   "segment": "perakende",
    "ambalaj": "2 Kg",
    "net": "2 Kg",
    "suzme": null,
@@ -3207,11 +3991,10 @@
    "koliEan": null,
    "katalogSayfa": 31,
    "url": "https://www.goldenbeard.com.tr/urun/2668-yaprak-sarma-2kg/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2668-yaprak-sarma-2kg/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2668.3remWjHZ_2wcWTJ.png",
-    "genislik": 195,
-    "yukseklik": 194
+    "url": "https://www.goldenbeard.com.tr/_astro/2668.MeQEQ-1w_1AMddj.png",
+    "genislik": 203,
+    "yukseklik": 200
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2668-sunum.B0UyuI_o_Z1p3lAB.jpg",
    "digerBoylar": [
@@ -3221,7 +4004,6 @@
   {
    "kod": "2667",
    "ad": "Yaprak Sarma",
-   "adAr": "ورق عنب محشي بالأرز",
    "adEn": "Stuffed Vine Leaves with Rice",
    "adDe": "Gefüllte Weinblätter mit Reis",
    "marka": "Golden Beard",
@@ -3229,8 +4011,8 @@
    "seri": null,
    "kategori": "yaprak-sarma",
    "kategoriAd": "Yaprak Sarma",
-   "kategoriAdAr": "ورق العنب المحشي",
    "kategoriAdEn": "Stuffed Vine Leaves",
+   "segment": "perakende",
    "ambalaj": "400 g",
    "net": "400 g",
    "suzme": null,
@@ -3242,11 +4024,10 @@
    "koliEan": null,
    "katalogSayfa": 31,
    "url": "https://www.goldenbeard.com.tr/urun/2667-yaprak-sarma-400g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2667-yaprak-sarma-400g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2667.BXerdxgY_1UzwGG.png",
-    "genislik": 202,
-    "yukseklik": 143
+    "url": "https://www.goldenbeard.com.tr/_astro/2667.B79QqRhe_1p6ljs.png",
+    "genislik": 207,
+    "yukseklik": 149
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2667-sunum.CgEZiFRS_12NFjD.jpg",
    "digerBoylar": [
@@ -3256,7 +4037,6 @@
   {
    "kod": "2652",
    "ad": "Nar Sosu",
-   "adAr": "صلصة الرمان",
    "adEn": "Pomegranate Sauce",
    "adDe": "Granatapfelsauce",
    "marka": "Golden Beard",
@@ -3264,8 +4044,8 @@
    "seri": null,
    "kategori": "soslar",
    "kategoriAd": "Soslar",
-   "kategoriAdAr": "الصلصات",
    "kategoriAdEn": "Sauces",
+   "segment": "perakende",
    "ambalaj": "1000 g",
    "net": "1000 g",
    "suzme": null,
@@ -3277,11 +4057,10 @@
    "koliEan": null,
    "katalogSayfa": 33,
    "url": "https://www.goldenbeard.com.tr/urun/2652-nar-sosu-1000g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2652-nar-sosu-1000g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2652.BZ4ssaO0_Z17tlsD.png",
-    "genislik": 96,
-    "yukseklik": 330
+    "url": "https://www.goldenbeard.com.tr/_astro/2652.DUe65q6J_2tmvRm.jpg",
+    "genislik": 175,
+    "yukseklik": 375
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2652-sunum.DlXo1CPh_Z1VFnm3.jpg",
    "digerBoylar": [
@@ -3291,7 +4070,6 @@
   {
    "kod": "2653",
    "ad": "Limon Sosu",
-   "adAr": "صلصة الليمون",
    "adEn": "Lemon Sauce",
    "adDe": "Zitronensauce",
    "marka": "Golden Beard",
@@ -3299,8 +4077,8 @@
    "seri": null,
    "kategori": "soslar",
    "kategoriAd": "Soslar",
-   "kategoriAdAr": "الصلصات",
    "kategoriAdEn": "Sauces",
+   "segment": "perakende",
    "ambalaj": "1 Lt",
    "net": null,
    "suzme": null,
@@ -3312,11 +4090,10 @@
    "koliEan": null,
    "katalogSayfa": 33,
    "url": "https://www.goldenbeard.com.tr/urun/2653-limon-sosu-1lt/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2653-limon-sosu-1lt/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2653.DtUkmiG0_Z1HQ407.png",
-    "genislik": 101,
-    "yukseklik": 328
+    "url": "https://www.goldenbeard.com.tr/_astro/2653.DU0V7xp9_2kOMYd.jpg",
+    "genislik": 171,
+    "yukseklik": 355
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2653-sunum.DX5jLqea_uEfA.jpg",
    "digerBoylar": []
@@ -3324,7 +4101,6 @@
   {
    "kod": "2506",
    "ad": "Nar Sosu",
-   "adAr": "صلصة الرمان",
    "adEn": "Pomegranate Sauce",
    "adDe": "Granatapfelsauce",
    "marka": "Golden Beard",
@@ -3332,8 +4108,8 @@
    "seri": null,
    "kategori": "soslar",
    "kategoriAd": "Soslar",
-   "kategoriAdAr": "الصلصات",
    "kategoriAdEn": "Sauces",
+   "segment": "perakende",
    "ambalaj": "500 g",
    "net": "500 g",
    "suzme": null,
@@ -3345,11 +4121,10 @@
    "koliEan": null,
    "katalogSayfa": 33,
    "url": "https://www.goldenbeard.com.tr/urun/2506-nar-sosu-500g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2506-nar-sosu-500g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2506.DU7gS14w_Z1JPsKC.png",
-    "genislik": 79,
-    "yukseklik": 260
+    "url": "https://www.goldenbeard.com.tr/_astro/2506.D4qvfTK5_ZKhGV6.jpg",
+    "genislik": 192,
+    "yukseklik": 299
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2506-sunum.DxsxJCt9_G994N.jpg",
    "digerBoylar": [
@@ -3359,7 +4134,6 @@
   {
    "kod": "2555",
    "ad": "Acı Biber Sosu",
-   "adAr": "صلصة الفلفل الحار",
    "adEn": "Hot Pepper Sauce",
    "adDe": "Paprikasoße",
    "marka": "Golden Beard",
@@ -3367,8 +4141,8 @@
    "seri": null,
    "kategori": "soslar",
    "kategoriAd": "Soslar",
-   "kategoriAdAr": "الصلصات",
    "kategoriAdEn": "Sauces",
+   "segment": "perakende",
    "ambalaj": "370 cc",
    "net": "350 g",
    "suzme": null,
@@ -3380,11 +4154,10 @@
    "koliEan": null,
    "katalogSayfa": 41,
    "url": "https://www.goldenbeard.com.tr/urun/2555-aci-biber-sosu-370cc/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2555-aci-biber-sosu-370cc/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2555.DxnoxXnA_1JRQo2.png",
-    "genislik": 96,
-    "yukseklik": 201
+    "url": "https://www.goldenbeard.com.tr/_astro/2555.CsRIX3oh_HFiUU.jpg",
+    "genislik": 325,
+    "yukseklik": 526
    },
    "sunumGorseli": "https://www.goldenbeard.com.tr/_astro/2555-sunum.BwPIe88H_Z1Xbyt1.jpg",
    "digerBoylar": [
@@ -3394,7 +4167,6 @@
   {
    "kod": "8059",
    "ad": "Acı Biber Sosu",
-   "adAr": "صلصة الفلفل الحار",
    "adEn": "Hot Pepper Sauce",
    "adDe": null,
    "marka": "Golden Beard",
@@ -3402,8 +4174,8 @@
    "seri": null,
    "kategori": "soslar",
    "kategoriAd": "Soslar",
-   "kategoriAdAr": "الصلصات",
    "kategoriAdEn": "Sauces",
+   "segment": "catering",
    "ambalaj": "14 Kg",
    "net": "14 Kg",
    "suzme": null,
@@ -3415,11 +4187,10 @@
    "koliEan": null,
    "katalogSayfa": 46,
    "url": "https://www.goldenbeard.com.tr/urun/8059-aci-biber-sosu-14kg/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/8059-aci-biber-sosu-14kg/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/8059.CdANJZQD_16ASAI.png",
-    "genislik": 199,
-    "yukseklik": 233
+    "url": "https://www.goldenbeard.com.tr/_astro/8059.C_YyrDYv_Z16ptI.jpg",
+    "genislik": 237,
+    "yukseklik": 269
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -3429,16 +4200,15 @@
   {
    "kod": "2012",
    "ad": "Petek Balı",
-   "adAr": "عسل بالشمع",
    "adEn": "Turkish Honey Comb",
    "adDe": "Honig mit Wabenstück",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "bal-surup",
-   "kategoriAd": "Bal ve Şurup",
-   "kategoriAdAr": "العسل والشراب",
+   "kategoriAd": "Bal & Şurup",
    "kategoriAdEn": "Honey & Syrup",
+   "segment": "perakende",
    "ambalaj": "250 g",
    "net": "250 g",
    "suzme": null,
@@ -3450,11 +4220,10 @@
    "koliEan": null,
    "katalogSayfa": 35,
    "url": "https://www.goldenbeard.com.tr/urun/2012-petek-bali-250g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2012-petek-bali-250g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2012.C1wkRrOc_1BjDGh.png",
-    "genislik": 250,
-    "yukseklik": 181
+    "url": "https://www.goldenbeard.com.tr/_astro/2012.2C3QFMDS_27gijO.jpg",
+    "genislik": 293,
+    "yukseklik": 209
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -3466,16 +4235,15 @@
   {
    "kod": "2011",
    "ad": "Petek Balı",
-   "adAr": "عسل بالشمع",
    "adEn": "Turkish Honey Comb",
    "adDe": "Honig mit Wabenstück",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "bal-surup",
-   "kategoriAd": "Bal ve Şurup",
-   "kategoriAdAr": "العسل والشراب",
+   "kategoriAd": "Bal & Şurup",
    "kategoriAdEn": "Honey & Syrup",
+   "segment": "perakende",
    "ambalaj": "500 g",
    "net": "500 g",
    "suzme": null,
@@ -3487,11 +4255,10 @@
    "koliEan": null,
    "katalogSayfa": 35,
    "url": "https://www.goldenbeard.com.tr/urun/2011-petek-bali-500g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2011-petek-bali-500g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2011.DdvkVE8w_Z24X9Xs.png",
-    "genislik": 278,
-    "yukseklik": 166
+    "url": "https://www.goldenbeard.com.tr/_astro/2011.BGsO2XPe_2VvLh.jpg",
+    "genislik": 302,
+    "yukseklik": 195
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -3503,16 +4270,15 @@
   {
    "kod": "0066",
    "ad": "Petek Balı",
-   "adAr": "عسل بالشمع",
    "adEn": "Turkish Honey Comb",
    "adDe": "Honig mit Wabenstück",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "bal-surup",
-   "kategoriAd": "Bal ve Şurup",
-   "kategoriAdAr": "العسل والشراب",
+   "kategoriAd": "Bal & Şurup",
    "kategoriAdEn": "Honey & Syrup",
+   "segment": "perakende",
    "ambalaj": "600 g",
    "net": "600 g",
    "suzme": null,
@@ -3524,11 +4290,10 @@
    "koliEan": null,
    "katalogSayfa": 35,
    "url": "https://www.goldenbeard.com.tr/urun/0066-petek-bali-600g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/0066-petek-bali-600g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/0066.BNG5cEoz_Z2fVzlR.png",
-    "genislik": 302,
-    "yukseklik": 184
+    "url": "https://www.goldenbeard.com.tr/_astro/0066.C3JSKRxU_NlKgB.jpg",
+    "genislik": 333,
+    "yukseklik": 198
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -3540,16 +4305,15 @@
   {
    "kod": "2107",
    "ad": "Petek Balı",
-   "adAr": "عسل بالشمع",
    "adEn": "Turkish Honey Comb",
    "adDe": "Honig mit Wabenstück",
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "bal-surup",
-   "kategoriAd": "Bal ve Şurup",
-   "kategoriAdAr": "العسل والشراب",
+   "kategoriAd": "Bal & Şurup",
    "kategoriAdEn": "Honey & Syrup",
+   "segment": "perakende",
    "ambalaj": "1000 g",
    "net": "1000 g",
    "suzme": null,
@@ -3561,11 +4325,10 @@
    "koliEan": null,
    "katalogSayfa": 35,
    "url": "https://www.goldenbeard.com.tr/urun/2107-petek-bali-1000g/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2107-petek-bali-1000g/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2107.lj9B9Oer_ZIgPzQ.png",
-    "genislik": 303,
-    "yukseklik": 214
+    "url": "https://www.goldenbeard.com.tr/_astro/2107.BOF_2D0v_TE8Hy.jpg",
+    "genislik": 362,
+    "yukseklik": 274
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -3577,16 +4340,15 @@
   {
    "kod": "2006",
    "ad": "Bal Aromalı Şurup",
-   "adAr": "شراب بنكهة العسل",
    "adEn": "Honey Flavored Syrup",
    "adDe": null,
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": "Sidir",
    "kategori": "bal-surup",
-   "kategoriAd": "Bal ve Şurup",
-   "kategoriAdAr": "العسل والشراب",
+   "kategoriAd": "Bal & Şurup",
    "kategoriAdEn": "Honey & Syrup",
+   "segment": "catering",
    "ambalaj": "24 Kg",
    "net": "24 Kg",
    "suzme": null,
@@ -3598,11 +4360,10 @@
    "koliEan": null,
    "katalogSayfa": 46,
    "url": "https://www.goldenbeard.com.tr/urun/2006-bal-aromali-surup-24kg/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2006-bal-aromali-surup-24kg/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2006.Bx4i622l_10icld.png",
-    "genislik": 178,
-    "yukseklik": 230
+    "url": "https://www.goldenbeard.com.tr/_astro/2006.CZjClhdy_Z1navGI.jpg",
+    "genislik": 206,
+    "yukseklik": 249
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -3614,16 +4375,15 @@
   {
    "kod": "2037",
    "ad": "Bal Aromalı Şurup",
-   "adAr": "شراب بنكهة العسل",
    "adEn": "Honey Flavored Syrup",
    "adDe": null,
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": "Toros",
    "kategori": "bal-surup",
-   "kategoriAd": "Bal ve Şurup",
-   "kategoriAdAr": "العسل والشراب",
+   "kategoriAd": "Bal & Şurup",
    "kategoriAdEn": "Honey & Syrup",
+   "segment": "catering",
    "ambalaj": "24 Kg",
    "net": "24 Kg",
    "suzme": null,
@@ -3635,11 +4395,10 @@
    "koliEan": null,
    "katalogSayfa": 46,
    "url": "https://www.goldenbeard.com.tr/urun/2037-bal-aromali-surup-24kg/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2037-bal-aromali-surup-24kg/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2037.BPaRn5qB_y8O2r.png",
-    "genislik": 174,
-    "yukseklik": 230
+    "url": "https://www.goldenbeard.com.tr/_astro/2037.O6JUZKBJ_Z1Iu0is.jpg",
+    "genislik": 195,
+    "yukseklik": 245
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -3651,16 +4410,15 @@
   {
    "kod": "2004",
    "ad": "Bal Aromalı Şurup",
-   "adAr": "شراب بنكهة العسل",
    "adEn": "Honey Flavored Syrup",
    "adDe": null,
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": "Sidir",
    "kategori": "bal-surup",
-   "kategoriAd": "Bal ve Şurup",
-   "kategoriAdAr": "العسل والشراب",
+   "kategoriAd": "Bal & Şurup",
    "kategoriAdEn": "Honey & Syrup",
+   "segment": "catering",
    "ambalaj": "5 Kg",
    "net": "5 Kg",
    "suzme": null,
@@ -3672,11 +4430,10 @@
    "koliEan": null,
    "katalogSayfa": 46,
    "url": "https://www.goldenbeard.com.tr/urun/2004-bal-aromali-surup-5kg/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2004-bal-aromali-surup-5kg/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2004.D-XrLsqW_2v9Grd.png",
-    "genislik": 150,
-    "yukseklik": 223
+    "url": "https://www.goldenbeard.com.tr/_astro/2004.fU-_h9h2_vDeL1.jpg",
+    "genislik": 191,
+    "yukseklik": 260
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -3688,16 +4445,15 @@
   {
    "kod": "2003",
    "ad": "Bal Aromalı Şurup",
-   "adAr": "شراب بنكهة العسل",
    "adEn": "Honey Flavored Syrup",
    "adDe": null,
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": "Sidir",
    "kategori": "bal-surup",
-   "kategoriAd": "Bal ve Şurup",
-   "kategoriAdAr": "العسل والشراب",
+   "kategoriAd": "Bal & Şurup",
    "kategoriAdEn": "Honey & Syrup",
+   "segment": "catering",
    "ambalaj": "2 Kg",
    "net": "2 Kg",
    "suzme": null,
@@ -3709,11 +4465,10 @@
    "koliEan": null,
    "katalogSayfa": 46,
    "url": "https://www.goldenbeard.com.tr/urun/2003-bal-aromali-surup-2kg/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/2003-bal-aromali-surup-2kg/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/2003.BHuFndUg_Z1g2RUm.png",
-    "genislik": 163,
-    "yukseklik": 181
+    "url": "https://www.goldenbeard.com.tr/_astro/2003.Sla5e1fy_2bnGLg.jpg",
+    "genislik": 176,
+    "yukseklik": 196
    },
    "sunumGorseli": null,
    "digerBoylar": [
@@ -3725,16 +4480,15 @@
   {
    "kod": "1018",
    "ad": "Baklavalık Margarin",
-   "adAr": "سمن نباتي للبقلاوة",
    "adEn": "Vegetable Ghee",
    "adDe": null,
    "marka": "Golden Beard",
    "markaSlug": "golden-beard",
    "seri": null,
    "kategori": "margarin",
-   "kategoriAd": "Baklavalık Yağ",
-   "kategoriAdAr": "سمن البقلاوة",
+   "kategoriAd": "Baklavalık Yağ (Margarin)",
    "kategoriAdEn": "Vegetable Ghee",
+   "segment": "catering",
    "ambalaj": "18 Lt",
    "net": "16,38 Kg",
    "suzme": null,
@@ -3746,11 +4500,10 @@
    "koliEan": null,
    "katalogSayfa": 47,
    "url": "https://www.goldenbeard.com.tr/urun/1018-baklavalik-margarin-18lt/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/1018-baklavalik-margarin-18lt/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/1018.B-b3mpwE_Z2e78so.png",
-    "genislik": 194,
-    "yukseklik": 251
+    "url": "https://www.goldenbeard.com.tr/_astro/1018.AArti4Xv_Z1bGcLY.jpg",
+    "genislik": 222,
+    "yukseklik": 282
    },
    "sunumGorseli": null,
    "digerBoylar": []
@@ -3758,16 +4511,15 @@
   {
    "kod": "9485",
    "ad": "Baklavalık Tereyağ",
-   "adAr": "سمن نباتي للبقلاوة",
    "adEn": "Vegetable Ghee",
    "adDe": null,
    "marka": "Lemis",
    "markaSlug": "lemis",
    "seri": null,
    "kategori": "margarin",
-   "kategoriAd": "Baklavalık Yağ",
-   "kategoriAdAr": "سمن البقلاوة",
+   "kategoriAd": "Baklavalık Yağ (Margarin)",
    "kategoriAdEn": "Vegetable Ghee",
+   "segment": "catering",
    "ambalaj": "18 Lt",
    "net": "16,38 Kg",
    "suzme": null,
@@ -3779,11 +4531,10 @@
    "koliEan": null,
    "katalogSayfa": 47,
    "url": "https://www.goldenbeard.com.tr/urun/9485-baklavalik-tereyag-18lt/",
-   "urlAr": "https://www.goldenbeard.com.tr/ar/urun/9485-baklavalik-tereyag-18lt/",
    "gorsel": {
-    "url": "https://www.goldenbeard.com.tr/_astro/9485.CArixmzR_Z11zjNF.png",
-    "genislik": 193,
-    "yukseklik": 258
+    "url": "https://www.goldenbeard.com.tr/_astro/9485.CmExqeha_Z21h2vz.jpg",
+    "genislik": 233,
+    "yukseklik": 287
    },
    "sunumGorseli": null,
    "digerBoylar": []
