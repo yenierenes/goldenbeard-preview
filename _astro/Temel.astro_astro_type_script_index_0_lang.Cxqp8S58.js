@@ -1,1 +1,0 @@
-import{n as e}from"./teklif.Bin84xY4.js";e();

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <title>Golden Beard</title>
-  <circle cx="32" cy="32" r="31" fill="#0e0c0a"/>
-  <circle cx="32" cy="32" r="29.25" fill="none" stroke="#e2a43f" stroke-width="2.5"/>
-  <path fill="#e2a43f" transform="translate(32.6 32.4) scale(0.04627 -0.04627) translate(-431 -375)" d="M471 -14Q338 -14 240.5 34Q143 82 90 170Q37 258 37 377Q37 493 90 580Q143 667 238.5 715.5Q334 764 462 764Q501 764 526.5 761.5Q552 759 572 756Q592 753 616.5 750.5Q641 748 678 748L708 548L698 548Q680 643 617.5 697Q555 751 462 751Q405 751 358 724Q311 697 278 649Q245 600 226.5 531Q208 462 208 378Q208 293 225.5 223.5Q243 154 274 105Q306 56 350.5 29Q395 2 450 2Q491 2 528.5 16Q566 30 586 51L586 306Q586 342 564 364Q542 386 506 386L503 386L503 396L825 396L825 386L821 386Q785 386 763 364Q741 342 741 306L741 51Q721 31 677.5 16.5Q634 2 579.5 -6Q525 -14 471 -14Z"/>
+  <circle cx="32" cy="32" r="31" fill="#4a1418"/>
+  <circle cx="32" cy="32" r="28.75" fill="none" stroke="#e3b45a" stroke-width="2.5"/>
+  <path d="M43.5 23.5A13 13 0 1 0 45 35v-1.5H34" fill="none" stroke="#e3b45a" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
