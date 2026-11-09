@@ -416,12 +416,6 @@ html[lang="ar"] .alan[data-astro-cid-cin2lqey] input[data-astro-cid-cin2lqey][di
   background: linear-gradient(200deg, transparent 40%, color-mix(in oklch, var(--bordo-0) 50%, transparent));
 }
 
-.ia__foto[data-astro-cid-2un55bi4] .temsili[data-astro-cid-2un55bi4] {
-  inset-block-end: var(--a-5);
-  inset-inline-start: var(--a-5);
-  z-index: 1;
-}
-
 .ia__kart[data-astro-cid-2un55bi4] {
   grid-column: 7 / -1;
   grid-row: 1 / span 3;

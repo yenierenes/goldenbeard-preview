@@ -636,14 +636,6 @@ h2[data-astro-cid-q5dragnq] {
   background: radial-gradient(120% 90% at 50% 0%, color-mix(in oklch, var(--bordo-1) 55%, transparent), var(--bordo-0) 85%);
 }
 
-.koken__temsili[data-astro-cid-7iyzvuec] {
-  position: absolute;
-  inset: auto;
-  inset-block-start: var(--a-5);
-  inset-inline-end: var(--a-5);
-  z-index: 1;
-}
-
 .koken__ic[data-astro-cid-7iyzvuec] {
   display: grid;
   justify-items: center;
