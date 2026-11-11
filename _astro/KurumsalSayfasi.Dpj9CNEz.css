@@ -407,23 +407,24 @@
 }
 
 .kbas__metin[data-astro-cid-xi57wghd] {
-  grid-column: 1 / span 7;
+  grid-column: 1 / span 8;
   display: grid;
   gap: var(--a-5);
 }
 
 h1[data-astro-cid-xi57wghd] {
-  font-size: var(--boy-dev);
+  font-size: clamp(2.5rem, 1.4rem + 3.6vw, 5rem);
   line-height: 1;
   letter-spacing: -.035em;
   color: var(--bordo-1);
-  max-width: 13ch;
+  max-width: 18ch;
+  text-wrap: balance;
 }
 
 .kbas__metin[data-astro-cid-xi57wghd] > p[data-astro-cid-xi57wghd] {
   font-size: 1.1875rem;
   color: var(--ikincil);
-  max-width: 52ch;
+  max-width: 64ch;
 }
 
 .kbas__cati[data-astro-cid-xi57wghd] {
@@ -470,17 +471,11 @@ h1[data-astro-cid-xi57wghd] {
   color: var(--ikincil);
 }
 
-.ilke__izgara[data-astro-cid-xi57wghd] {
+.ilke__ust[data-astro-cid-xi57wghd] {
   display: grid;
-  grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: clamp(2rem, 1rem + 4vw, 5rem);
-  align-items: stretch;
-}
-
-.ilke__sol[data-astro-cid-xi57wghd] {
-  display: grid;
-  align-content: center;
-  gap: clamp(2rem, 1.5rem + 2vw, 3.25rem);
+  margin-bottom: clamp(2.5rem, 2rem + 2vw, 4rem);
 }
 
 .ilke__sutun[data-astro-cid-xi57wghd] {
@@ -490,8 +485,9 @@ h1[data-astro-cid-xi57wghd] {
 }
 
 .ilke__sutun[data-astro-cid-xi57wghd] + .ilke__sutun[data-astro-cid-xi57wghd] {
-  padding-top: clamp(2rem, 1.5rem + 2vw, 3.25rem);
-  border-top: 1px solid var(--cizgi);
+  padding-inline-start: clamp(2rem, 1rem + 4vw, 5rem);
+  margin-inline-start: calc(clamp(2rem, 1rem + 4vw, 5rem) / -2);
+  border-inline-start: 1px solid var(--cizgi);
 }
 
 .ilke__bas[data-astro-cid-xi57wghd] {
@@ -519,15 +515,14 @@ h1[data-astro-cid-xi57wghd] {
 .ilke__metin[data-astro-cid-xi57wghd] {
   color: var(--ikincil);
   line-height: 1.65;
-  max-width: 46ch;
+  max-width: 52ch;
   font-size: 1.0625rem;
 }
 
 .ilke__panel[data-astro-cid-xi57wghd] {
   display: grid;
-  align-content: center;
-  gap: clamp(1.5rem, 1rem + 1.5vw, 2.5rem);
-  padding: clamp(1.75rem, 1rem + 3vw, 3.5rem);
+  gap: clamp(1.5rem, 1rem + 1.5vw, 2.25rem);
+  padding: clamp(1.75rem, 1rem + 2.5vw, 3rem);
   border-radius: clamp(1.25rem, 1rem + 1.5vw, 2rem);
   box-shadow: 0 40px 80px -50px color-mix(in oklch, var(--bordo-0) 70%, transparent);
 }
@@ -547,8 +542,8 @@ h1[data-astro-cid-xi57wghd] {
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: var(--a-5) clamp(1.25rem, .5rem + 2vw, 2.5rem);
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: var(--a-5) clamp(1rem, .5rem + 1.5vw, 2rem);
 }
 
 .ilke__liste[data-astro-cid-xi57wghd] li[data-astro-cid-xi57wghd] {
@@ -557,7 +552,7 @@ h1[data-astro-cid-xi57wghd] {
   align-content: start;
   padding-top: var(--a-4);
   border-top: 1px solid color-mix(in oklch, var(--krem-0) 18%, transparent);
-  font-size: 1.0625rem;
+  font-size: 1rem;
   font-weight: 650;
   line-height: 1.4;
   color: var(--krem-0);
@@ -707,10 +702,16 @@ h1[data-astro-cid-xi57wghd] {
 
 .kalite__bas[data-astro-cid-xi57wghd] {
   display: grid;
-  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
-  gap: var(--a-7);
-  align-items: end;
-  margin-bottom: clamp(2.5rem, 2rem + 2vw, 4rem);
+  justify-items: center;
+  text-align: center;
+  gap: var(--a-4);
+  max-width: 60rem;
+  margin: 0 auto clamp(2.5rem, 2rem + 2vw, 4rem);
+}
+
+.kalite__bas[data-astro-cid-xi57wghd] > div[data-astro-cid-xi57wghd] {
+  display: grid;
+  justify-items: center;
 }
 
 .kalite__etiket[data-astro-cid-xi57wghd] {
@@ -737,12 +738,13 @@ h1[data-astro-cid-xi57wghd] {
 .kalite__bas[data-astro-cid-xi57wghd] h2[data-astro-cid-xi57wghd] {
   font-size: var(--boy-1);
   color: var(--bordo-1);
-  max-width: 20ch;
+  max-width: 24ch;
+  text-wrap: balance;
 }
 
 .kalite__metin[data-astro-cid-xi57wghd] {
   color: var(--ikincil);
-  max-width: 46ch;
+  max-width: 68ch;
 }
 
 .kalite__kartlar[data-astro-cid-xi57wghd] {
@@ -848,12 +850,13 @@ h1[data-astro-cid-xi57wghd] {
 
 .sosyal[data-astro-cid-xi57wghd] h2[data-astro-cid-xi57wghd] {
   font-size: var(--boy-1);
-  max-width: 20ch;
+  max-width: 32ch;
   color: var(--altin-acik);
+  text-wrap: balance;
 }
 
 .sosyal__metin[data-astro-cid-xi57wghd] {
-  max-width: 56ch;
+  max-width: 76rem;
   color: var(--krem-0);
   opacity: .88;
 }
@@ -987,7 +990,7 @@ h1[data-astro-cid-xi57wghd] {
 }
 
 @media (width <= 64rem) {
-  .kbas__izgara[data-astro-cid-xi57wghd], .hatay__izgara[data-astro-cid-xi57wghd], .kalite__bas[data-astro-cid-xi57wghd] {
+  .kbas__izgara[data-astro-cid-xi57wghd], .hatay__izgara[data-astro-cid-xi57wghd] {
     grid-template-columns: 1fr;
   }
 
@@ -999,9 +1002,21 @@ h1[data-astro-cid-xi57wghd] {
     justify-self: start;
   }
 
-  .ilke__izgara[data-astro-cid-xi57wghd] {
+  .ilke__ust[data-astro-cid-xi57wghd] {
     grid-template-columns: 1fr;
     gap: var(--a-7);
+  }
+
+  .ilke__sutun[data-astro-cid-xi57wghd] + .ilke__sutun[data-astro-cid-xi57wghd] {
+    padding-inline-start: 0;
+    margin-inline-start: 0;
+    border-inline-start: 0;
+    padding-top: var(--a-7);
+    border-top: 1px solid var(--cizgi);
+  }
+
+  .ilke__liste[data-astro-cid-xi57wghd] {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .kalite__kartlar[data-astro-cid-xi57wghd] {
@@ -1047,7 +1062,7 @@ h1[data-astro-cid-xi57wghd] {
   }
 
   .ilke__liste[data-astro-cid-xi57wghd] {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .sosyal__alanlar[data-astro-cid-xi57wghd] {
