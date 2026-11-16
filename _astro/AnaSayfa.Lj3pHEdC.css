@@ -587,34 +587,14 @@ h2[data-astro-cid-q5dragnq] {
 }
 .koken[data-astro-cid-7iyzvuec] {
   position: relative;
-  overflow: clip;
-  background: var(--bordo-0);
-  padding: 0;
-}
-
-.koken__sahne[data-astro-cid-7iyzvuec] {
-  position: relative;
   overflow: hidden;
   isolation: isolate;
+  background: var(--bordo-0);
   min-height: calc(100svh - var(--ust-yukseklik));
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-block: clamp(1.5rem, 4.5svh, 5rem);
-}
-
-.koken[data-astro-cid-7iyzvuec].kaydirma {
-  height: calc(100svh - var(--ust-yukseklik) + (var(--n) - 1) * 26svh);
-}
-
-.koken[data-astro-cid-7iyzvuec].kaydirma .koken__sahne[data-astro-cid-7iyzvuec] {
-  position: sticky;
-  top: var(--ust-yukseklik);
-  height: calc(100svh - var(--ust-yukseklik));
-}
-
-.kaydirma[data-astro-cid-7iyzvuec] .cizelge[data-astro-cid-7iyzvuec] {
-  --git: .75s;
 }
 
 .koken__zemin[data-astro-cid-7iyzvuec] {
@@ -664,7 +644,7 @@ h2[data-astro-cid-q5dragnq] {
 }
 
 .cizelge[data-astro-cid-7iyzvuec] {
-  --git: 1s;
+  --git: .35s;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(var(--n), minmax(0, 1fr));
@@ -820,7 +800,7 @@ h2[data-astro-cid-q5dragnq] {
   width: 1px;
   height: clamp(1rem, 3svh, 1.75rem);
   background: color-mix(in oklch, var(--altin) 60%, transparent);
-  transition: scale .5s var(--egri-cikis);
+  transition: scale .3s var(--egri-cikis);
 }
 
 .cd--ust[data-astro-cid-7iyzvuec] .cd__kart[data-astro-cid-7iyzvuec]:after {
@@ -881,7 +861,7 @@ h2[data-astro-cid-q5dragnq] {
   color: var(--krem-0);
   max-width: 27ch;
   opacity: .88;
-  transition: opacity .6s var(--egri-cikis) .12s, translate .6s var(--egri-cikis) .12s, clip-path .7s var(--egri-cikis) 80ms;
+  transition: opacity .45s var(--egri-cikis) 60ms, translate .45s var(--egri-cikis) 60ms, clip-path .5s var(--egri-cikis) 40ms;
   clip-path: inset(0);
 }
 
@@ -911,6 +891,25 @@ h2[data-astro-cid-q5dragnq] {
 
 .koken__bag[data-astro-cid-7iyzvuec] {
   color: var(--krem-0);
+}
+
+.koken__tekrar[data-astro-cid-7iyzvuec] {
+  font: inherit;
+  font-size: .875rem;
+  font-weight: 650;
+  color: var(--altin);
+  background: none;
+  cursor: pointer;
+  border: 1px solid color-mix(in oklch, var(--altin) 45%, transparent);
+  border-radius: var(--kose-yuvarlak);
+  min-height: 2.75rem;
+  padding: 0 var(--a-5);
+  transition: background-color var(--sure-kisa), color var(--sure-kisa);
+}
+
+.koken__tekrar[data-astro-cid-7iyzvuec]:hover {
+  background: color-mix(in oklch, var(--altin) 16%, transparent);
+  color: var(--altin-acik);
 }
 
 @media (width <= 48rem) {
@@ -994,7 +993,7 @@ h2[data-astro-cid-q5dragnq] {
 }
 
 @media (height <= 44rem) {
-  .koken__sahne[data-astro-cid-7iyzvuec] {
+  .koken[data-astro-cid-7iyzvuec] {
     padding-block: 1.25rem;
   }
 
