@@ -512,11 +512,6 @@ html[lang="ar"] .kilit__alt[data-astro-cid-pgt6xozs] {
   .sk[data-astro-cid-er6n6ipk]:hover .sk__isik[data-astro-cid-er6n6ipk] {
     animation: sk-isik .9s var(--egri-cikis) 60ms;
   }
-
-  .sk-izgara:has(.sk:hover) .sk[data-astro-cid-er6n6ipk]:not(:hover) {
-    filter: saturate(.75) brightness(.93);
-    transform: scale(.98);
-  }
 }
 
 @keyframes sk-isik {
