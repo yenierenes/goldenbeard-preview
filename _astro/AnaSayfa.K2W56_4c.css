@@ -12,8 +12,10 @@
 .acilis__film[data-astro-cid-inxg7me6] {
   position: absolute;
   inset: 0;
-  z-index: -1;
+  z-index: 0;
   background: var(--bordo-1);
+  transform: translateZ(0);
+  will-change: transform;
 }
 
 .acilis__video[data-astro-cid-inxg7me6] {
@@ -42,6 +44,7 @@
 
 .acilis__izgara[data-astro-cid-inxg7me6] {
   position: relative;
+  z-index: 1;
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: var(--a-6);
