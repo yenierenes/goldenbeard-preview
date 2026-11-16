@@ -604,7 +604,7 @@ h2[data-astro-cid-q5dragnq] {
 }
 
 .koken[data-astro-cid-7iyzvuec].kaydirma {
-  height: calc(100svh - var(--ust-yukseklik) + (var(--n) - 1) * 40svh);
+  height: calc(100svh - var(--ust-yukseklik) + (var(--n) - 1) * 26svh);
 }
 
 .koken[data-astro-cid-7iyzvuec].kaydirma .koken__sahne[data-astro-cid-7iyzvuec] {
@@ -614,7 +614,7 @@ h2[data-astro-cid-q5dragnq] {
 }
 
 .kaydirma[data-astro-cid-7iyzvuec] .cizelge[data-astro-cid-7iyzvuec] {
-  --git: .14s;
+  --git: .75s;
 }
 
 .koken__zemin[data-astro-cid-7iyzvuec] {
